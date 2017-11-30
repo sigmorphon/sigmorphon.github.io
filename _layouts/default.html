@@ -4,6 +4,12 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
 
     {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/normalize.css">
+    <link ref='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/github-light.css" media="screen">
+
 </head>
 <body>
     <div class="wrapper-masthead">
@@ -31,7 +37,7 @@
         <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-        <img src="images/acl-logo.gif" />
+        <img src="{{ site.baseurl }}/images/acl-logo.gif" />
 
         SIGMORPHON is a Special Interest Group of the <a href="https://web.archive.org/web/20170518231359/http://www.aclweb.org/">Association for Computational Linguistics</a>
         </footer>
