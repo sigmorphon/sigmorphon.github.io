@@ -5,10 +5,10 @@
 
     {% include meta.html %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/normalize.css">
     <link ref='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/github-light.css" media="screen">
 
 </head>
 <body>
@@ -18,11 +18,16 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-        </header>
+<!--           <nav>
+            <a href="{{ site.baseurl }}/">About</a>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="https://github.com/aryamccarthy?tab=repositories">Code</a>
+          </nav>
+ -->        </header>
       </div>
     </div>
     <main id="main" role="main" class="container">
@@ -32,7 +37,7 @@
         <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-        <img src="{{ site.url }}/images/acl-logo.gif" />
+        <img src="{{ site.baseurl }}/images/acl-logo.gif" />
 
         SIGMORPHON is a Special Interest Group of the <a href="https://web.archive.org/web/20170518231359/http://www.aclweb.org/">Association for Computational Linguistics</a>
         </footer>
