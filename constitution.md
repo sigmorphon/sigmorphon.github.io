@@ -4,7 +4,7 @@ title: Constitution
 numbered: true
 ---
 
-# Constitution of the ACL Special Interest Group on Computational Morphology and Phonology (2006-Present)
+# Constitution of the ACL Special Interest Group on Computational Morphology and Phonology (2006–Present)
 
 ## Statement of Purpose
 
