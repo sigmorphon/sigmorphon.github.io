@@ -37,13 +37,11 @@ TBD
 (alpha by last name)
 
 - Ryan Cotterell
-- Seth Ebner
 - Mans Hulden
 - Christo Kirov
 - Arya McCarthy
 - Sebastian Mielke
 - Garrett Nicolai
-- Adam Poliak
 - Ziang Song
 - Miika Silfverberg
 - John Sylak-Glassman
