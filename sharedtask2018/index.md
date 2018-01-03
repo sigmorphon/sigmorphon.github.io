@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: CoNLL-SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection
 ---
 
@@ -45,6 +45,7 @@ TBD
 - Garrett Nicolai
 - Adam Poliak
 - Ziang Song
+- Miika Silfverberg
 - John Sylak-Glassman
 - Géraldine Walther
 - David Yarowsky

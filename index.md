@@ -10,6 +10,13 @@ SIGMORPHON co-organized the [CoNLL-SIGMORPHON 2017 shared task](https://sites.go
 
 ---
 
+Useful links:
+
+- [Constitution](constitution/)
+- [Association for Computational Linguistics](https://www.aclweb.org/portal/)
+
+---
+
 SIGMORPHON has the following office bearers:
 
 **President:**  [Jason Eisner](http://www.cs.jhu.edu/~jason/)
