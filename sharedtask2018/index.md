@@ -34,16 +34,15 @@ TBD
 
 ## Organizers
 
-(alpha by last name)
-
 - Ryan Cotterell
-- Mans Hulden
 - Christo Kirov
 - Arya McCarthy
 - Sebastian Mielke
 - Garrett Nicolai
-- Ziang Song
 - Miika Silfverberg
 - John Sylak-Glassman
+- Ekaterina Vylomova
 - Géraldine Walther
-- David Yarowsky
+- **David Yarowsky**
+- **Jason Eisner**
+- **Mans Hulden**
