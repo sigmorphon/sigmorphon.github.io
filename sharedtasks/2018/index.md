@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CoNLL-SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
+title: "CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
 ---
 
 ## Overview
