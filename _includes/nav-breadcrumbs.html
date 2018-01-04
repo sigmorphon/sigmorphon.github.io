@@ -22,7 +22,7 @@
   </ol>
 
   <ol class="breadcrumb">
-    <li><a href="{{ site.baseurl }}/">Home</a></li>
+    <li><a href="{{ site.baseurl }}/">SIGMORPHON</a></li>
     {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
     {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
     {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
@@ -35,7 +35,13 @@
             {% assign j = forLoopMaxInt | plus: 0 %}
                 <li {% if i == j %}class="active"{% endif %}>
                     {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-                    <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumb}}</a>
+                    <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">
+                    {% if breadcrumb_page.breadcrumb %}
+                    {{breadcrumb_page.breadcrumb}}
+                    {% else %}
+                    {{breadcrumb_page.title}}
+                    {% endif %}
+                </a>
                 </li>
             {% endif %}
         {% endfor %}
