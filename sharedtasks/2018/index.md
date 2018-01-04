@@ -39,7 +39,7 @@ TBD
 - Arya McCarthy
 - Sebastian Mielke
 - Garrett Nicolai
-- Miika Silfverberg
+- Miikka Silfverberg
 - John Sylak-Glassman
 - Ekaterina Vylomova
 - Géraldine Walther
