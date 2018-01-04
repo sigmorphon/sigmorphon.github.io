@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Constitution of the ACL Special Interest Group on Computational Morphology and Phonology (2006–Present)
 numbered: true
 ---
