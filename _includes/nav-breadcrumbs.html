@@ -1,5 +1,5 @@
 <nav class="breadcrumbs bootstrap hidden-sm-down" {% if (page.url == '/') and (site.breadcrumbs.root.hide) %}{{ 'style="display: none;"' }}{% endif %}>
-  <ol class="breadcrumb list-unstyled" vocab="http://schema.org/" typeof="BreadcrumbList">
+<!--  <ol class="breadcrumb list-unstyled" vocab="http://schema.org/" typeof="BreadcrumbList">
     {% assign position = 0 %}
     {% for crumbitem in breadcrumbs %}
       {% assign position = position  | plus: 1 %}
@@ -19,10 +19,15 @@
       </li>
     {% endfor %}
 
-  </ol>
+  </ol>-->
 
-  <ol class="breadcrumb list-unstyled">
-    <li><a href="{{ site.baseurl }}/">SIGMORPHON</a></li>
+
+  <ol class="breadcrumb list-unstyled container">
+    {% if site.breadcrumbs.root.image %}
+        {% include icon.html class="breadcrumb-item" color=include.color %}
+    {% else %}
+    <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">SIGMORPHON</a></li>
+    {% endif %}
     {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
     {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
     {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
