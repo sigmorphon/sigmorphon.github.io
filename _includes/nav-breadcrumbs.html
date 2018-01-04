@@ -1,4 +1,4 @@
-<nav class="breadcrumbs bootstrap hidden-sm-down" {% if (page.url == '/') and (site.breadcrumbs.root.hide) %}{{ 'style="display: none;"' }}{% endif %}>
+<nav class="breadcrumbs bootstrap hidden-sm-down container" {% if (page.url == '/') and (site.breadcrumbs.root.hide) %}{{ 'style="display: none;"' }}{% endif %}>
 <!--  <ol class="breadcrumb list-unstyled" vocab="http://schema.org/" typeof="BreadcrumbList">
     {% assign position = 0 %}
     {% for crumbitem in breadcrumbs %}
@@ -22,7 +22,7 @@
   </ol>-->
 
 
-  <ol class="breadcrumb list-unstyled container">
+  <ol class="breadcrumb list-unstyled">
     {% if site.breadcrumbs.root.image %}
         {% include icon.html class="breadcrumb-item" color=include.color %}
     {% else %}
@@ -99,20 +99,20 @@ nav.breadcrumbs.bootstrap .breadcrumb-item-active {
   color: #818a91;
 }
 
-nav.breadcrumbs.bootstrap .breadcrumb a.breadcrumb-item:after {
+/*nav.breadcrumbs.bootstrap .breadcrumb a.breadcrumb-item:after {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   content: "/";
   text-decoration: none;
 }
-nav.breadcrumbs.bootstrap .breadcrumb .icon:after {
+*//*nav.breadcrumbs.bootstrap .breadcrumb .icon:after {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   color: #818a91;
   content: "/";
-}
+}*/
 nav.breadcrumbs.bootstrap .breadcrumb .icon {
   display: inline-block;
 }
