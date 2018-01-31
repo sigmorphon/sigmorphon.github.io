@@ -44,6 +44,6 @@ TBD
 - John Sylak-Glassman
 - Ekaterina Vylomova
 - Géraldine Walther
-- **David Yarowsky**
-- **Jason Eisner**
-- **Mans Hulden**
+- David Yarowsky
+- Jason Eisner
+- Mans Hulden
