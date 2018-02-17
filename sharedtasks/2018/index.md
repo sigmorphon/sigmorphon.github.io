@@ -4,8 +4,8 @@ title: "CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflectio
 breadcrumb: 2018
 ---
 
-- [Task]({{ task | absolute_url }})
-- [Organizers]({{ organizers | absolute_url }})
+- [Task](task)
+- [Organizers](organizers)
 
 ## Overview
 
