@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
+    <title>{% if page.longtitle %}{{ page.longtitle }}{% elsif page.title %}{{ page.title }} - {% endif %}{{ site.name }} - {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -42,7 +42,7 @@
         <footer class="footer">
         <img style="float:left;" src="{{ site.baseurl }}/images/acl-logo.gif" alt="ACL Logo" />
 
-        SIGMORPHON is a Special Interest Group of the <a href="https://web.archive.org/web/20170518231359/http://www.aclweb.org/">Association for Computational Linguistics</a>
+        SIGMORPHON is a Special Interest Group of the <a href="https://web.archive.org/web/20170518231359/http://www.aclweb.org/">Association for Computational Linguistics</a>. Website concerns can be directed to arya@edu.jhu. (Unscramble it!)
         </footer>
       </div>
     </div>

@@ -4,6 +4,9 @@ title: "CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflectio
 breadcrumb: 2018
 ---
 
+- [Task]({{ task | absolute_url }})
+- [Organizers]({{ organizers | absolute_url }})
+
 ## Overview
 
 In 2018, [SIGMORPHON](https://sigmorphon.github.io/) is hosting a 
@@ -19,6 +22,7 @@ You will be invited to describe your system in a short paper for
 the SIGMORPHON 2018 workshop.  The task organizers will write an
 overview paper that describes the task and summarizes the different
 approaches taken and their results.
+
   
 ## Previous Shared Tasks
 
@@ -31,19 +35,4 @@ TBD
 
 ## Venue
 
-TBD
-
-## Organizers
-
-- Ryan Cotterell
-- Christo Kirov
-- Arya McCarthy
-- Sebastian Mielke
-- Garrett Nicolai
-- Miikka Silfverberg
-- John Sylak-Glassman
-- Ekaterina Vylomova
-- Géraldine Walther
-- David Yarowsky
-- Jason Eisner
-- Mans Hulden
+November 1; Day 2 of shared task slot at CoNLL, Brussels, Belgium (collocated with EMNLP).
