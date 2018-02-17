@@ -27,7 +27,7 @@ approaches taken and their results.
 ## Previous Shared Tasks
 
 - [2017](../2017)
-- [2016](http://ryancotterell.github.io/sigmorphon2016/)
+- [2016](../2016)
 
 ## Dates
 

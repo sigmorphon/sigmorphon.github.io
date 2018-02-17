@@ -21,7 +21,7 @@ breadcrumb: 2017
 * 02/24/2017: Pilot data released, available [here](https://github.com/sigmorphon/conll2017/tree/master/pilotdata).
 
 ## Overview
-A word's form reflects syntactic and semantic features that are expressed by the word. For example, each English count noun has both singular and plural forms (robot/robots, process/processes), known as the **inflected forms** of the noun. A Polish verb can have [nearly 100 inflected forms](https://www.tastingpoland.com/language/verb/dodac_add_verb.html).
+A word's form reflects syntactic and semantic features that are expressed by the word. For example, each English count noun has both singular and plural forms (robot/robots, process/processes), known as the **inflected forms** of the noun. A Polish verb can have [nearly 100 inflected forms](http://www.tastingpoland.com/language/verb/dodac_add_verb.html).
 
 NLP systems must be able to analyze and generate all of these inflected forms. Fortunately, inflected forms tend to be systematically related to one another. This is why English speakers can usually predict the singular form from the plural and vice-versa, even for words they have never seen before.
 
