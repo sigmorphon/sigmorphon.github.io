@@ -14,12 +14,11 @@ Systems may compete in either or both of these subtasks. Training examples and d
 
 Given a [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) and a bundle of morphological features, generate a target inflected form.
 
-#### Example
+**Example**
 
-```
-Source form and target features: `release V;V.PTCP;PRS`
-Target form: `releasing`
-```
+> Source form and target features: `release V;V.PTCP;PRS`
+> Target form: `releasing`
+
 
 
 ### Subtask 2: Contextual
@@ -31,9 +30,11 @@ TBD
 The training and development data *will be* provided in a simple utf-8 encoded text format. Each line in a file is an example that consists of word forms and corresponding morphosyntactic descriptions (MSDs) provided as a set features, separated by semicolons. The fields on a line are TAB-separated.
 
 For subtask 1, the fields are: lemma, target form, MSD. An example from the English training data:
+
 ```
 touch   touching   V;V.PTCP;PRS
 ```
+
 In the training data, we give all three fields. In the test phase, we omit field 2.
 
 ## Evaluation
