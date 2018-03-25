@@ -9,14 +9,13 @@ breadcrumb: 2016
 
 **The shared task has concluded!** Thanks to all those who particpated. All data (including the test sets) will be hosted on this site. Please read [here](www.aclweb.org/anthology/W/W16/W16-2002.pdf) for a detailed analysis of submitted systems and the results.
 
-In 2015–2016, [SIGMORPHON]({{ / }} | absolute_url) is hosting a shared task on morphological reinflection. An example of English reinflection is the conversion of `ran` to its present participle, `running`.
+In 2015–2016, [SIGMORPHON]({{ "/" | absolute_url }}) is hosting a shared task on morphological reinflection. An example of English reinflection is the conversion of `ran` to its present participle, `running`.
 
 To participate in the shared task, you will build a system that can learn to solve reinflection problems. All submitted systems will be compared on a held-out test set.
 
 You will be invited to describe your system in a short paper for the SIGMORPHON 2016 workshop. The task organizers will write an overview paper that describes the task and summarizes the different approaches taken and their results.
 
-**If you plan to participate, please sign up for the shared task [Google group](https://groups.google.com/forum/#!overview)! Just send an email to sigmorphon-2016-shared-task@googlegroups.com and ask to join.
-**
+**If you plan to participate, please sign up for the shared task [Google group](https://groups.google.com/forum/#!overview)! Just send an email to sigmorphon-2016-shared-task@googlegroups.com and ask to join.**
 
 ### Citation
 
@@ -53,8 +52,7 @@ Email the resulting text files to sigmorphon.sharedtask.2016@gmail.com with the 
 
 Please name your solution files "LANG-task#-solution", for example "finnish-task1-solution", etc. We encourage participants to send one email per category, with a single attached archive file containing the solutions for all languages and tasks solved. So, if you are solving all tasks with approach "Standard" (1), all the solutions can be communicated with one email with all your "LANG-task#-solution" files as an archive.
 
-**Submissions are due at 11.59pm (anywhere in the world) on April 28, 2016 (Extended).
-**
+**Submissions are due at 11.59pm (anywhere in the world) on April 28, 2016 (Extended).**
 
 ### Dates
 

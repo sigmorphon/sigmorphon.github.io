@@ -7,6 +7,7 @@ title: "Organizers"
 (alphabetically)
 
 - Ryan Cotterell
+- Katharina Kann
 - Christo Kirov
 - Arya McCarthy
 - Sebastian Mielke
