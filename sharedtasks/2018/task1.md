@@ -9,8 +9,11 @@ Given a [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) and a bundle o
 **Example**
 
 > Source form and target features:
+> 
 > `release V;V.PTCP;PRS`
+> 
 > Target form:
+> 
 > `releasing`
 
 ## Data Format
