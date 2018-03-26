@@ -1,7 +1,7 @@
 ---
 layout: page
 longtitle: "Task 1 - CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
-title: "Task 1: Inflection"
+title: "Task 1: Type-Level Inflection"
 ---
 
 Given a [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) and a bundle of morphological features, generate a target inflected form.
