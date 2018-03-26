@@ -14,7 +14,7 @@ breadcrumb: 2018
 
 In 2018, [SIGMORPHON](https://sigmorphon.github.io/) and [CoNLL](http://www.conll.org/) are hosting a 
 shared task on __universal morphological reinflection__. That is, the shared task of morphological reinflection will be conducted in **100+ languages of the world**. An example 
-\of English reinflection is the conversion of `ran` to its present 
+of English reinflection is the conversion of `ran` to its present 
 participle, `running`.
 
 A word's form reflects syntactic and semantic features that are expressed by the word. For example, each English count noun has both singular and plural forms (`robot`/`robots`, `process`/`processes`), known as the **inflected forms** of the noun. A Polish verb can have [nearly 100 inflected forms](http://www.tastingpoland.com/language/verb/dodac_add_verb.html).
