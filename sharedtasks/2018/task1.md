@@ -19,7 +19,7 @@ Given a [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) and a bundle o
 ## Data Format
 
 
-The training and development data *will be* provided in a simple utf-8 encoded text format. Each line in a file is an example that consists of word forms and corresponding morphosyntactic descriptions (MSDs) provided as a set features, separated by semicolons. The fields on a line are TAB-separated.
+The training and development data *will be* provided in a simple utf-8 encoded text format. Each line in a file is an example that consists of word forms and corresponding morphosyntactic descriptions (MSDs) provided as a set of features, separated by semicolons. The fields on a line are TAB-separated.
 
 For task 1, the fields are: lemma, target form, MSD. An example from the English training data:
 
@@ -51,3 +51,4 @@ The official evaluation script that we will use for our internal evaluation *wil
 * which systems are significantly different in performance, especially in low-resource scenarios
 * which examples were hard and which types of systems succeeded on them
 * which systems would provide complementary benefit in an ensemble system
+

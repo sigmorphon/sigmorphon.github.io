@@ -4,8 +4,8 @@ longtitle: "Organizers - CoNLL–SIGMORPHON 2018 Shared Task: Universal Morpholo
 title: "Organizers"
 ---
 
+- Ryan Cotterell *(chair)*
 - Christo Kirov
-- Ryan Cotterell
 - John Sylak-Glassman
 - Géraldine Walther
 - Ekaterina Vylomova
@@ -16,4 +16,4 @@ title: "Organizers"
 - Miikka Silfverberg
 - David Yarowsky
 - Jason Eisner
-- Mans Hulden
+- Mans Hulden *(chair)*
