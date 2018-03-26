@@ -13,7 +13,7 @@ breadcrumb: 2018
 ## Overview
 
 In 2018, [SIGMORPHON](https://sigmorphon.github.io/) and [CoNLL](http://www.conll.org/) are hosting a 
-shared task on __universal morphological reinflection__. That is, the shared task of morphological reinflection will be conducted in **40+ languages of the world**. An example 
+shared task on __universal morphological reinflection__. That is, the shared task of morphological reinflection will be conducted in **100+ languages of the world**. An example 
 \of English reinflection is the conversion of `ran` to its present 
 participle, `running`.
 
@@ -21,7 +21,7 @@ A word's form reflects syntactic and semantic features that are expressed by the
 
 NLP systems must be able to analyze and generate all of these inflected forms. Fortunately, inflected forms tend to be systematically related to one another. This is why English speakers can usually predict the singular form from the plural and vice-versa, even for words they have never seen before.
 
-The shared task consists of two parts. Task 1 asks participants to inflect word forms based on labeled examples. Task 2 asks participants to fill partially filled out paradigms based on a limited number of full paradigms seen as training data.
+The shared task consists of two parts. Task 1 asks participants to inflect word forms based on labeled examples. Task 2 is a cloze task, asking participants to provide the correct form of a lemma in context.
 
 To participate in the shared task, you will build a system that can
 learn to solve reinflection problems. Systems may compete in either or both of these tasks. Training examples and development examples will be provided for each task. For each language, the possible inflections are taken from a finite set of morphological tags, presented in the [UniMorph schema](https://unimorph.github.io). All submitted systems will be 
