@@ -14,4 +14,4 @@ title: "Dates"
 * **July 16.** Submission of system description papers
 * **July 23.** Description paper reviews completed
 * **September 5.** Camera-ready papers due
-* **October 31–November 1.** CoNLL 2018, Brussels, Belgium (collocated with EMNLP)
+* **October 31.** Workshop, coinciding with day 1 of CoNLL 2018, Brussels, Belgium (collocated with EMNLP)

@@ -32,6 +32,10 @@ the CoNLL 2018 shared task proceedings.  The task organizers will write an
 overview paper that describes the task and summarizes the different
 approaches taken and their results.
 
+#### A note on typography
+
+CoNLL and SIGMORPHON are distinct entities in a joint venture. In your writeup, please ensure that CoNLL and SIGMORPHON are [separated by an en-dash](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#En_dashes) ("–"), not a hyphen ("-"). These can be produced in LaTeX by typing two hyphens together ("`--`").
+
   
 ## Previous Shared Tasks
 
