@@ -6,7 +6,7 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 
 **Workshops:** SIGMORPHON also organizes workshops in computational morphology and phonology. The last biennial meeting was the [14th SIGMORPHON Workshop](http://www.ling.ohio-state.edu/sigmorphon/), which took place at ACL 2016 in Berlin, Germany, on August 11, 2016.
 
-**Shared tasks:** SIGMORPHON is co-organizing the [CoNLL–SIGMORPHON 2018 shared task](sharedtasks/2018) on learning morphological inflection. We also organized the [CoNLL–SIGMORPHON 2017 shared task](sharedtasks/2017) and a [previous shared task](sharedtasks/2016) on inflection, which coincided with the 14th SIGMORPHON Workshop at ACL 2016. Thanks to all those who participated!
+**Shared tasks:** SIGMORPHON is co-organizing the [CoNLL–SIGMORPHON 2018 shared task](sharedtasks/2018) on learning morphological inflection. It will be presented during EMNLP 2018. We also organized the [CoNLL–SIGMORPHON 2017 shared task](sharedtasks/2017) and a [previous shared task](sharedtasks/2016) on inflection, which coincided with the 14th SIGMORPHON Workshop at ACL 2016. Thanks to all those who participated!
 
 ---
 
