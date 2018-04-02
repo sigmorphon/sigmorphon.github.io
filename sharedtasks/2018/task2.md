@@ -29,7 +29,7 @@ advise     advising    V;V.PTCP;PRS
 
 > Sentence context and lemma for track 1:
 > 
-> `The/the+DT ___(dog) are/be+AUX;IND;PRS;FIN barking/V;V.PTCP`
+> `The/the+DT ___(dog) are/be+AUX;IND;PRS;FIN barking/bark+V;V.PTCP`
 >
 > Sentence context and lemma for track 2:
 >
