@@ -14,7 +14,6 @@ title: "Organizers"
 - Sebastian Mielke
 - Garrett Nicolai
 - Miikka Silfverberg
-- Jason Naradowsky
 - David Yarowsky
 - Jason Eisner
 - Mans Hulden *(chair)*
