@@ -10,7 +10,7 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 
 ---
 
-Useful links:
+## Useful links
 
 - [Constitution](constitution/)
 - [Mailing list signup](http://mailman.clsp.jhu.edu/mailman/listinfo/sigmorphon)
@@ -19,13 +19,18 @@ Useful links:
 
 ---
 
+## Officers
+
 SIGMORPHON has the following office bearers:
 
 **President:**  [Jason Eisner](http://www.cs.jhu.edu/~jason/)
 
 **Secretary:** [Garrett Nicolai](https://webdocs.cs.ualberta.ca/~nicolai/)
 
+**Webmaster:** [Arya McCarthy](https://cs.jhu.edu/~arya)
+
 **At Large:**
+
 * [Ryan Cotterell](https://ryancotterell.github.io)
 * [Emmanuel Dupoux](http://www.lscp.net/persons/dupoux/) 
 * [Mans Hulden](http://verbs.colorado.edu/~mahu0110/) 
