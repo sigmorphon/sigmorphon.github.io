@@ -4,8 +4,10 @@ longtitle: "Dates - CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological
 title: "Dates"
 ---
 
-* **April 10.** Training and development data released
-* **April 10.** Baseline system released
+* <del>**April 10.** Training and development data released</del>
+* <del>**April 10.** Baseline system released</del>
+* **April 15.** Training and development data released
+* **April 15.** Baseline system released
 * **April 30.** Training and development data frozen
 * **June 10.** Ten additional surprise languages announced; surprise data released
 * **June 20–July 1.** Test phase
