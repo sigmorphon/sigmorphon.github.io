@@ -4,9 +4,9 @@ layout: default
 
 Welcome to the home page of the ACL Special Interest Group on Computational Morphology and Phonology (SIGMORPHON), formerly known as the ACL Special Interest Group on Computational Phonology (SIGPHON). This group provides a forum for exchanging news of recent research developments and other matters of interest in computational morphology and phonology.
 
-**Workshops:** SIGMORPHON also organizes workshops in computational morphology and phonology. The next biennial meeting will be the [15th SIGMORPHON Workshop]({{ "/workshops/2018" | absolute_url }}), which will take place at EMNLP 2018 in Brussels, Belgium on 31 October 2018.
+**Workshops:** SIGMORPHON also organizes [workshops]({{ "/workshops" | absolute_url }}) in computational morphology and phonology. The next biennial meeting will be the [15th SIGMORPHON Workshop]({{ "/workshops/2018" | absolute_url }}), which will take place at EMNLP 2018 in Brussels, Belgium on 31 October 2018.
 
-**Shared tasks:** SIGMORPHON is co-organizing the [CoNLL–SIGMORPHON 2018 shared task](sharedtasks/2018) on learning morphological inflection. It will be presented during EMNLP 2018. We also organized the [CoNLL–SIGMORPHON 2017 shared task](sharedtasks/2017) and a [previous shared task](sharedtasks/2016) on inflection, which coincided with the 14th SIGMORPHON Workshop at ACL 2016. Thanks to all those who participated!
+**Shared tasks:** SIGMORPHON is co-organizing the [CoNLL–SIGMORPHON 2018 shared task](sharedtasks/2018) on learning morphological inflection. It will be presented during EMNLP 2018. We also organized [two previous shared tasks]({{ "/sharedtasks" | absolute_url }}). Thanks to all those who participated!
 
 ---
 
