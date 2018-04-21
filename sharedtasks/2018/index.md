@@ -7,6 +7,7 @@ breadcrumb: 2018
 - [Task 1](task1): Type-level inflection
 - [Task 2](task2): Inflection in context
 - [Registration](https://docs.google.com/forms/d/e/1FAIpQLSdMiv7vgA5EMGvVWQPY4LVG8mO-ZtRa9HvMeAMZIQWKMotZBg/viewform?usp=sf_link)
+- [Google Group](https://groups.google.com/forum/#!forum/conll-sigmorphon-2018)
 - [Organizers](organizers)
 - [Dates](dates)
 
