@@ -58,7 +58,7 @@ These can be produced in LaTeX by typing two hyphens together ("`--`").
 
 ## Venue
 
-November 1; Day 2 of shared task slot at CoNLL, Brussels, Belgium (collocated with EMNLP).
+31 October; Day 1 of shared task slot at CoNLL, Brussels, Belgium (collocated with EMNLP).
 
 ## References
 
