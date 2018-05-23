@@ -7,7 +7,7 @@ breadcrumb: 2016
 
 ## Overview
 
-**The shared task has concluded!** Thanks to all those who particpated. All data (including the test sets) will be hosted on this site. Please read [here](www.aclweb.org/anthology/W/W16/W16-2002.pdf) for a detailed analysis of submitted systems and the results.
+**The shared task has concluded!** Thanks to all those who participated. All data (including the test sets) will be hosted on this site. Please read [here](www.aclweb.org/anthology/W/W16/W16-2002.pdf) for a detailed analysis of submitted systems and the results.
 
 In 2015–2016, [SIGMORPHON]({{ "/" | absolute_url }}) is hosting a shared task on morphological reinflection. An example of English reinflection is the conversion of `ran` to its present participle, `running`.
 
@@ -42,11 +42,11 @@ Please submit the shared-task description papers at https://www.softconf.com/acl
 
 ### Submission
 
-We have released the test data! It is in the same format as the training and dev data with the exception that the last column has been omitted. Please run your system for each language and each task for which you wish to submit an entry into the competition. The output format should be a text file identical to the train and dev files for the given task. Essentially, you will be adding the missing last column of answers to the test files. Note that you may submit multiple predictions for a given row and we will measure mean reciprocal rank. If you do submit mutiple ordered guesses, please output multiple lines with differing last columns; the order in the file will be the order in which we rank them.
+We have released the test data! It is in the same format as the training and dev data with the exception that the last column has been omitted. Please run your system for each language and each task for which you wish to submit an entry into the competition. The output format should be a text file identical to the train and dev files for the given task. Essentially, you will be adding the missing last column of answers to the test files. Note that you may submit multiple predictions for a given row and we will measure mean reciprocal rank. If you do submit multiple ordered guesses, please output multiple lines with differing last columns; the order in the file will be the order in which we rank them.
 
 Email the resulting text files to sigmorphon.sharedtask.2016@gmail.com with the subject in the format: INSTITUTION--XX--Y, where you should replace institution with the name of your institution and XX with an integral index (in case of multiple systems from the same institution). In the case of multiple institutions, please place a hyphen between each name. If there are any additional details you would like us to know about your system or resources you used, please write a short description in the body of the email. The Y should specify either 1, 2, or 3, depending on which data you are using to solve the task. These three categories are:
 
-* 1 = Standard: The solution to task 1 may only use task 1 training/development data. Anything else is considered "using a bonus resource". Likewise, the solution to task 2 may only use task 1 and task 2 training/developent data. Anything else is considered "using a bonus resource". The solution to task 3 may only use task 1, 2, and task 3 training/development data. Anything else is considered "using a bonus resource".
+* 1 = Standard: The solution to task 1 may only use task 1 training/development data. Anything else is considered "using a bonus resource". Likewise, the solution to task 2 may only use task 1 and task 2 training/development data. Anything else is considered "using a bonus resource". The solution to task 3 may only use task 1, 2, and task 3 training/development data. Anything else is considered "using a bonus resource".
 * 2 = Restricted: All tasks are solved using only task-number specific training data: task 1 uses only task 1 train/dev data; task 2 uses only task 2 train/dev data; task 3 uses only task 3 train/dev data.
 * 3 = Bonus: tasks are solved using the Standard approach, drawing also possibly on higher task number related training data and/or extra unlabeled data given on the website.
 
@@ -93,7 +93,7 @@ NLP systems must be able to analyze and generate all of these inflected forms. F
 
 ## The Tasks
 
-There are actually three similar tasks. Your system may compete on any or all of the three tasks. Training examples and development examples will be provided for each task. For each language, the possivble inflections are named by a given finite set of morphological **tags**.
+There are actually three similar tasks. Your system may compete on any or all of the three tasks. Training examples and development examples will be provided for each task. For each language, the possible inflections are named by a given finite set of morphological **tags**.
 
 
 

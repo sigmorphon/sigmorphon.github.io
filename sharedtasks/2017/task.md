@@ -4,6 +4,8 @@ longtitle: "Task - CoNLL–SIGMORPHON 2017 Shared Task: Universal Morphological 
 title: "Task"
 ---
 
+The shared task has concluded! Thanks to all those who participated. All data (including the test sets) will be hosted on this site. Please read [here](http://www.aclweb.org/anthology/K17-2001) for a detailed analysis of submitted systems and the results.
+
 The shared task consists of two sub-tasks. Sub-task 1 asks participants to inflect word forms based on labeled examples. Sub-task 2 asks participants to fill partially filled out paradigms based on a limited number of full paradigms seen as training data.
 
 Systems may compete in either or both of these sub-tasks. Training examples and development examples will be provided for each sub-task. For each language, the possible inflections are taken from a finite set of morphological **tags**.
@@ -74,7 +76,7 @@ We will distribute an evaluation script for your use on the development data. Th
 
 The official evaluation script that will be used for our internal evaluation is provided here. You are encouraged to do ablation studies to measure the advantage gained from particular innovations. You should perform these studies on the development data and report the findings in your system description paper.
 We will use the same script to evaluate your system's output on the test data. If multiple correct answers are possible, we will accept any string from the correct set. For example, in Sub-Task 1, the two senses of English lemma `hang` have different `Past` forms, `hung` and `hanged`. 
-We will evaluate on each language separately. An aggregate evaluation will weight all languages equally (by macroaveraging), including the surprise languages released later during the development period.
+We will evaluate on each language separately. An aggregate evaluation will weight all languages equally (by macro-averaging), including the surprise languages released later during the development period.
 In an overview paper for the shared task, we will compare the performance of submitted systems in detail. We will evaluate
 
 * which systems are significantly different in performance, especially in low-resource scenarios
@@ -96,7 +98,7 @@ Email the resulting text files (as an archive) to [conll.sigmorphon.2017@gmail.c
 Please name your solution files "LANG-SIZE-out", for example "finnish-low-out", etc, and place the output files in task1 and task2, respectively, depending on the task. For example, task1/finnish-low-out should contain the output for the task 1 low-resource Finnish setting and task2/finnish-low-out should contain the output for the task 2 low-resource Finnish setting.  In other words, we are following the directory structure in this folder: [https://github.com/sigmorphon/conll2017/tree/master/evaluation/sample-output](https://github.com/sigmorphon/conll2017/tree/master/evaluation/sample-output), which you may use as a model. Please archive the entire directory structure (it will only contain two folders: task1 and task2) and email it to the address above. Each group may submit as many systems as they like (just change the XX value), but please send one email per unique setting of the variables in INSTITUTION--XX--Y. 
 
 ## System Description Paper
-Each team that submits a system is invited to submit a system description paper. The paper should follow the CoNLL 2017 guidelines, which may be found at [http://www.conll.org/cfp-2017](www.conll.org/cfp-2017). The system description papers will constitute a separate volume of the CoNLL 2017 proceedings, entitled “Proceedings of the CoNLL-SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection.” Each paper should be no longer than 8 pages, not including references. Shorter papers are certainly welcome! The paper is due May 30 and the submission link may be found at [https://www.softconf.com/acl2017/conll-sigmorphon-st2017](https://www.softconf.com/acl2017/conll-sigmorphon-st2017/). 
+Each team that submits a system is invited to submit a system description paper. The paper should follow the CoNLL 2017 guidelines, which may be found at [http://www.conll.org/cfp-2017](www.conll.org/cfp-2017). The system description papers will constitute a separate volume of the CoNLL 2017 proceedings, entitled “Proceedings of the CoNLL–SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection.” Each paper should be no longer than 8 pages, not including references. Shorter papers are certainly welcome! The paper is due May 30 and the submission link may be found at [https://www.softconf.com/acl2017/conll-sigmorphon-st2017](https://www.softconf.com/acl2017/conll-sigmorphon-st2017/). 
 
 In the paper, the participants are encouraged to provide the details necessary to replicate their system, and to discuss their results. Comparison to previous work is also encouraged, as is insightful error analysis and potential ways problems might be fixed in future work.
 
