@@ -9,11 +9,11 @@ title: "Dates"
 * **April 21.** Training and development data released
 * **April 21.** Baseline system released
 * **April 30.** Training and development data frozen
-* **July 1.** Ten additional surprise languages announced; surprise data released
-* **July 10–July 20.** Test phase
-* **July 20.** Submit results
-* **July 21.** Results announced
-* **August 1.** Submission of system description papers
-* **August 10.** Description paper reviews completed
+* **July <del>1</del> 10.** Ten additional surprise languages announced; surprise data released
+* **July <del>10–20</del> 20–31.** Test phase
+* **<del>July 20</del> August 1.** Submit results
+* **<del>July 21</del> August 5.** Results announced
+* **August <del>1</del> 15.** Submission of system description papers
+* **August <del>10</del> 20.** Description paper reviews completed
 * **September 5.** Camera-ready papers due
 * **October 31.** Workshop, coinciding with day 1 of CoNLL 2018, Brussels, Belgium (collocated with EMNLP)
