@@ -6,9 +6,9 @@ title: "Dates"
 
 * <del>**April 10.** Training and development data released</del>
 * <del>**April 10.** Baseline system released</del>
-* **April 21.** Training and development data released
-* **April 21.** Baseline system released
-* **April 30.** Training and development data frozen
+* <del>**April 21.** Training and development data released</del>
+* <del>**April 21.** Baseline system released</del>
+* <del>**April 30.** Training and development data frozen</del>
 * **July <del>1</del> 10.** Ten additional surprise languages announced; surprise data released
 * **July <del>10–20</del> 20–31.** Test phase
 * **<del>July 20</del> August 1.** Submit results
