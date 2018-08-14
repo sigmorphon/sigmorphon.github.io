@@ -14,6 +14,8 @@ breadcrumb: 2018
 
 ## Overview
 
+<span style='color: red;'>*The shared task has concluded! Thanks to all those who participated!*</span>
+
 In 2018, [SIGMORPHON](https://sigmorphon.github.io/) and [CoNLL](http://www.conll.org/) are hosting a shared task on **universal morphological inflection**.
 The shared task features **over 100 distinct languages**, whose morphology participants are asked to model.
 
