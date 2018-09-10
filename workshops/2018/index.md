@@ -10,6 +10,8 @@ Brussels, Belgium<br>
 October 31, 2018
 </i></p>
 
+([Program here]({{ "program" | absolute_url }}))
+
 The workshop will gather researchers who apply computation to morphology, phonology, and phonetics. Work that addresses orthographic issues is also welcome. Papers will present significant, original, and unpublished research, including strong work in progress. Appropriate topics include (but are not limited to) the following:
 
  - New formalisms, computational treatments, or probabilistic models of existing linguistic formalisms 
