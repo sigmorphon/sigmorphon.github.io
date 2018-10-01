@@ -11,6 +11,7 @@ October 31, 2018
 </i></p>
 
 ([Program here](program))
+([Register through EMNLP](https://aclweb.org/conference/emnlp-2018-conference-registration/))
 
 The workshop will gather researchers who apply computation to morphology, phonology, and phonetics. Work that addresses orthographic issues is also welcome. Papers will present significant, original, and unpublished research, including strong work in progress. Appropriate topics include (but are not limited to) the following:
 
