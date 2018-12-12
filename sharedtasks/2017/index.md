@@ -9,6 +9,9 @@ breadcrumb: 2017
 - [Important dates](dates)
 - [Organizers](organizers)
 
+<span style='color: red;'>*The shared task has concluded! Thanks to all those who participated!*</span> All data (including the test sets) will be hosted on this site. Please read [here](https://www.aclweb.org/anthology/K17-2001) for a detailed analysis of submitted systems and the results.
+
+
 ## News
 
 * 06/27/2017: Test data answers released for both tasks!

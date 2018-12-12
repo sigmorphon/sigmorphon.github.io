@@ -7,7 +7,7 @@ breadcrumb: 2019
 <p><i>
 co-located with ACL 2019<br>
 Florence, Italy<br>
-<!--October 31, 2018-->
+<!--August 3 or 4, 2019-->
 </i></p>
 
 Details forthcoming!

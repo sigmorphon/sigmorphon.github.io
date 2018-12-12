@@ -3,6 +3,7 @@ layout: page
 title: "Workshops"
 ---
 
+- [**2019**: Florence](2019), co-located with ACL 2019
 - [**2018**: Brussels](2018), co-located with EMNLP 2018
 - [**2016**: Berlin](https://ryancotterell.github.io/sigmorphon2016/), co-located with ACL 2016
 - [**2014** (with SIGFSM): Baltimore](http://mirror.aclweb.org/acl2014/W14-28/index.html), co-located with ACL 2014
