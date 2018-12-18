@@ -4,8 +4,7 @@ longtitle: "Task 2 - SIGMORPHON 2019 Shared Task: Crosslinguality and Context in
 title: "Task 2: Morphological Analysis and Lemmatization in Context"
 ---
 
-The second task that we will offer this year is **contextual morphological analysis and lemmatization**. You are given a sentence. You are required to give the lemma and morphosyntactic description (MSD) of each word. The data is owes its provenance to the 
-[Universal Dependencies](http://universaldependencies.org/) project, but the MSDs have been converted to the [UniMorph schema](https://unimorph.github.io/).
+The second task that we will offer this year is **contextual morphological analysis and lemmatization**. You are given a sentence. You are required to give the lemma and morphosyntactic description (MSD) of each word.
 
 For instance, when given this entry:
 
@@ -36,7 +35,8 @@ Your system must produce the following.
 It is not required that your system reproduce comment lines (those that begin with a hash-mark (‘`#`’)). Conversely, you may produce as many comment lines as you would like! This will not affect the evaluation. Nevertheless, each sentence **must** be separated by **one or more blank lines**. Blank lines **must not** exist **within** sentences.
 
 ## Data
-Our data are adapted from the Universal Dependencies project and automatically converted into the UniMorph schema.
+The data is owes its provenance to the 
+[Universal Dependencies](http://universaldependencies.org/) project, and the MSDs have been converted to the [UniMorph schema](https://unimorph.github.io/).
 
 Sentences are annotated in the ten-column [CoNLL-U format](http://universaldependencies.org/format.html). All columns except for the `ID`, `FORM`, `LEMMA`, and `FEATS` will be nulled out (i.e., replaced with the underscore '`_`'). At inference time, test data will also null out the `LEMMA` and `FEATS` columns. Your system must print the data in CoNLL-U format, filling these two columns.
 
