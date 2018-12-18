@@ -63,7 +63,7 @@ In an overview paper for the shared task, we will compare the performance of sub
 
 ## Contact
 
-Error reports (e.g. flaws in the data annotation or the evaluation script) are accepted at <sigmorphon+sharedtask2019@gmail.com>. This is also where your results on test sets should be sent.
+Error reports (e.g. flaws in the data annotation or the evaluation script) are accepted at [sigmorphon+sharedtask2019@gmail.com](mailto: sigmorphon+sharedtask2019@gmail.com). This is also where your results on test sets should be sent.
 
 ## Previous Shared Tasks
 
