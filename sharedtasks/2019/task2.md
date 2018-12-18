@@ -57,7 +57,7 @@ We will score each system based on two measures for each of the two subtasks
     - 0/1 accuracy of lemmata (the `LEMMA` column)
     - Average Levenstein distance of lemmata (the `LEMMA` column)
 
-We will distribute our evaluation script so you can test your systems. If you find errors in the script, contact us at <sigmorphon+sharedtask2019@gmail.com>. 
+We will distribute our evaluation script so you can test your systems. If you find errors in the script, contact us at [sigmorphon+sharedtask2019@gmail.com](mailto: sigmorphon+sharedtask2019@gmail.com). 
 
 ## Pretrained System
 Coming soon! We will offer one pretrained system for morphological analysis and lemmatization in context. 

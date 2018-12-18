@@ -62,9 +62,11 @@ Evaluation script. We will distribute an evaluation script for your use on the d
 - Average [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the prediction and the truth across all predictions
 
 The official evaluation script that we will use for our internal evaluation will be provided [here](https://www.example.com). We encourage ablation studies to measure the advantage gained from particular innovations. You should perform these studies on the development data and report the findings in your system description paper.
-**Ambiguous lemmas.** We will use the same script to evaluate your system’s output on the test data. If multiple correct answers are possible, we will accept any string from the correct set. For example, the two senses of English lemma hang have different Past forms, hung and hanged.
+
+**Ambiguous lemmas.** We will use the same script to evaluate your system’s output on the test data. If multiple correct answers are possible, we will accept any string from the correct set. For example, the two senses of English lemma `hang` have different `Past` forms, `hung` and `hanged`.
+
 **Averaging.** We will evaluate on each language pair separately. An aggregate evaluation will weight all languages equally (i.e. macro-averaging), including the surprise languages released later during the development period.
 
-##Pretrained Systems
+## Pretrained Systems
 
 Coming soon! We will offer four pretrained systems for cross-lingual inflection generation. This models constitute very strong baselines. We believe them to be state of the art, but we will refrain from such hype. The systems are neural sequence-to-sequence models with different types of attention mechanisms: (i) soft attention, (ii) 0th-order hard non-monotonic attention, (iii) 0th-order hard monotonic attention and (iv) 1st-order hard monotonic attention. In general, the 1st-order hard monotonic attention system is the best, but performance does vary by language. The code, pretrained models and the dev accuracies may be found [here](https://github.com/sigmorphon/2019).
