@@ -1,104 +1,63 @@
 ---
 layout: page
-longtitle: "Task 2 - CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
-title: "Task 2: Inflection in Context"
+longtitle: "Task 2 - SIGMORPHON 2019 Shared Task: Crosslinguality and Context in Morphology"
+title: "Task 2: Morphological Analysis and Lemmatization in Context"
 ---
 
-This is a classical cloze task. You are given a sentence with a number
-of missing word forms and the lemma of each missing word form. You
-are required to fill in the missing forms.
+The second task that we will offer this year is **contextual morphological analysis and lemmatization**. You are given a sentence. You are required to give the lemma and morphosyntactic description (MSD) of each word. The data is owes its provenance to the 
+[Universal Dependencies](http://universaldependencies.org/) project, but the MSDs have been converted to the [UniMorph schema](https://unimorph.github.io/).
 
-There are two tracks in task 2. In track 1, you will be provided with
-lemmas and morphosyntactic descriptions (MSD) for all of the context
-words. In track 2, you will only see the context word forms but not
-their lemmas or MSDs.
-
-The correct forms will always be found in Unimorph paradigms. We will
-provide you with example paradigms for each language. This is an
-example of a complete Unimorph verb paradigm for English:
+For instance, when given this entry:
 
 ```
-advise     advised     V;PST
-advise     advised     V;V.PTCP;PST
-advise     advises     V;3;SG;PRS
-advise     advise      V;NFIN
-advise     advising    V;V.PTCP;PRS
+# sent-id = 1
+# text = They buy and sell books.
+1	They   _	_	_	_	_	_	_	_
+2	buy    _	_	_	_	_	_	_	_
+3	and    _	_	_	_	_	_	_	_
+4	sell   _	_	_	_	_	_	_	_
+5	books  _	_	_	_	_	_	_	_
+6	.      _	_	_	_	_	_	_	_
 ```
 
-**Example**
-
-> Sentence context and lemma for track 1:
-> 
-> `The/the+DT ___(dog) are/be+AUX;IND;PRS;FIN barking/bark+V;V.PTCP`
->
-> Sentence context and lemma for track 2:
->
-> `The ___(dog) are barking`
->
-> Target form:
->
-> `dogs`
-
-
-## Data Format
-
-The training and development data *will be* provided in a simple utf-8
-encoded text format. Each word form in a sentence occupies a line and
-each line has three fields: word form, lemma and MSD. The fields are
-TAB-separated. Sentences are separated by an empty line.
-
-An example from the English training data for track 1:
+Your system must produce the following.
 
 ```
-CHERNOBYL  Chernobyl      PROPN;SG
-ACCIDENT   accident       N;SG
-:          :              PUNCT
-TEN        ten            NUM
-years      year           N;PL
-ON         on             ADV
+# sent-id = 1
+# text = They buy and sell books.
+1	They   they	_	_	N;NOM;PL    _	_	_	_
+2	buy    buy	_	_	V;SG;1;PRS	_	_	_	_
+3	and    and	_	_	CONJ        _	_	_	_
+4	sell   sell	_	_	V;PL;3;PRS  _	_	_	_
+5	books  book	_	_	N;PL        _	_	_	_
+6	.      .	_	_	PUNCT       _	_	_	_
 ```
 
-An example from the English training data for track 2:
+It is not required that your system reproduce comment lines (those that begin with a hash-mark (‘`#`’)). Conversely, you may produce as many comment lines as you would like! This will not affect the evaluation. Nevertheless, each sentence **must** be separated by **one or more blank lines**. Blank lines **must not** exist **within** sentences.
 
-```
-CHERNOBYL  _              _
-ACCIDENT   _              _
-:          _              _
-TEN        _              _
-years      year           _
-ON         _              _
-```
+## Data
+Our data are adapted from the Universal Dependencies project and automatically converted into the UniMorph schema.
+
+Sentences are annotated in the ten-column [CoNLL-U format](http://universaldependencies.org/format.html). All columns except for the `ID`, `FORM`, `LEMMA`, and `FEATS` will be nulled out (i.e., replaced with the underscore '`_`'). At inference time, test data will also null out the `LEMMA` and `FEATS` columns. Your system must print the data in CoNLL-U format, filling these two columns.
+
+- The `ID` column gives each word a unique ID within the sentence.
+- The `FORM` column gives the word as it appears in the sentence.
+- The `LEMMA` column contains the form’s lemma.
+- The `FEATS` column contains morphosyntactic features in the UniMorph schema.
+
+Data are available [here](https://github.com/sigmorphon/2019).
 
 ## Evaluation
+We will score each system based on two measures for each of the two subtasks
 
-Systems should predict a single character sequence for each test example.
+- Contextual Morphological Analysis
+    - 0/1 accuracy of MSD (the `FEATS` column)
+    - Micro-averaged F1 score for MSDs (the `FEATS` column)
+- Contextual Lemmatization 
+    - 0/1 accuracy of lemmata (the `LEMMA` column)
+    - Average Levenstein distance of lemmata (the `LEMMA` column)
 
-**Evaluation script.** We will distribute an evaluation script for your use on the development data. The script will report:
+We will distribute our evaluation script so you can test your systems. If you find errors in the script, contact us at <sigmorphon+sharedtask2019@gmail.com>. 
 
-* Accuracy = fraction of correctly predicted forms
-* Average [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the prediction and the truth across all predictions
-
-The official evaluation script that we will use for our internal evaluation *will be provided here*. We encourage ablation studies to measure the advantage gained from particular innovations. You should perform these studies **on the development data** and report the findings in your system description paper.
-
-**Ambiguous examples.** We will use the same script to evaluate your
-  system's output on the test data. If multiple correct answers are
-  possible, we will accept any string from the correct set. For
-  example, in the sentence `The dog ___(sleep)` both `sleeps` and
-  `slept` are possible. Ambiguous lemmas may also sometimes result in
-  several correct answers. For example, the two senses of English
-  lemma `hang` have different Past forms, `hung` and `hanged`, which
-  results in two possible answers for `They will be ___(hang)`.
-
-  In case there are multiple correct answers, exact-match accuracy  will
-  award credit for any of the correct forms.
-   We will return the Levenshtein distance to the answer which is closest to the prediction.
-
-
-**Averaging.** We will evaluate on each language separately. An aggregate evaluation will weight all languages equally (i.e. macroaveraging), including the surprise languages released later during the development period.
-
-**Overview paper.** In an overview paper for the shared task, we will compare the performance of submitted systems in detail. We will evaluate:
-
-* which systems are significantly different in performance, especially in low-resource scenarios
-* which examples were hard and which types of systems succeeded on them
-* which systems would provide complementary benefit in an ensemble system
-
+## Pretrained System
+We will offer one pretrained system for morphological analysis and lemmatization in context. 

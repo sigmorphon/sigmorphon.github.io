@@ -1,54 +1,70 @@
 ---
 layout: page
-longtitle: "Task 1 - CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
-title: "Task 1: Type-Level Inflection"
+longtitle: "Task 1 - SIGMORPHON 2019 Shared Task: Crosslinguality and Context in Morphology"
+title: "Task 1: Crosslingual Transfer for Inflection Generation"
 ---
 
-Given a [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) and a bundle of morphological features, generate a target inflected form.
+SIGMORPHON has over the past three years (and jointly with CoNLL over the past two) hosted a shared task on type-level morphological generation. The goal this year to examine **how best to do this in a cross-lingual setting**.
 
-**Example**
+Why go cross-lingual? Annotated resources for the world’s languages are not distributed equally—some languages simply have more as they have more native speakers willing and able to annotate more data. We will explore how to transfer knowledge from high-resource languages that are genetically related to low-resource language.
 
-> Source form and target features:
-> 
-> `release V;V.PTCP;PRS`
-> 
-> Target form:
-> 
-> `releasing`
+The task is the following: given a [lemma](https://en.wikipedia.org/wiki/Lemma_(morphology)) and a bundle of morphological features, generate a target inflected form. We will provide many data in the high-resource language and few data in the low-resource language. The goal, then, will be to perform morphological inflection in the low-resource language, having hopefully exploited some similarity to the high-resource language.
+
+## Example
+The model will have access to type-level data in a low-resource target language, plus a high-resource source language. We give an example here of Asturian as the target language with Spanish as the source language.
+
+Low-resource target training data (Asturian)
+
+```
+facer      fechu      V;V.PTCP;PST
+aguar      aguà       V;PRS;2;PL;IND
+...
+```
+
+High-resource source language training data (Spanish)
+
+```
+tocar   tocando    V;V.PTCP;PRS
+bailar  bailaba    V;PST;IPFV;3;SG;IND
+mentir  mintió     V;PST;PFV;3;SG;IND
+...
+```
+
+Test input (Asturian)
+
+```
+baxar   V;V.PTCP;PRS
+```
+
+Test output (Asturian)
+
+```
+baxando
+```
+
 
 ## Data Format
+The training and development data will be provided in a simple utf-8–encoded text format. 
 
+The training data will comprise two files: one in the language of interest (the “target language”), and one in the high-resource source language. Development and testing data are only in the target language, so each will be one file. (A source language may be a member of multiple language pairs. You **must not** use any out-of-source data except the associated target file for this pair.) Each line in a file is an example that consists of word forms and corresponding morphosyntactic descriptions (MSDs) provided as a set of features, separated by semicolons. The fields on a line are TAB-separated, as shown above. For each language, the possible inflections are taken from a finite set of morphological tags, presented in the [UniMorph schema](https://unimorph.github.io/).
 
-The training and development data *will be* provided in a simple utf-8 encoded text format. Each line in a file is an example that consists of word forms and corresponding morphosyntactic descriptions (MSDs) provided as a set of features, separated by semicolons. The fields on a line are TAB-separated.
-
-For task 1, the fields are: lemma, target form, MSD. An example from the English training data:
-
-```
-touch   touching   V;V.PTCP;PRS
-```
 
 In the training data, we give all three fields. In the test phase, we omit field 2.
 
-**Data quantity.** We give varying amounts of labeled training data (low, medium, high) to assess systems' ability to generalize in both low- and high-resource scenarios. We evaluate performance independently under each of the three data quantity conditions. For each language, the possible inflections are taken from a finite set of morphological tags, presented in the [UniMorph schema](https://unimorph.github.io).
+
+Data are available [here](https://github.com/sigmorphon/2019).
 
 ## Evaluation
-
 Systems should predict a single character sequence for each test example.
+Evaluation script. We will distribute an evaluation script for your use on the development data. The script will report:
 
-**Evaluation script.** We will distribute an evaluation script for your use on the development data. The script will report:
+- Accuracy = fraction of correctly predicted forms
+- Average [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the prediction and the truth across all predictions
 
-* Accuracy = fraction of correctly predicted forms
-* Average [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the prediction and the truth across all predictions
+The official evaluation script that we will use for our internal evaluation will be provided [here](https://www.example.com). We encourage ablation studies to measure the advantage gained from particular innovations. You should perform these studies on the development data and report the findings in your system description paper.
+**Ambiguous lemmas.** We will use the same script to evaluate your system’s output on the test data. If multiple correct answers are possible, we will accept any string from the correct set. For example, the two senses of English lemma hang have different Past forms, hung and hanged.
+**Averaging.** We will evaluate on each language pair separately. An aggregate evaluation will weight all languages equally (i.e. macro-averaging), including the surprise languages released later during the development period.
 
-The official evaluation script that we will use for our internal evaluation *will be provided here*. We encourage ablation studies to measure the advantage gained from particular innovations. You should perform these studies **on the development data** and report the findings in your system description paper.
+##Pretrained Systems
 
-**Ambiguous lemmas.** We will use the same script to evaluate your system's output on the test data. If multiple correct answers are possible, we will accept any string from the correct set. For example, the two senses of English lemma `hang` have different Past forms, `hung` and `hanged`. 
-
-**Averaging.** We will evaluate on each language separately. An aggregate evaluation will weight all languages equally (i.e. macroaveraging), including the surprise languages released later during the development period.
-
-**Overview paper.** In an overview paper for the shared task, we will compare the performance of submitted systems in detail. We will evaluate:
-
-* which systems are significantly different in performance, especially in low-resource scenarios
-* which examples were hard and which types of systems succeeded on them
-* which systems would provide complementary benefit in an ensemble system
-
+We will offer four pretrained systems for cross-lingual inflection generation. This models constitute very strong baselines. We believe them to be state of the art, but we will refrain from such hype. The systems are neural sequence-to-sequence models with different types of attention mechanisms: (i) soft attention, (ii) 0th-order hard non-monotonic attention, (iii) 0th-order hard monotonic attention and (iv) 1st-order hard monotonic attention. In general, the 1st-order hard monotonic attention system is the best, but performance does vary by language. The code, pretrained models and the dev accuracies may be found [here](https://github.com/sigmorphon/2019).

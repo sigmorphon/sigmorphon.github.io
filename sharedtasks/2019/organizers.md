@@ -1,19 +1,16 @@
 ---
 layout: page
-longtitle: "Organizers - CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
+longtitle: "Organizers - SIGMORPHON 2019 Shared Task: Crosslinguality and Context in Morphology"
 title: "Organizers"
 ---
 
-- Ryan Cotterell *(chair)*
-- Christo Kirov
-- John Sylak-Glassman
-- Géraldine Walther
-- Ekaterina Vylomova
-- Arya McCarthy
-- Katharina Kann
-- Sebastian Mielke
-- Garrett Nicolai
-- Miikka Silfverberg
-- David Yarowsky
-- Jason Eisner
-- Mans Hulden *(chair)*
+- Arya D. McCarthy (Johns Hopkins University)
+- Ekaterina Vylomova (University of Melbourne)
+- Shijie Wu (Johns Hopkins University)
+- Chaitanya Malaviya (Allen Institute for Artificial Intelligence)
+- Garrett Nicolai (Johns Hopkins University)
+- Christo Kirov (Google AI)
+- Miikka Silfverberg (University of Helsinki)
+- Jeffrey Heinz (Stony Brook University)
+- Ryan Cotterell (University of Cambridge)
+- Mans Hulden (University of Colorado)

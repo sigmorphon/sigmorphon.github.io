@@ -1,19 +1,17 @@
 ---
 layout: page
-longtitle: "Dates - CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection"
+longtitle: "Dates - SIGMORPHON 2019 Shared Task: Crosslinguality and Context in Morphology"
 title: "Dates"
 ---
 
-* ~~**April 10.** Training and development data released~~
-* ~~**April 10.** Baseline system released~~
-* ~~**April 21.** Training and development data released~~
-* ~~**April 21.** Baseline system released~~
-* ~~**April 30.** Training and development data frozen~~
-* ~~**July <del>1</del> 10.** Ten additional surprise languages announced; surprise data released~~
-* ~~**July <del>10–20</del> 20–31.** Test phase~~
-* ~~**<del>July 20</del> August 1.** Submit results~~
-* ~~**<del>July 21</del> August 5.** Results announced~~
-* ~~**August <del>1</del> 15.** Submission of system description papers~~
-* ~~**August <del>10</del> 20.** Description paper reviews completed~~
-* ~~**September 5.** Camera-ready papers due~~
-* **October 31.** Workshop, coinciding with day 1 of CoNLL 2018, Brussels, Belgium (collocated with EMNLP)
+- Dec 21—training data released
+- Jan 8—baseline systems released
+- Jan 29—training and dev data frozen
+- April 5—surprise languages announced.
+- April 20–29—test inputs released; testing phase
+- April 30—deadline to submit results
+- May 2—results announced
+- May 10—submission of system description paper
+- May 15—description paper reviews completed
+- May 29—camera-ready copies due
+- August 1–2—workshop, co-located with ACL 2019
