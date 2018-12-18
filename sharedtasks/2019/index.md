@@ -7,7 +7,7 @@ breadcrumb: 2019
 - [Task 1](task1): Crosslingual transfer for inflection generation
 - [Task 2](task2): Morphological analysis and lemmatization in context
 - [Task 3](task3): Open challenge
-- [Data and Baselines](https://github.com/sigmorphon/2019) 
+- [Data and Baselines ↪](https://github.com/sigmorphon/2019) 
 <!-- - [Registration](https://docs.google.com/forms/d/e/1FAIpQLSdMiv7vgA5EMGvVWQPY4LVG8mO-ZtRa9HvMeAMZIQWKMotZBg/viewform?usp=sf_link)-->
 <!-- - [Google Group](https://groups.google.com/forum/#!forum/conll-sigmorphon-2018)-->
 - [Organizers](organizers)

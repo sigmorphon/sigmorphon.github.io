@@ -5,7 +5,7 @@ breadcrumb: 2017
 ---
 
 - [Task](task)
-- [Registration](https://docs.google.com/forms/d/1cJ9c0o8WfZCBU4QWGiWYnLoKIedjlZWlVGXob-MH4c4/closedform)
+- [Registration ↪](https://docs.google.com/forms/d/1cJ9c0o8WfZCBU4QWGiWYnLoKIedjlZWlVGXob-MH4c4/closedform)
 - [Important dates](dates)
 - [Organizers](organizers)
 
