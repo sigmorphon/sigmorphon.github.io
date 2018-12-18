@@ -60,4 +60,4 @@ We will score each system based on two measures for each of the two subtasks
 We will distribute our evaluation script so you can test your systems. If you find errors in the script, contact us at <sigmorphon+sharedtask2019@gmail.com>. 
 
 ## Pretrained System
-We will offer one pretrained system for morphological analysis and lemmatization in context. 
+Coming soon! We will offer one pretrained system for morphological analysis and lemmatization in context. 
