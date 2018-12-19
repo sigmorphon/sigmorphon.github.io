@@ -8,7 +8,7 @@ breadcrumb: 2019
 - [Task 2](task2): Morphological analysis and lemmatization in context
 - [Task 3](task3): Open challenge
 - [Data and Baselines ↪](https://github.com/sigmorphon/2019) 
-<!-- - [Registration](https://docs.google.com/forms/d/e/1FAIpQLSdMiv7vgA5EMGvVWQPY4LVG8mO-ZtRa9HvMeAMZIQWKMotZBg/viewform?usp=sf_link)-->
+- [Registration ↪](https://goo.gl/forms/bZrftpa5l6RpAkAG2)
 <!-- - [Google Group](https://groups.google.com/forum/#!forum/conll-sigmorphon-2018)-->
 - [Organizers](organizers)
 - [Dates](dates)
@@ -54,6 +54,14 @@ Due to the growing importance of interpretability in machine learning, this year
 
 This does not mean “it computes hidden representations in 3 layers using weights that are updated by
 gradient descent.” It means digging into the model's decisions, e.g., “when inflecting for nominative case, neuron 23 learned to track whether the lemma ends in a vowel which determines whether it takes the consonant-initial nominative suffix of the vowel-initial nominative suffix, as seen from the following tests.” A system is interpretable if we can understand how it makes generalizations with what kind of data points, what kind of features or representations it uses or identifies, why it produced its results as opposed to others, and so on. The evaluations will be made by a panel of judges.
+
+## Submission of Results
+
+We will release the test data on [20 April](dates). It will be in the same format as the training and dev data. Please run your system for each language and each task for which you wish to submit an entry into the competition. The output format should be a text file identical to the train and dev files for the given task. You will be adding the missing last column of answers to the test files in Task 1, or filling null fields in Task 2. To see an example of the submission format, see (<span style="color: red;">TBA</span>), where we have run the baseline system and dumped the output. You will have until 29 April to submit your answers.
+
+Email the resulting text files (as an archive) to [sigmorpon+sharedtask2019@gmail.com](mailto:sigmorphon+sharedtask2019@gmail.com) with the subject in the format: INSTITUTION–XX-Y, where you should replace institution with the name of your institution and XX with an integral index (in case of multiple systems from the same institution). In the case of multiple institutions, please place a hyphen between each name. If there are any additional details you would like us to know about your system or resources you used, please write a short description in the body of the email. Finally, Y should specify which task the email pertains to. As example, we consider the submission title JOHNSHOPKINS-01-2, which would the submission to the contextual lemmatization+analysis task from Johns Hopkins University, team 01.
+
+Your output file should append ".output" to the name of the test file—e.g. `west-frisian-test.output` for Task 1 and `da_ddt-um-test.conllu.output` for Task 2. Please archive the entire directory structure (either the task1 folder or task2 folder). Each group may submit as many systems as they like (just change the XX value), but please send one email per unique setting of the variables in INSTITUTION–XX–Y.
 
 ## Overview paper
 
