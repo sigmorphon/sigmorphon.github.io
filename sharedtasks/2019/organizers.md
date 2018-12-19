@@ -8,6 +8,7 @@ title: "Organizers"
 - Ekaterina Vylomova (University of Melbourne)
 - Shijie Wu (Johns Hopkins University)
 - Chaitanya Malaviya (Allen Institute for Artificial Intelligence)
+- Lawrence Wolf-Sonkin (Google AI)
 - Garrett Nicolai (Johns Hopkins University)
 - Christo Kirov (Google AI)
 - Miikka Silfverberg (University of Helsinki)
