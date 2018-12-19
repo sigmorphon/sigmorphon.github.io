@@ -38,7 +38,7 @@ We will provide many data in a high-resource language and few data in the low-re
 
 **Task 2** is contextual **morphological analysis and lemmatization**. You are given a sentence. You are required to annotate this sentence with the lemma and morphosyntactic description (MSD) of each word.
 
-**Task 3** is an open challenge: We invite systems that wish to compete on any of the previous year’s shared tasks. We will publish strong system description papers with the rest of the SIGMORPHON proceedings.
+**Task 3** is an open challenge: We invite systems that wish to compete on any of the previous year’s shared tasks. We will publish strong system description papers in the SIGMORPHON proceedings. For the sake of reproducibility, we require that these systems be made open source to be considered.
 
 To participate in the shared task, you will build a system that can learn to solve such morphology problems.
 Training examples and development examples will be provided for each task.
@@ -50,7 +50,10 @@ The task organizers will write an overview paper that describes the task and sum
 
 ## Interpretability Prize
 
-Due to the growing importance of interpretability in machine learning, this year we will recognize the system paper demonstrating the most interpretable system for each task. We will award a most interpretability prize to the paper whose system performs above the standard baseline *and* best explains how the system works: how it makes generalizations, what kind of features or representations it used or identified, why it produced its results, and so on. The evaluations will be made by a panel of judges.
+Due to the growing importance of interpretability in machine learning, this year we will recognize the system paper demonstrating the most interpretable system for each task. We will award a most interpretable prize to the paper whose system performs above the provided baselines *and* best explains how and why the system behaves as it does.
+
+This does not mean “it computes hidden representations in 3 layers using weights that are updated by
+gradient descent.” It means digging into the model's decisions, e.g., “when inflecting for nominative case, neuron 23 learned to track whether the lemma ends in a vowel which determines whether it takes the consonant-initial nominative suffix of the vowel-initial nominative suffix, as seen from the following tests.” A system is interpretable if we can understand how it makes generalizations with what kind of data points, what kind of features or representations it uses or identifies, why it produced its results as opposed to others, and so on. The evaluations will be made by a panel of judges.
 
 ## Overview paper
 
