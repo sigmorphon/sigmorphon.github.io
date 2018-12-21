@@ -32,7 +32,7 @@ Your system must produce the following.
 6	.      .	_	_	PUNCT       _	_	_	_
 ```
 
-It is not required that your system reproduce comment lines (those that begin with a hash-mark (‘`#`’)). Conversely, you may produce as many comment lines as you would like! This will not affect the evaluation. Nevertheless, each sentence **must** be separated by **one or more blank lines**. Blank lines **must not** exist **within** sentences.
+It is not required that your system reproduce comment lines (those that begin with a hash-mark (‘`#`’)). Conversely, you may produce as many comment lines as you would like! This will not affect the evaluation. Nevertheless, each sentence **must be followed by exactly one blank line**, in accordance with the CoNLL-U standard. This includes the last sentence. Blank lines **must not** exist **within** sentences.
 
 ## Data
 The data is owes its provenance to the 
