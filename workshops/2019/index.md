@@ -7,7 +7,7 @@ breadcrumb: 2019
 <p><i>
 co-located with ACL 2019<br>
 Florence, Italy<br>
-<!--August 1 or 2, 2019-->
+<!--August 2, 2019-->
 </i></p>
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
@@ -52,7 +52,7 @@ and become exposed to each others’ ideas and research.
 
 29 May, 2019: Camera-ready deadline
 
-1 or 2 August, 2019: Workshop
+2 August, 2019: Workshop
 
 ## Paper submission
 

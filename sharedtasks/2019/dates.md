@@ -14,4 +14,4 @@ title: "Dates"
 - May 10—submission of system description paper
 - May 15—description paper reviews completed
 - May 29—camera-ready copies due
-- Aug 1/2—workshop, co-located with [ACL 2019](http://www.acl2019.org/EN/index.xhtml)
+- Aug 2—workshop, co-located with [ACL 2019](http://www.acl2019.org/EN/index.xhtml)
