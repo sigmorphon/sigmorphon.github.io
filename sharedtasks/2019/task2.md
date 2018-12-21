@@ -60,4 +60,4 @@ We will score each system based on two measures for each of the two subtasks
 We will distribute our evaluation script so you can test your systems. If you find errors in the script, contact us at [sigmorphon+sharedtask2019@gmail.com](mailto:sigmorphon+sharedtask2019@gmail.com). 
 
 ## Pretrained Systems
-Lemmatization models using Lemming ([Müller et al., 2015](http://aclweb.org/anthology/D15-1272)) are available [here](https://drive.google.com/drive/u/0/folders/1kpfqzy3ob9WL-l4CzUwdYuUoMcH9uTMy). Analysis pretrained models are to-come. The code will be available [here](https://github.com/sigmorphon/contextual-analysis-baseline), and scores will be given in the README.
+Non-neural models using [Lemming](http://cistern.cis.lmu.de/lemming/) are available [here](https://drive.google.com/drive/u/0/folders/1kpfqzy3ob9WL-l4CzUwdYuUoMcH9uTMy). Neural pretrained models are to-come. The code will be available [here](https://github.com/sigmorphon/contextual-analysis-baseline), and scores will be given in the README.
