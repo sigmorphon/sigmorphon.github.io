@@ -90,8 +90,8 @@ notification (or withdrawal).
 
 ## Organizers
 
-- Ryan Cotterell, Cambridge University
 - Garrett Nicolai, Johns Hopkins University
+- Ryan Cotterell, University of Cambridge
 
 Email address: <sigmorphon@gmail.com>
 
