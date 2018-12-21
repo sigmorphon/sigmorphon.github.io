@@ -31,6 +31,7 @@ This is why English speakers can usually predict the singular form from the plur
 Given a novel noun `wug`, an English speaker knows that the plural is `wugs`. 
 
 The shared task consists of three tasks.
+
 **Task 1** requires participants to exploit **cross-lingual transfer for inflection in low-resource languages**.
 The task is the following: given a lemma and a bundle of morphological features, generate a target inflected form. In English, an example of inflection is the  conversion of a lemma `run` to its present participle, `running`.
 We will provide many data in a high-resource language and few data in the low-resource language. The goal, then, will be to perform morphological inflection in the low-resource language, having hopefully exploited some similarity to the high-resource language.
@@ -57,12 +58,11 @@ gradient descent.” It means digging into the model's decisions, e.g., “when 
 
 ## Submission of Results
 
-We will release the test data on [April 20](dates). It will be in the same format as the training and dev data. Please run your system for each language and each task for which you wish to submit an entry into the competition. In task 1, you must output only the requested inflected form on each line.
-For task 2, the output format should be a text file identical to the train and dev files for the given task. You will be filling null fields in Task 2. To see an example of the submission format, see the links on each task page, where we have run the baseline system and dumped the output. You will have until April 30 to submit your answers.
+We will release the test data on [April 20](dates). It will be in the same format as the training and dev data. Please run your system for each language and each task for which you wish to submit an entry into the competition. The output format should be a text file identical to the train and dev files for the given task. You will be adding the FORM column for Task 1, or filling null fields in Task 2. To see an example of the submission format, see the links on each task page, where we have run the baseline system and dumped the output. You will have until April 30 to submit your answers.
 
-Email the resulting text files (as an archive) to [sigmorpon+sharedtask2019@gmail.com](mailto:sigmorphon+sharedtask2019@gmail.com) with the subject in the format: INSTITUTION–XX-Y, where you should replace institution with the name of your institution and XX with an integral index (in case of multiple systems from the same institution). In the case of multiple institutions, please place a hyphen between each name. If there are any additional details you would like us to know about your system or resources you used, please write a short description in the body of the email. Finally, Y should specify which task the email pertains to. As example, we consider the submission title JOHNSHOPKINS-01-2, which would the submission to the contextual lemmatization+analysis task from Johns Hopkins University, team 01.
+Email the resulting text files (as an archive) to [sigmorpon+sharedtask2019@gmail.com](mailto:sigmorphon+sharedtask2019@gmail.com) with the subject in the format: `INSTITUTION–XX-Y`, where you should replace institution with the name of your institution and `XX` with an integral index (in case of multiple systems from the same institution). In the case of multiple institutions, please place a hyphen between each name. If there are any additional details you would like us to know about your system or resources you used, please write a short description in the body of the email. Finally, `Y` should specify which task the email pertains to. As example, we consider the submission title `JOHNSHOPKINS-01-2`, which would the submission to the contextual lemmatization+analysis task from Johns Hopkins University, team `01`.
 
-Your output file should append ".output" to the name of the test file—e.g. `west-frisian-test.output` for Task 1 and `da_ddt-um-test.conllu.output` for Task 2. Please archive the entire directory structure (either the task1 folder or task2 folder). Each group may submit as many systems as they like (just change the XX value), but please send one email per unique setting of the variables in INSTITUTION–XX–Y.
+Your output file should append ".output" to the name of the test file—e.g. `west-frisian-test.output` for Task 1 and `da_ddt-um-test.conllu.output` for Task 2. Please place all output files in one folder, name it `INSTITUTION–XX-Y`, and compress it. Each group may submit as many systems as they like (just change the XX value), but please send one email per unique setting of the variables in INSTITUTION–XX–Y.
 
 ## Overview paper
 
