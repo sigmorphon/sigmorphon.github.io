@@ -17,6 +17,7 @@ For instance, when given this entry:
 4	sell   _	_	_	_	_	_	_	_
 5	books  _	_	_	_	_	_	_	_
 6	.      _	_	_	_	_	_	_	_
+
 ```
 
 Your system must produce the following.
@@ -30,6 +31,7 @@ Your system must produce the following.
 4	sell   sell	_	_	V;PL;3;PRS  _	_	_	_
 5	books  book	_	_	N;PL        _	_	_	_
 6	.      .	_	_	PUNCT       _	_	_	_
+
 ```
 
 It is not required that your system reproduce comment lines (those that begin with a hash-mark (‘`#`’)). Conversely, you may produce as many comment lines as you would like! This will not affect the evaluation. Nevertheless, each sentence **must be followed by exactly one blank line**, in accordance with the CoNLL-U standard. This includes the last sentence. Blank lines **must not** exist **within** sentences.
@@ -60,4 +62,4 @@ We will score each system based on two measures for each of the two subtasks
 We will distribute our evaluation script so you can test your systems. If you find errors in the script, contact us at [sigmorphon+sharedtask2019@gmail.com](mailto:sigmorphon+sharedtask2019@gmail.com). 
 
 ## Pretrained Systems
-Non-neural models using [Lemming](http://cistern.cis.lmu.de/lemming/) are available [here](https://drive.google.com/drive/u/0/folders/1kpfqzy3ob9WL-l4CzUwdYuUoMcH9uTMy). Pretrained models for a strong, neural baseline are to-come. The code will be available [here](https://github.com/sigmorphon/contextual-analysis-baseline), and scores will be given in the README.
+Non-neural models using [Lemming](http://cistern.cis.lmu.de/lemming/) are available [here](https://github.com/sigmorphon/contextual-analysis-baseline). Pretrained models for a strong, neural baseline are to-come. The code will be available [here](https://github.com/sigmorphon/contextual-analysis-baseline), and scores will be given in the README.
