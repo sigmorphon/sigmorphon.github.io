@@ -5,13 +5,13 @@ breadcrumb: 2019
 ---
 
 
-<h2> President </h2> (Elected)
+<h2> President </h2>
 <h3> Jason Eisner </h3> 
 
 Jason Eisner is Professor of Computer Science at Johns Hopkins University. He is a Fellow of the Association for Computational Linguistics (and an action editor of its TACL journal). At Johns Hopkins, he is also affiliated with the Center for Language and Speech Processing, the Machine Learning Group, the Cognitive Science Department, and the national Center of Excellence in Human Language Technology. His goal is to develop the probabilistic modeling, inference, and learning techniques needed for a unified model of all kinds of linguistic structure. His 125+ papers have presented various algorithms for parsing, machine translation, and weighted finite-state machines; formalizations, algorithms, theorems, and empirical results in computational phonology; and unsupervised or semi-supervised learning methods for syntax, morphology, and word-sense disambiguation. He is also the lead designer of Dyna, a new declarative programming language that provides an infrastructure for AI research. He has received two school-wide awards for excellence in teaching.
 
 
-<h2> Secretary </h2> (Elected)
+<h2> Secretary </h2>
 <h3> Garrett Nicolai </h3>
 
 Garrett Nicolai is a post-doctoral fellow at Johns Hopkins University.  He obtained his PhD in Computing Science from the University of Alberta in 2017.  His dissertation concerned the development of methods to transition between stems, lemmata and inflected forms, and he continues to be interested in inflectional phenomena.  Recently, his work has concentrated on sub-word level transduction in low-resource settings, and information discovery with minimal and distant supervision.  He has been the secretary of SIGMORPHON since 2017, was co-chair of the 2018 SIGMORPHON workshop, and is co-chairing the 2019 workshop.
