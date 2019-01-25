@@ -119,7 +119,7 @@ Ryan is a lecturer of computer science at the University of Cambridge. He specia
 I propose to push for two things if reelected. 
 
 <ol> 
-  <li> Given the growing interest in character-level NLP, we should host a workshop every year. Papers that we could be publishing are taken away by SCLeM and other lesser workshops :P We have a long tradition of high-quality papers that do sub-word work before it was cool, to quote Sharon Goldwater. </li>
+  <li> Given the growing interest in character-level NLP, we should host a workshop every year. Papers that we could be publishing are taken away by SCLeM and other [] workshops. We have a long tradition of high-quality papers that do sub-word work "before it was cool", to quote Sharon Goldwater. </li>
   <li> We should organize a shared task every year to push for more open-source phonology and morphology datasets. I am happy to take the lead in organizing these, if I remain on the committee. </li>
   
 </ol>
