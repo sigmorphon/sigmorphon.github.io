@@ -20,14 +20,14 @@ Each candidate was asked to provide a short bio, as well as a statement describi
 
 ##### At-large
 
-- [Amir Zeldes](amir-zeldes)
-- [Elliot Moreton](elliot-moreton)
-- [Gaja Jarosz](gaja-jarosz)
-- [Géraldine Walther](geraldine-walther)
-- [Kyle Gorman](kyle-gorman)
-- [Mans Hulden](mans-hulden)
-- [Ryan Cotterell](ryan-cotterell)
-- [Sandra Kübler](sandra-kubler)
+- [Amir Zeldes](#amir-zeldes)
+- [Elliot Moreton](#elliot-moreton)
+- [Gaja Jarosz](#gaja-jarosz)
+- [Géraldine Walther](#geraldine-walther)
+- [Kyle Gorman](#kyle-gorman)
+- [Mans Hulden](#mans-hulden)
+- [Ryan Cotterell](#ryan-cotterell)
+- [Sandra Kübler](#sandra-kubler)
 
 
 <h2> President </h2>
