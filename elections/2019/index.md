@@ -5,6 +5,31 @@ breadcrumb: 2019
 ---
 
 
+The [SIGMORPHON constitution]({{ "/constitution" | absolute_url }}) requires that the members of the executive board be elected by the SIGMORPHON community every 2 years.
+Each candidate was asked to provide a short bio, as well as a statement describing why their election would benefit SIGMORPHON in the upcoming two years. These statements are provided below.
+
+## Candidates
+
+##### President
+
+- [Jason Eisner](#jason-eisner)
+
+##### Secretary
+
+- [Garrett Nicolai](#garrett-nicolai)
+
+##### At-large
+
+- [Amir Zeldes](amir-zeldes)
+- [Elliot Moreton](elliot-moreton)
+- [Gaja Jarosz](gaja-jarosz)
+- [Géraldine Walther](geraldine-walther)
+- [Kyle Gorman](kyle-gorman)
+- [Mans Hulden](mans-hulden)
+- [Ryan Cotterell](ryan-cotterell)
+- [Sandra Kübler](sandra-kubler)
+
+
 <h2> President </h2>
 <h3> Jason Eisner </h3> 
 
@@ -51,10 +76,10 @@ yet a fixture in theoretical phonology, but SIGMORPHON could make them so.
 
 <h3> Gaja Jarosz </h3>
 
-Gaja Jarosz is a computational and theoretical phonologist whose research falls at the intersection of phonological theory, statistical machine learning, and first language acquisition. A primary focus of her research is developing formal models of phonological learning grounded in probability and statistical learning theory and applying them to study the cognitive representations and biases underlying first language acquisition of phonology. One major thread of her work focuses on applying and adapting statistical NLP methods to model learning of the hidden representations (e.g. prosodic structure, word/morpheme boundaries, rules/constraints, underlying representations, exceptionality) posited in modern phonological theory from data that is as representative of children's linguistic exposure as possible. A complementary thread in her work is using these and other computational models to examine learning biases in first language acquisition (experimentally and through analysis of corpora).  Dr. Jarosz received her PhD in Cognitive Science from the Johns Hopkins University in 2006. She was assistant (and later associate) professor of Linguistics at Yale University (2007-2015). Since 2015, Dr. Jarosz has been an associate professor in the Department of Linguistics at the University of Massachusetts Amherst. In 2007, she co-founded the regional computational phonology conference NECPhon (https://blogs.umass.edu/comphon/meetings/necphon/), now in its twelfth year, and in 2017 Jarosz co-founded the Society for Computation in Linguistics (http://blogs.umass.edu/scil/).
+Gaja Jarosz is a computational and theoretical phonologist whose research falls at the intersection of phonological theory, statistical machine learning, and first language acquisition. A primary focus of her research is developing formal models of phonological learning grounded in probability and statistical learning theory and applying them to study the cognitive representations and biases underlying first language acquisition of phonology. One major thread of her work focuses on applying and adapting statistical NLP methods to model learning of the hidden representations (e.g. prosodic structure, word/morpheme boundaries, rules/constraints, underlying representations, exceptionality) posited in modern phonological theory from data that is as representative of children's linguistic exposure as possible. A complementary thread in her work is using these and other computational models to examine learning biases in first language acquisition (experimentally and through analysis of corpora).  Dr. Jarosz received her PhD in Cognitive Science from the Johns Hopkins University in 2006. She was assistant (and later associate) professor of Linguistics at Yale University (2007-2015). Since 2015, Dr. Jarosz has been an associate professor in the Department of Linguistics at the University of Massachusetts Amherst. In 2007, she co-founded the regional computational phonology conference [NECPhon](https://blogs.umass.edu/comphon/meetings/necphon/), now in its twelfth year, and in 2017 Jarosz co-founded the [Society for Computation in Linguistics](http://blogs.umass.edu/scil/).
 
 <h4> Statement: </h4>
-Integration of statistical NLP, linguistic theory, and psycholinguistics is central to my research program, and I have been working to build connections across these disciplines locally, at my home institutions (both Yale and UMass), through integrative courses and interdisciplinary research groups and student mentoring for many years. More recently, I co-founded and co-organized the first two annual meetings of the Society for Computation in Linguistics (http://blogs.umass.edu/scil/), whose central aim is to build a bridge from linguistics to NLP/ML. SCiL is co-located with the LSA, hosts invited speakers and panelists from the ACL community, and publishes paper-reviewed proceedings with the ACL Anthology. It has been very successful in attracting submissions and participants from both communities, and we expect it to continue growing next year. As a member of the SIGMORPHON executive committee, I would likewise support efforts to increase scientific exchange between the SIGMORPHON and linguistics communities.
+Integration of statistical NLP, linguistic theory, and psycholinguistics is central to my research program, and I have been working to build connections across these disciplines locally, at my home institutions (both Yale and UMass), through integrative courses and interdisciplinary research groups and student mentoring for many years. More recently, I co-founded and co-organized the first two annual meetings of the [Society for Computation in Linguistics](http://blogs.umass.edu/scil/), whose central aim is to build a bridge from linguistics to NLP/ML. SCiL is co-located with the LSA, hosts invited speakers and panelists from the ACL community, and publishes paper-reviewed proceedings with the ACL Anthology. It has been very successful in attracting submissions and participants from both communities, and we expect it to continue growing next year. As a member of the SIGMORPHON executive committee, I would likewise support efforts to increase scientific exchange between the SIGMORPHON and linguistics communities.
 
 
 <h3>Géraldine Walther</h3>
