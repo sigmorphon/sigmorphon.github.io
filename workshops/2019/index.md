@@ -95,6 +95,41 @@ notification (or withdrawal).
 
 Email address: <sigmorphon@gmail.com>
 
+## Program Committee
+
+- Noor Abo Mokh, Indiana University
+- Jane Chandlee, Haverford College
+- Çağrı Çöltekin, University of Tübingen
+- Daniel Dakota, Indiana University
+- Ewan Dunbar, Université Paris Diderot
+- Jason Eisner, Johns Hopkins University
+- Micha Elsner, The Ohio State University
+- Kyle Gorman, CUNY / Google AI
+- Nizar Habash, NYU Abu Dhabi
+- Mans Hulden, University of Colorado
+- Adam Jardine, Rutgers University
+- Gaja Jarosz, University of Massachusetts Amherst
+- Christo Kirov, Google AI
+- Greg Kobele, Universität Leipzig
+- Greg Kondrak, University of Alberta
+- Sandra Kübler, Indiana University
+- Andrew Lamont, University of Massachusetts Amherst
+- Karen Livescu, TTI Chicago
+- Arya McCarthy, Johns Hopkins University
+- Kevin McMullin, University of Ottawa
+- Kemal Oflazer, CMU Qatar
+- Jeff Parker, Brigham Young University
+- Gerald Penn, University of Toronto
+- Jelena Prokic, Ludwig-Maximilians-University Munich
+- Mohamad Salameh, Diffbot
+- Miikka Silfverberg, University of Colorado
+- Kairit Sirts, University of Tartu
+- Kenneth Steimel, Indiana University
+- Francis Tyers, Indiana University
+- Anssi Yli-Jyrä, University of Helsinki
+- Kristine Yu, University of Massachusetts Amherst
+
+
 ## Shared Task
 
 This year, SIGMORPHON is hosting the 4th SIGMORPHON Shared Task, this year with a focus in cross-lingual training and contextual lemmatization and analysis.

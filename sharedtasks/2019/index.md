@@ -85,7 +85,7 @@ Error reports (e.g. flaws in the data annotation or the evaluation script) are a
 
 ## Venue
 
-August 2; at the [16th SIGMORPHON Workshop](https://sigmorphon.github.io/workshops/2019/) in Florence, Italy (co-located with [ACL 2019](http://www.acl2019.org/EN/index.xhtml).
+August 2; at the [16th SIGMORPHON Workshop](https://sigmorphon.github.io/workshops/2019/) in Florence, Italy (co-located with [ACL 2019](http://www.acl2019.org/EN/index.xhtml)).
 
 ## References
 
