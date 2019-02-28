@@ -8,8 +8,6 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 
 **Shared tasks:** SIGMORPHON is organizing the [SIGMORPHON 2019 shared task](sharedtasks/2019) on learning morphological inflection. It will be presented during ACL 2019. We also organized [three previous shared tasks]({{ "/sharedtasks" | absolute_url }}). Thanks to all those who participated!
 
-<span style="color: red;">**Elections:**</span> The [2019 SIGMORPHON election statements]({{ "/elections/2019" | absolute_url }}) are available now. Please review the candidate statements in preparation for the vote.
-
 ---
 
 ## Useful links
@@ -34,7 +32,7 @@ SIGMORPHON has the following office bearers:
 
 **At Large:**
 
+* [Kyle Gorman](http://wellformedness.com)
+* [Gaja Jarosz](https://blogs.umass.edu/jarosz/)
 * [Ryan Cotterell](https://ryancotterell.github.io)
-* [Emmanuel Dupoux](http://www.lscp.net/persons/dupoux/) 
-* [Mans Hulden](http://verbs.colorado.edu/~mahu0110/) 
 * [Sandra Kübler](http://cl.indiana.edu/~skuebler/)
