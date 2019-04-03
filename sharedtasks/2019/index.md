@@ -8,7 +8,7 @@ breadcrumb: 2019
 - [Task 2](task2): Morphological analysis and lemmatization in context
 - [Task 3](task3): Open challenge
 - [Data and Baselines ↪](https://github.com/sigmorphon/2019) 
-- [Registration ↪](https://goo.gl/forms/bZrftpa5l6RpAkAG2)—REGISTER!
+- [Registration ↪](https://goo.gl/forms/bZrftpa5l6RpAkAG2)—<del>REGISTER!</del> Registration is closed. Contact the organizers if you need to enroll.
 - [Google Group](https://groups.google.com/forum/#!forum/sigmorphon-2019)—JOIN!
 - [Organizers](organizers)
 - [Dates](dates)
