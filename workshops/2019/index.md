@@ -44,7 +44,7 @@ and for computational linguists may be of interest to theoretical linguists work
 This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
-## Important Dates (tentative)
+## Important Dates
 
 <del>15 April</del> 22 April, 2019: Paper submission deadline
 
