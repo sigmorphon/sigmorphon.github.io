@@ -46,7 +46,7 @@ and become exposed to each others’ ideas and research.
 
 ## Important Dates (tentative)
 
-15 April, 2019: Paper submission deadline
+<del>15 April</del> 22 April, 2019: Paper submission deadline
 
 15 May, 2019: Notification of Acceptance
 

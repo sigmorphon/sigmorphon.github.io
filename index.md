@@ -15,7 +15,7 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 - [Constitution](constitution/)
 - [Mailing list signup ↪](http://mailman.clsp.jhu.edu/mailman/listinfo/sigmorphon)
 - [@sigmorphon on Twitter](https://twitter.com/sigmorphon)
-- [SIGMORPHON proceedings ↪](http://aclweb.org/anthology/sigmorphon.html)
+- [SIGMORPHON proceedings ↪](https://aclweb.org/anthology/sigs/sigmorphon/)
 - [Association for Computational Linguistics ↪](https://www.aclweb.org/portal/)
 
 ---
@@ -24,7 +24,7 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 
 SIGMORPHON has the following office bearers:
 
-**President:**  [Jason Eisner](http://www.cs.jhu.edu/~jason/)
+**President:**  [Jason Eisner](https://www.cs.jhu.edu/~jason/)
 
 **Secretary:** [Garrett Nicolai](https://webdocs.cs.ualberta.ca/~nicolai/)
 
@@ -32,7 +32,7 @@ SIGMORPHON has the following office bearers:
 
 **At Large:**
 
-* [Kyle Gorman](http://wellformedness.com)
+* [Kyle Gorman](https://wellformedness.com)
 * [Gaja Jarosz](https://blogs.umass.edu/jarosz/)
 * [Ryan Cotterell](https://ryancotterell.github.io)
 * [Sandra Kübler](http://cl.indiana.edu/~skuebler/)
