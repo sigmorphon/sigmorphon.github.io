@@ -69,7 +69,7 @@ important problems (new or old).
 
 The only accepted format for submitted papers is Adobe PDF. Submissions should be anonymous,
 without authors or an acknowledgement section; self-citations should appear in third person.
-Submissions should follow the two-column format of EMNLP proceedings,
+Submissions should follow the two-column format of ACL proceedings,
 and long papers should not exceed eight (8) pages, short papers should not exceed four (4) pages.
 Unlimited additional pages are allowed for the references section in both cases.
 However, all material other than the bibliography must fall within the first 8/4 pages!
