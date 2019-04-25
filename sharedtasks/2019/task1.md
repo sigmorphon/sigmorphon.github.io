@@ -56,12 +56,13 @@ Data are available [here](https://github.com/sigmorphon/2019).
 
 ## Evaluation
 Systems should predict a single character sequence for each test example.
-Evaluation script. We will distribute an evaluation script for your use on the development data. The script will report:
+
+**Evaluation script.** We will distribute an evaluation script for your use on the development data. The script will report:
 
 - Accuracy = fraction of correctly predicted forms
 - Average [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) between the prediction and the truth across all predictions
 
-The official evaluation script that we will use for our internal evaluation will be provided [here](https://www.example.com). We encourage ablation studies to measure the advantage gained from particular innovations. You should perform these studies on the development data and report the findings in your system description paper.
+The official evaluation script that we will use for our internal evaluation is provided [here](https://github.com/sigmorphon/2019/tree/master/evaluation). We encourage ablation studies to measure the advantage gained from particular innovations. You should perform these studies on the development data and report the findings in your system description paper.
 
 **Ambiguous lemmata.** We will use the same script to evaluate your system’s output on the test data. If multiple correct answers are possible, we will accept any string from the correct set. For example, the two senses of English lemma `hang` have different `Past` forms, `hung` and `hanged`.
 
