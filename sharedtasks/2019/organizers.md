@@ -19,3 +19,4 @@ title: "Organizers"
 - Jeffrey Heinz (Stony Brook University)
 - Ryan Cotterell (University of Cambridge)
 - Mans Hulden (University of Colorado)
+- Sebastian J. Mielke (Johns Hopkins University)
