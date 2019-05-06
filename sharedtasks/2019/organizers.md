@@ -12,6 +12,7 @@ title: "Organizers"
 - Garrett Nicolai (Johns Hopkins University)
 - Christo Kirov (Google AI)
 - Miikka Silfverberg (University of Helsinki)
+- Sebastian J. Mielke (Johns Hopkins University)
 - Svetlana Toldova (National Research University Higher School of Economics)
 - Olga Lyashevskaya (National Research University Higher School of Economics)
 - Karina Mishchenkova
