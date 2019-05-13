@@ -44,6 +44,15 @@ and for computational linguists may be of interest to theoretical linguists work
 This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
+## Invited Speakers
+
+- Janet Pierrehumbert (Oxford)
+- Sharon Goldwater (Edinburgh)
+- Adina Williams (Facebook AI Research)
+- Géraldine Walther (Zurich)
+
+Titles and abstracts TBD.
+
 ## Important Dates
 
 <del>15 April</del> 22 April, 2019: Paper submission deadline
