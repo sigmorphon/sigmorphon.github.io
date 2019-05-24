@@ -59,7 +59,7 @@ Titles and abstracts TBD.
 
 15 May, 2019: Notification of Acceptance
 
-29 May, 2019: Camera-ready deadline
+<del>29 May</del> 3 June, 2019: Camera-ready deadline
 
 2 August, 2019: Workshop
 
@@ -102,7 +102,7 @@ notification (or withdrawal).
 - Garrett Nicolai, Johns Hopkins University
 - Ryan Cotterell, University of Cambridge
 
-Email address: <sigmorphon@gmail.com>
+Email address: <sigmorphon+workshop2019@gmail.com>
 
 ## Program Committee
 
