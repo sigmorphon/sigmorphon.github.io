@@ -11,6 +11,7 @@ Florence, Italy<br>
 </i></p>
 
 - [Accepted papers](accepted)
+- [Invited speakers](invited)
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
 to problems in morphology, phonology, and phonetics. Work that addresses orthographic issues is also welcome.
@@ -46,12 +47,6 @@ and for computational linguists may be of interest to theoretical linguists work
 This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
-## Invited Speakers
-
-- Janet Pierrehumbert (Oxford)
-- Sharon Goldwater (Edinburgh)
-- Adina Williams (Facebook AI Research)
-- Géraldine Walther (Zurich)
 
 Titles and abstracts TBD.
 
