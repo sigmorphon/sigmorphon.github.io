@@ -3,7 +3,7 @@ layout: page
 title: "Invited Speakers"
 ---
 
-(Displayed in a random order)
+(Displayed in a random order every time)
 
 - [**Sharon Goldwater (Edinburgh)**][goldwater]  
   Sharon Goldwater is a Reader (similar to a US Associate Professor) in the Institute for Language, Cognition and Computation at the University of Edinburgh's School of Informatics. She received her PhD in 2007 from Brown University, supervised by Mark Johnson, and spent two years as a postdoctoral researcher at Stanford University before moving to Edinburgh. Her research interests include unsupervised learning for natural language processing, computer modelling of language acquisition in children, and computational studies of language use. Dr. Goldwater holds a Scholar Award from the James S McDonnell Foundation for her work on "Understanding synergies in language acquisition through computational modelling" and is the 2016 recipient of the Roger Needham Award from the British Computer Society for "distinguished research contribution in computer science by a UK-based researcher who has completed up to 10 years of post-doctoral research." Dr. Goldwater has sat on the editorial boards of several journals, including *Computational Linguistics*, *Transactions of the Association for Computational Linguistics*, and *OPEN MIND: Advances in Cognitive Science* (a new open-access journal). She co-chaired the 2014 Conference of the European Chapter of the Association for Computational Linguistics (EACL) and is now chair-elect of the EACL governing board.
