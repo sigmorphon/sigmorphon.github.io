@@ -14,6 +14,8 @@ title: "Invited Speakers"
   "As a highly interdisciplinary researcher, I specialize in semantics, syntax, and their interface, with neurolinguistics, computational linguistics, and formal linguistic theory as my main methodologies. Theoretical linguistic insights form the basis for my investigations into grammatical representations in the mind and computer. I defended my PhD in Linguistics at New York University in Apr. 2018, and it conferred in September 2018; it is Representing Relationality: MEG Studies of Argument Structure, and includes 3 experimental chapters (MEG), and a chapter on classifying words as transitive-intransitive using only their orthographic forms."
 - [**Janet Pierrehumbert (Oxford)**][pierrehumbert]  
   I received my B.A in Linguistics from Harvard in 1975, and my Ph.D from MIT in 1980. Much of my Ph.D research on English prosody and intonation was carried out in the Linguistics and AI Research Department of AT&T Bell Laboratories, where I served as a Member of Technical Staff through 1989. I then joined the Linguistics faculty at Northwestern University. I was promoted to Professor in 1996 and also served terms as department chair and director of graduate studies. I moved to Oxford in May, 2015 as Professor of Language Modelling in the Oxford e-Research Centre. I am one of the founding members of the Association for Laboratory Phonology, an interdisciplinary research organisation that promotes the scientific study of all aspects of language sound structure. I am a Fellow of the American Academy of Arts and Sciences, the Linguistic Society of America, and the Cognitive Science Society.
+  
+- [**Benoît Sagot**][sagot]  
 
 <script type="text/javascript">
 var ul = document.querySelector('ul');

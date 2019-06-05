@@ -11,7 +11,7 @@ title: "Dates"
 - <span style="color: #999">Apr 20–29—test inputs released; testing phase</span>
 - <span style="color: #999">Apr 30—deadline to submit results
 - <span style="color: #999">May 2—results announced</span>
-- <del>May 10</del>May 29—submission of system description paper
-- <del>May 15</del>Jun 3—description paper reviews completed
-- <del>May 29</del>Jun 10—camera-ready copies due
+- <span style="color: #999"><del>May 10</del> May 29—submission of system description paper</span>
+- <span style="color: #999"><del>May 15</del> <del>Jun 3</del> Jun 4—description paper reviews completed</span>
+- <del>May 29</del> <del>Jun 10</del> Jun 9—camera-ready copies due
 - Aug 2—workshop, co-located with [ACL 2019](http://www.acl2019.org/EN/index.xhtml)
