@@ -11,7 +11,7 @@ Florence, Italy<br>
 </i></p>
 
 - [Accepted papers](accepted)
-- [Invited speakers](invited.html)
+- [Invited speakers](invited)
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
 to problems in morphology, phonology, and phonetics. Work that addresses orthographic issues is also welcome.
