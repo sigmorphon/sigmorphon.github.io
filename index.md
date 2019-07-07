@@ -28,7 +28,7 @@ SIGMORPHON has the following office bearers:
 
 **President:**  [Jason Eisner](https://www.cs.jhu.edu/~jason/)
 
-**Secretary:** [Garrett Nicolai](https://webdocs.cs.ualberta.ca/~nicolai/)
+**Secretary:** [Garrett Nicolai](https://garrettnicolai.github.io/Garrett-Nicolai/)
 
 **Webmaster:** [Arya McCarthy](https://cs.jhu.edu/~arya)
 
