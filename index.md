@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<span style="color: red;"><b>For the time being, please direct all concerns to the secretary: gnicola2 at jhu.edu</b></span>
+
 Welcome to the home page of the ACL Special Interest Group on Computational Morphology and Phonology (SIGMORPHON), formerly SIGPHON. We are a forum for exchanging news of recent research developments and other matters of interest in computational morphology and phonology.
 
 **Workshops:** SIGMORPHON also organizes [workshops]({{ "/workshops" | absolute_url }}) in computational morphology and phonology. The next meeting (outside our biennial cycle) will be the [16th SIGMORPHON Workshop]({{ "/workshops/2019" | absolute_url }}), which will take place at ACL 2019 in Florence, Italy on 2 August.
@@ -26,7 +28,7 @@ SIGMORPHON has the following office bearers:
 
 **President:**  [Jason Eisner](https://www.cs.jhu.edu/~jason/)
 
-**Secretary:** [Garrett Nicolai](https://webdocs.cs.ualberta.ca/~nicolai/)
+**Secretary:** [Garrett Nicolai](https://garrettnicolai.github.io/Garrett-Nicolai/)
 
 **Webmaster:** [Arya McCarthy](https://cs.jhu.edu/~arya)
 
