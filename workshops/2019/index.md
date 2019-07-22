@@ -10,7 +10,7 @@ Florence, Italy<br>
 <!--August 2, 2019-->
 </i></p>
 
-- [Program](shipout-book.pdf)
+- [Program]({{ site.url }}/shipout-book.pdf)
 - [Accepted papers](accepted)
 - [Invited speakers](invited)
 
