@@ -122,7 +122,7 @@ Email address: <sigmorphon+workshop2019@gmail.com>
 - Sandra Kübler, Indiana University
 - Andrew Lamont, University of Massachusetts Amherst
 - Karen Livescu, TTI Chicago
-- Arya McCarthy, Johns Hopkins University
+- Arya D. McCarthy, Johns Hopkins University
 - Kevin McMullin, University of Ottawa
 - Kemal Oflazer, CMU Qatar
 - Jeff Parker, Brigham Young University
