@@ -3,6 +3,7 @@ layout: page
 title: "Workshops"
 ---
 
+- [**2020**: Seattle](2020), co-located with ACL 2020
 - [**2019**: Florence](2019), co-located with ACL 2019
 - [**2018**: Brussels](2018), co-located with EMNLP 2018
 - [**2016**: Berlin](https://ryancotterell.github.io/sigmorphon2016/), co-located with ACL 2016

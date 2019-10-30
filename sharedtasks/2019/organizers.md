@@ -13,10 +13,10 @@ title: "Organizers"
 - Christo Kirov (Google AI)
 - Miikka Silfverberg (University of Helsinki)
 - Sebastian J. Mielke (Johns Hopkins University)
-- Svetlana Toldova (National Research University Higher School of Economics)
-- Olga Lyashevskaya (National Research University Higher School of Economics)
-- Karina Mishchenkova
-- Elena Klyachko
 - Jeffrey Heinz (Stony Brook University)
 - Ryan Cotterell (University of Cambridge)
 - Mans Hulden (University of Colorado)
+
+## Interpretability Prize Judging Panel
+
+- Jeffrey Heinz (chair)
