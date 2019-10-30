@@ -16,6 +16,8 @@ breadcrumb: 2019
 
 ## Overview
 
+<span style='color: red;'>*The shared task has concluded! Thanks to all those who participated!*</span> All data (including the test sets) will be hosted on this site. Please read [McCarthy et al. (2019)](https://www.aclweb.org/anthology/W19-4226) for a detailed analysis of submitted systems and the results.
+
 In 2019, [SIGMORPHON](https://sigmorphon.github.io/) is hosting a shared task on **universal morphological inflection**.
 The shared task features **nearly 100 distinct languages**, whose morphology participants are asked to model.
 

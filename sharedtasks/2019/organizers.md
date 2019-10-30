@@ -17,6 +17,10 @@ title: "Organizers"
 - Ryan Cotterell (University of Cambridge)
 - Mans Hulden (University of Colorado)
 
-## Interpretability Prize Judging Panel
+## Interpretability Judges
 
-- Jeffrey Heinz (chair)
+- Jeffrey Heinz
+- Borja Balle Pigem
+- Matthias Gallé
+- Francois Coste
+- Leonor Becerra
