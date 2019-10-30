@@ -49,7 +49,7 @@ This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
 
-Titles and abstracts TBD.
+Titles and abstracts available [here](accepted).
 
 ## Important Dates
 
