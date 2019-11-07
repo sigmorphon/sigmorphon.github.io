@@ -37,6 +37,6 @@ SIGMORPHON has the following office bearers:
 
 **Webmaster:** [Arya McCarthy](https://cs.jhu.edu/~arya)
 
-**Contact**
+## Contact
 
 sigmorphon ат gmail dот com
