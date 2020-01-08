@@ -6,6 +6,7 @@ breadcrumb: 2020
 
 <p><i>
 co-located with ACL 2020<br>
+July 9 or 10 (TBD), 2020<br>
 Seattle, USA<br>
 </i></p>
 
@@ -44,11 +45,9 @@ This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
 
-Titles and abstracts TBD.
-
 ## Paper submission
 
-TBA.
+<https://www.softconf.com/acl2020/SIGMORPHON/>
 
 ### Content
 
@@ -80,16 +79,27 @@ Most importantly, the policies refer to the anonymity period, which begins
 one month before the 2020 submission deadline and ends at time of
 notification (or withdrawal).
 
+## Invited Talks
+
+SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
+
+- Jane Chandlee, Haverford College
+- Bruce Hayes, UCLA
+- Rob Malouf, San Diego State University
+
 ## Organizers
 
-- Garrett Nicolai, Johns Hopkins University
+- Garrett Nicolai, University of British Columbia
 - Kyle Gorman, City University New York
+- Ryan Cotterell, University of Cambridge
 
 Email address: <sigmorphon+workshop2020@gmail.com>
 
 
 ## Shared Task
 
-This year, SIGMORPHON is hosting the 5th SIGMORPHON Shared Task, branching into new areas: phonology and unsupervised morphology.
+This year, SIGMORPHON is hosting a pair of shared tasks:  
+one on grapheme-to-phoneme conversion, and a second on the unsupervised induction of 
+inflectional paradigms.
 
 For more information, please visit <https://sigmorphon.github.io/sharedtasks/2020/>
