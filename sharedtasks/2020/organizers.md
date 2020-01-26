@@ -5,3 +5,7 @@ title: "Organizers"
 ---
 
 TBA.
+
+- Chair: Arya D. McCarthy
+- Task 1 chair: Kyle Gorman
+- Task 2 chair: Katharina Kann
