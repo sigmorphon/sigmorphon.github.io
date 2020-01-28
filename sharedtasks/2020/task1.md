@@ -37,6 +37,14 @@ you can use the UNIX command-line tool `paste` to combine the columns.
 The data used in this task is primarily extracted from
 [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
 
+### Data conditions
+
+There will be two data quantities for each language, a high-resource and a
+low-resource setting. The low-resource setting will be restricted to 1000
+training examples.
+Please report test outputs for systems trained on 
+each setting.
+
 ### External data
 
 Participants are permitted to use the following types of external data:
