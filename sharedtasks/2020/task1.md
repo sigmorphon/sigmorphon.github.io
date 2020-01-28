@@ -19,7 +19,10 @@ The training and development data will be provided as UTF-8-encoded
 files. Each example occupies a single line and consists of a grapheme sequence,
 a tab character, and the corresponding phone sequence. The phone sequences have
 been automatically tokenzed using the [`segments`
-library](https://github.com/cldf/segments). The following shows three lines from
+library](https://github.com/cldf/segments). These are followed by another tab
+character, then a count derived from [Wortschatz](https://wortschatz.uni-leipzig.de),
+which you may choose to use as an additional feature in your system.
+The following shows three lines from
 the Romanian data set:
 
     antonim	a n t o n i m	808
