@@ -1,4 +1,8 @@
-# SIGMORPHON 2020 Shared Task 0: Low-Resource Morphological Inflection 
+---
+layout: page
+longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Low-Resource Morphological Inflection"
+title: "Task 0: Low-Resource Morphological Inflection"
+---
 
 SIGMORPHON’s fifth installment of its inflection generation shared task focuses on the low-resource case. In this edition, we are specifically interested in inflection generation systems’ ability to generalize to new languages, including languages that are typologically distinct. For example, if you have a neural network architecture that works well for a sample of Indo-European languages, should you expect the same architecture to also work well for Tupi–Guarani languages (where nouns are “declined” for tense)? The organizers suspect not, but you could prove us wrong!
 
