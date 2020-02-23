@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme and Unsupervised Induction of Morphology"
+title: "SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Low-Resource Morphological Inflection"
 breadcrumb: 2020
 ---
 
