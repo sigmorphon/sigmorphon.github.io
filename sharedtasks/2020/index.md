@@ -10,5 +10,3 @@ breadcrumb: 2020
 - [Task 1](task1): Multilingual grapheme-to-phoneme
 - [Task 2](task2): Unsupervised induction of morphology
 - [Data and Baselines](https://github.com/sigmorphon/2020)—coming soon! (Follow the repo?)
-- [Organizers](organizers)
-- [Dates](dates)
