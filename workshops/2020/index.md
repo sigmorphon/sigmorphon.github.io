@@ -6,7 +6,7 @@ breadcrumb: 2020
 
 <p><i>
 co-located with ACL 2020<br>
-July 9 or 10 (TBD), 2020<br>
+July 10, 2020<br>
 Seattle, USA<br>
 </i></p>
 
@@ -86,6 +86,7 @@ SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
 - Jane Chandlee, Haverford College
 - Bruce Hayes, UCLA
 - Rob Malouf, San Diego State University
+- Clara Vania, NYU
 
 ## Organizers
 
@@ -98,8 +99,6 @@ Email address: <sigmorphon+workshop2020@gmail.com>
 
 ## Shared Task
 
-This year, SIGMORPHON is hosting a pair of shared tasks:  
-one on grapheme-to-phoneme conversion, and a second on the unsupervised induction of 
-inflectional paradigms.
+This year, SIGMORPHON is hosting a number of shared tasks:  
 
 For more information, please visit <https://sigmorphon.github.io/sharedtasks/2020/>
