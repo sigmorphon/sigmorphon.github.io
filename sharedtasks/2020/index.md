@@ -9,4 +9,3 @@ breadcrumb: 2020
 - [Task 0](task0): Low-Resource Morphological Inflection
 - [Task 1](task1): Multilingual grapheme-to-phoneme
 - [Task 2](task2): Unsupervised induction of morphology
-- [Data and Baselines](https://github.com/sigmorphon/2020)—coming soon! (Follow the repo?)
