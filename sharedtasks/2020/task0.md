@@ -1,10 +1,12 @@
 ---
 layout: page
-longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Low-Resource Morphological Inflection"
-title: "Task 0: Low-Resource Morphological Inflection"
+longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Typologically Diverse Morphological Inflection"
+title: "Task 0: Typologically Diverse Morphological Inflection"
 ---
 
-SIGMORPHON’s fifth installment of its inflection generation shared task focuses on the low-resource case. In this edition, we are specifically interested in inflection generation systems’ ability to generalize to new languages, including languages that are typologically distinct. For example, if you have a neural network architecture that works well for a sample of Indo-European languages, should you expect the same architecture to also work well for Tupi–Guarani languages (where nouns are “declined” for tense)? The organizers suspect not, but you could prove us wrong!
+# SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection 
+
+SIGMORPHON’s fifth installment of its inflection generation shared task focuses on languages that are typologically diverse from languages in our previous tasks. Many of these languages are extremely low-resource. In this edition, we are specifically interested in inflection generation systems’ ability to generalize to new languages, including languages that are typologically distinct. For example, if you have a neural network architecture that works well for a sample of Indo-European languages, should you expect the same architecture to also work well for Tupi–Guarani languages (where nouns are “declined” for tense)? The organizers suspect not, but you could prove us wrong!
 
 ## Important Links
 * Register for the shared task using our [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfaHAklgEaFGpu6PvP1Br7V5ouVB17NFh6l0oLGVui01uSXlA/viewform).
@@ -21,6 +23,7 @@ SIGMORPHON’s fifth installment of its inflection generation shared task focuse
 * [Evaluation](#evaluation)
 * [Baselines](#baselines)
 * [Submission](#submission)
+* [ICGI Shared Task](#icgi-shared-task)
 * [References](#references)
 * [Task Organization](#task-organization)
 
@@ -31,7 +34,7 @@ In this shared task, participants will design a model that learns to generate mo
 
 The model should be general enough to work for natural languages of any typological patterning.<sup>1</sup> For example, Tagalog verbs exhibit [circumfixation](https://en.wikipedia.org/wiki/Circumfix); thus, a model with a strong inductive bias towards suffixing will likely not work well for Tagalog. The task will proceed in three phases: a Development Phase, a Generalization Phase, and an Evaluation Phase. As the task progresses, more data and more languages will be released.
 
-In the Development Phase, we will provide training and development splits from the Austronesian, Niger-Congo, Oto-Manguean, Uralic and Indo-European language families that should be used to *construct* your system. We will refer to them as the *development languages*.  See the [table below](#development_langs) for a complete list.
+In the Development Phase, we will provide training and development splits from the Austronesian, Niger-Congo, Oto-Manguean, Uralic and Indo-European language families that should be used to *develop* your system. We will refer to them as the *development languages*.  See the [table below](#development_langs) for a complete list.
 
 In the Generalization Phase, we will provide training and development splits for new languages where approximately half are genetically related (belong to the same family) and half are genetically *unrelated* (are isolates or belong to a different family) to the development languages. We will keep the languages in the Generalization Phase a surprise until April 2020 (see [timeline](#timeline)). We will also keep the genetically unrelated language *families* a surprise, though some languages will come from the same families as those in the Development Phase. 
  
@@ -89,53 +92,377 @@ We will provide varying amounts of labeled training data, depending on the langu
 
 The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages are *development languages*. The development languages will come from five language families: Austronesian, Niger–Congo, Uralic, Oto-Manguean, and Indo-European. We list each of the development languages with its family and genus (subfamily) below. 
 
-| Language                 | ISO 639\-3 | Family         | Genus                      | \# Train | \# Dev |
-|:-------------------------|:----------:|:---------------|:---------------------------|---------:|-------:|
-| Malagasy                 | mlg        | Austronesian   | Barito                     | 450      | 65     |
-| Cebuano                  | ceb        | Austronesian   | Greater Central Phillipine | 432      | 62     |
-| Hiligaynon               | hil        | Austronesian   | Greater Central Phillipine | 879      | 125    |
-| Tagalog                  | tgl        | Austronesian   | Greater Central Phillipine | 2038     | 291    |
-| Maori                    | mao        | Austronesian   | Oceanic                    | 149      | 22     |
-| Danish                   | dan        | Indo\-European | North Germanic             | 17852    | 2550   |
-| Icelandic                | isl        | Indo\-European | North Germanic             | 53841    | 7690   |
-| Norwegian Bokmål         | nob        | Indo\-European | North Germanic             | 13372    | 1954   |
-| Swedish                  | swe        | Indo\-European | North Germanic             | 54888    | 7840   |
-| Dutch                    | nld        | Indo\-European | West Germanic              | 38826    | 5547   |
-| English                  | eng        | Indo\-European | West Germanic              | 80865    | 11553  |
-| German                   | deu        | Indo\-European | West Germanic              | 125534   | 17933  |
-| Middle High German       | gmh        | Indo\-European | West Germanic              | 496      | 71     |
-| North Frisian            | frr        | Indo\-European | West Germanic              | 2240     | 321    |
-| Old English              | ang        | Indo\-European | West Germanic              | 29665    | 4255   |
-| Chewa                    | nya        | Niger\-Congo   | Bantu                      | 3059     | 437    |
-| Kongo                    | kon        | Niger\-Congo   | Bantu                      | 579      | 83     |
-| Lingala                  | lin        | Niger\-Congo   | Bantu                      | 159      | 23     |
-| Luganda                  | lug        | Niger\-Congo   | Bantu                      | 3426     | 490    |
-| Sotho                    | sot        | Niger\-Congo   | Bantu                      | 345      | 50     |
-| Swahili                  | swa        | Niger\-Congo   | Bantu                      | 3464     | 495    |
-| Zulu                     | zul        | Niger\-Congo   | Bantu                      | 350      | 50     |
-| Akan                     | aka        | Niger\-Congo   | Kwa                        | 2927     | 418    |
-| Gã                       | gaa        | Niger\-Congo   | Kwa                        | 636      | 91     |
-| Tlatepuzco Chinantec     | cpa        | Oto\-Manguean  | Chinantecan                | 5525     | 789    |
-| San Pedro Amuzgo Amuzgos | azg        | Oto\-Manguean  | Amuzgo\-Mixtecan           | 8542     | 1221   |
-| Yoloxóchitl Mixtec       | xty        | Oto\-Manguean  | Amuzgo\-Mixtecan           | 2139     | 306    |
-| Chichicapan Zapotec      | zpv        | Oto\-Manguean  | Popolocal\-Zapotecan       | 814      | 117    |
-| Yaitepec Chatino         | ctp        | Oto\-Manguean  | Popolocal\-Zapotecan       | 2657     | 379    |
-| Zenzontepec Chatino      | czn        | Oto\-Manguean  | Popolocal\-Zapotecan       | 1096     | 157    |
-| Eastern Highland Chatino | cly        | Oto\-Manguean  | Popolocal\-Zapotecan       | 3301     | 471    |
-| Eastern Highland Otomi   | otm        | Oto\-Manguean  | Oto\-Pamean                | 21966    | 3138   |
-| Mezquital Otomi          | ote        | Oto\-Manguean  | Oto\-Pamean                | 23213    | 3316   |
-| Chichimec                | pei        | Oto\-Manguean  | Oto\-Pamean                | 10584    | 3024   |
-| Estonian                 | est        | Uralic         | Finnic                     | 27373    | 3911   |
-| Finnish                  | fin        | Uralic         | Finnic                     | 1293305  | 184758 |
-| Ingrian                  | izh        | Uralic         | Finnic                     | 805      | 115    |
-| Karelian                 | krl        | Uralic         | Finnic                     | 81725    | 11675  |
-| Livonian                 | liv        | Uralic         | Finnic                     | 2936     | 420    |
-| Veps                     | vep        | Uralic         | Finnic                     | 356103   | 50872  |
-| Votic                    | vot        | Uralic         | Finnic                     | 1040     | 149    |
-| Meadow Mari              | mhr        | Uralic         | Mari                       | 76681    | 10955  |
-| Erzya                    | myv        | Uralic         | Mordvinic                  | 82346    | 11764  |
-| Moksha                   | mdf        | Uralic         | Mordvinic                  | 51726    | 7390   |
-| Northern Sami            | sme        | Uralic         | Sami                       | 45350    | 6479   |
+
+<table>
+    <tr>
+        <td><sub>Language</sub></td>
+        <td><sub>ISO 639-3</sub></td>
+        <td><sub>Family</sub></td>
+        <td><sub>Genus</sub></td>
+        <td><sub># Train</sub></td>
+        <td><sub># Dev</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Malagasy</sub></td>
+        <td><sub>mlg</sub></td>
+        <td><sub>Austronesian</sub></td>
+        <td><sub>Barito</sub></td>
+        <td><sub>450</sub></td>
+        <td><sub>65</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Cebuano</sub></td>
+        <td><sub>ceb</sub></td>
+        <td><sub>Austronesian</sub></td>
+        <td><sub>Greater Central Phillipine</sub></td>
+        <td><sub>432</sub></td>
+        <td><sub>62</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Hiligaynon</sub></td>
+        <td><sub>hil</sub></td>
+        <td><sub>Austronesian</sub></td>
+        <td><sub>Greater Central Phillipine</sub></td>
+        <td><sub>879</sub></td>
+        <td><sub>125</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Tagalog</sub></td>
+        <td><sub>tgl</sub></td>
+        <td><sub>Austronesian</sub></td>
+        <td><sub>Greater Central Phillipine</sub></td>
+        <td><sub>2038</sub></td>
+        <td><sub>291</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Maori</sub></td>
+        <td><sub>mao</sub></td>
+        <td><sub>Austronesian</sub></td>
+        <td><sub>Oceanic</sub></td>
+        <td><sub>149</sub></td>
+        <td><sub>22</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Danish</sub></td>
+        <td><sub>dan</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>North Germanic</sub></td>
+        <td><sub>17852</sub></td>
+        <td><sub>2550</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Icelandic</sub></td>
+        <td><sub>isl</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>North Germanic</sub></td>
+        <td><sub>53841</sub></td>
+        <td><sub>7690</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Norwegian Bokmål</sub></td>
+        <td><sub>nob</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>North Germanic</sub></td>
+        <td><sub>13372</sub></td>
+        <td><sub>1954</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Swedish</sub></td>
+        <td><sub>swe</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>North Germanic</sub></td>
+        <td><sub>54888</sub></td>
+        <td><sub>7840</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Dutch</sub></td>
+        <td><sub>nld</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>West Germanic</sub></td>
+        <td><sub>38826</sub></td>
+        <td><sub>5547</sub></td>
+    </tr>
+    <tr>
+        <td><sub>English</sub></td>
+        <td><sub>eng</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>West Germanic</sub></td>
+        <td><sub>80865</sub></td>
+        <td><sub>11553</sub></td>
+    </tr>
+    <tr>
+        <td><sub>German</sub></td>
+        <td><sub>deu</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>West Germanic</sub></td>
+        <td><sub>99405</sub></td>
+        <td><sub>14201</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Middle High German</sub></td>
+        <td><sub>gmh</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>West Germanic</sub></td>
+        <td><sub>496</sub></td>
+        <td><sub>71</sub></td>
+    </tr>
+    <tr>
+        <td><sub>North Frisian</sub></td>
+        <td><sub>frr</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>West Germanic</sub></td>
+        <td><sub>2240</sub></td>
+        <td><sub>321</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Old English</sub></td>
+        <td><sub>ang</sub></td>
+        <td><sub>Indo-European</sub></td>
+        <td><sub>West Germanic</sub></td>
+        <td><sub>29665</sub></td>
+        <td><sub>4255</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Chewa</sub></td>
+        <td><sub>nya</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Bantu</sub></td>
+        <td><sub>3059</sub></td>
+        <td><sub>437</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Kongo</sub></td>
+        <td><sub>kon</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Bantu</sub></td>
+        <td><sub>579</sub></td>
+        <td><sub>83</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Lingala</sub></td>
+        <td><sub>lin</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Bantu</sub></td>
+        <td><sub>159</sub></td>
+        <td><sub>23</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Luganda</sub></td>
+        <td><sub>lug</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Bantu</sub></td>
+        <td><sub>3426</sub></td>
+        <td><sub>490</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Sotho</sub></td>
+        <td><sub>sot</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Bantu</sub></td>
+        <td><sub>345</sub></td>
+        <td><sub>50</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Swahili</sub></td>
+        <td><sub>swa</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Bantu</sub></td>
+        <td><sub>3464</sub></td>
+        <td><sub>495</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Zulu</sub></td>
+        <td><sub>zul</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Bantu</sub></td>
+        <td><sub>350</sub></td>
+        <td><sub>50</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Akan</sub></td>
+        <td><sub>aka</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Kwa</sub></td>
+        <td><sub>2927</sub></td>
+        <td><sub>418</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Gã</sub></td>
+        <td><sub>gaa</sub></td>
+        <td><sub>Niger-Congo</sub></td>
+        <td><sub>Kwa</sub></td>
+        <td><sub>636</sub></td>
+        <td><sub>91</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Tlatepuzco Chinantec</sub></td>
+        <td><sub>cpa</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Chinantecan</sub></td>
+        <td><sub>5525</sub></td>
+        <td><sub>789</sub></td>
+    </tr>
+    <tr>
+        <td><sub>San Pedro Amuzgo Amuzgos</sub></td>
+        <td><sub>azg</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Amuzgo-Mixtecan</sub></td>
+        <td><sub>8542</sub></td>
+        <td><sub>1221</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Yoloxóchitl Mixtec</sub></td>
+        <td><sub>xty</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Amuzgo-Mixtecan</sub></td>
+        <td><sub>2139</sub></td>
+        <td><sub>306</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Chichicapan Zapotec</sub></td>
+        <td><sub>zpv</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Popolocal-Zapotecan</sub></td>
+        <td><sub>814</sub></td>
+        <td><sub>117</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Yaitepec Chatino</sub></td>
+        <td><sub>ctp</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Popolocal-Zapotecan</sub></td>
+        <td><sub>2657</sub></td>
+        <td><sub>379</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Zenzontepec Chatino</sub></td>
+        <td><sub>czn</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Popolocal-Zapotecan</sub></td>
+        <td><sub>1096</sub></td>
+        <td><sub>157</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Eastern Highland Chatino</sub></td>
+        <td><sub>cly</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Popolocal-Zapotecan</sub></td>
+        <td><sub>3301</sub></td>
+        <td><sub>471</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Eastern Highland Otomi</sub></td>
+        <td><sub>otm</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Oto-Pamean</sub></td>
+        <td><sub>21966</sub></td>
+        <td><sub>3138</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Mezquital Otomi</sub></td>
+        <td><sub>ote</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Oto-Pamean</sub></td>
+        <td><sub>23213</sub></td>
+        <td><sub>3316</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Chichimec</sub></td>
+        <td><sub>pei</sub></td>
+        <td><sub>Oto-Manguean</sub></td>
+        <td><sub>Oto-Pamean</sub></td>
+        <td><sub>10584</sub></td>
+        <td><sub>3024</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Estonian</sub></td>
+        <td><sub>est</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Finnic</sub></td>
+        <td><sub>27373</sub></td>
+        <td><sub>3911</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Finnish</sub></td>
+        <td><sub>fin</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Finnic</sub></td>
+        <td><sub>99403</sub></td>
+        <td><sub>14201</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Ingrian</sub></td>
+        <td><sub>izh</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Finnic</sub></td>
+        <td><sub>805</sub></td>
+        <td><sub>115</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Karelian</sub></td>
+        <td><sub>krl</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Finnic</sub></td>
+        <td><sub>81725</sub></td>
+        <td><sub>11675</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Livonian</sub></td>
+        <td><sub>liv</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Finnic</sub></td>
+        <td><sub>2936</sub></td>
+        <td><sub>420</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Veps</sub></td>
+        <td><sub>vep</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Finnic</sub></td>
+        <td><sub>95879</sub></td>
+        <td><sub>13697</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Votic</sub></td>
+        <td><sub>vot</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Finnic</sub></td>
+        <td><sub>1040</sub></td>
+        <td><sub>149</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Meadow Mari</sub></td>
+        <td><sub>mhr</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Mari</sub></td>
+        <td><sub>76681</sub></td>
+        <td><sub>10955</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Erzya</sub></td>
+        <td><sub>myv</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Mordvinic</sub></td>
+        <td><sub>82346</sub></td>
+        <td><sub>11764</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Moksha</sub></td>
+        <td><sub>mdf</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Mordvinic</sub></td>
+        <td><sub>51726</sub></td>
+        <td><sub>7390</sub></td>
+    </tr>
+    <tr>
+        <td><sub>Northern Sami</sub></td>
+        <td><sub>sme</sub></td>
+        <td><sub>Uralic</sub></td>
+        <td><sub>Sami</sub></td>
+        <td><sub>45350</sub></td>
+        <td><sub>6479</sub></td>
+    </tr>
+</table>
 
 <sup>2</sup>The organizers may increase the number of total languages, if annotation efforts allow.
 
@@ -154,7 +481,7 @@ Many of the languages in the shared task have only a few morphological forms ann
 
 **Restrictions**
 
-There are no restrictions about what sort of data you can use for this task. For example, if you would like to use a large, unlabeled corpus, such as Wikipedia, that is acceptable. You may also use a pre-trained language model, e.g. BERT ([Devlin et al. 2019](https://www.aclweb.org/anthology/N19-1423/)). However, we will evaluate models in two different categories: (1) those that use external resources (beyond what is provided by the task), and (2) those that do not. Participants are asked to clearly specify the submission category. 
+Additional UniMorph (and ICGI) data beyond what is provided is not allowed for model training. There are no other restrictions about what sort of data you can use for this task. For example, if you would like to use a large, unlabeled corpus, such as Wikipedia, that is acceptable. You may also use a pre-trained language model, e.g. BERT ([Devlin et al. 2019](https://www.aclweb.org/anthology/N19-1423/)). However, we will evaluate models in two different categories: (1) those that use external resources (beyond what is provided by the task), and (2) those that do not. The constrained data category (2) will be restricted to monolingual models, while category (1) may include multilingual models -- we encourage you to be creative! Participants are asked to clearly specify the submission category. 
 
 
 ## Evaluation
@@ -162,6 +489,8 @@ There are no restrictions about what sort of data you can use for this task. For
 Our shared task also comes with a somewhat novel experimental design. We will simultaneously evaluate models for both the Development languages, whose training and development sets will be available for an elongated period of time, and the Held-out languages, whose training and development sets will only be available for a short time prior to submission, which precludes extensive tuning. To be officially ranked, you must submit results for **all** evaluation languages. Thus, to succeed, your class of models (e.g. neural sequence-to-sequence models or weighted finite-state transducers with hand-crafted features) must generalize well to the group of Held-out languages that are typologically distinct from the Development languages you performed model selection on. To repeat: This is not a zero-shot learning task, but rather our evaluation set-up is designed to test the inherent inductive bias in the participants’ chosen model class. We attribute the inspiration for this experimental design to [Emily Bender](https://faculty.washington.edu/ebender/), who often [advocates for such positions](https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/).
 
 We will simultaneously evaluate the accuracy on held-out forms for languages from the following three categories of languages separately: 1) held-out forms from the Development languages, 2) held-out forms from genetically related Held-out languages, and 3) held-out forms from genetically unrelated Held-out languages. This tripartite split should give the field insight into how reliable performance of certain classes of models are on typologically distinct languages. It should also help answer the following question: If my model class works well when trained on English and many others, will the same model class work well on languages which exhibit linguistic characteristics distinct from English?
+
+As mentioned in Restrictions above, we will evaluate submissions in two categories: monolingual, constrained data models, and unconstrained -- the world is your oyster!
 
 
 **Evaluation Script**
@@ -205,19 +534,38 @@ Participants will be asked to submit a tarball of their models’ predictions to
 Participants’ system description papers will be handled through softconf. The link will be provided a week before submission.
 
 
+## ICGI Shared Task
+
+This year, [ICGI 2020](https://icgi2020.lis-lab.fr) is hosting a [sister shared task](https://aryamccarthy.github.io/icgi2020/) on morphological inflection. The task focuses on 10 languages with data originally from UniMorph which have undergone additional inspection by linguists. The task will be evaluated with several novel evaluation metrics to more closely investigate properties of different models, and focus on the generalizability of morphological systems. Submissions should be monolingual models. The timeline and similarity of task enables models developed for SIGMORPHON to easily be minimally-adapted and submitted to the ICGI task as well. We strongly encourage participants to submit to both, to enable people from both communities to benefit from each other and allow greater discussion about morphology! 
+
+
 ## References
 
-Introduction into morphology:  
-&nbsp;&nbsp;&nbsp; Haspelmath, M. (2002). [*Understanding Morphology*](https://www.researchgate.net/publication/271018639_Understanding_Morphology). Oxford University Press, USA.  
+Anastasopoulos and Neubig. [“Pushing the Limits of Low-Resource Morphological Inflection.”](https://www.aclweb.org/anthology/D19-1091/) Proceedings of EMNLP 2019.  
+
+Cotterell et al. [“CoNLL-SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection in 52 Languages.”](https://www.aclweb.org/anthology/K17-2001/) Proceedings of the CoNLL-SIGMORPHON 2017 Shared Task.  
+
+Cotterell et al. [“The CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection.”](https://www.aclweb.org/anthology/K18-3001/) Proceedings of the CoNLL–SIGMORPHON 2018 Shared Task: Universal Morphological Reinflection.  
+
+Devlin et al. [“BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.”](https://www.aclweb.org/anthology/N19-1423/) Proceedings of NAACL 2019.  
+
+Vaswani et al. [“Attention is All You Need.”](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) Proceedings of NeurIPS 2017.  
+
+&nbsp;    
+*Introduction into morphology:*   
+&nbsp;&nbsp;&nbsp; Haspelmath, M. (2002). [*Understanding Morphology*](https://www.researchgate.net/publication/271018639_Understanding_Morphology). Oxford University Press,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USA.  
 &nbsp;&nbsp;&nbsp; Aronoff, M., & Fudeman, K. (2011). [*What is Morphology?*](http://www.ucd.ie/artspgs/introling/Aronoffmorphology.pdf) (Vol. 8). John Wiley & Sons.
 
-More detailed studies on morphological typology:  
-&nbsp;&nbsp;&nbsp; Baerman, M. (Ed.). (2015). *The Oxford Handbook of Inflection*. Oxford University Press, USA.  
+*More detailed studies on morphological typology:*   
+&nbsp;&nbsp;&nbsp; Baerman, M. (Ed.). (2015). *The Oxford Handbook of Inflection*. Oxford University Press,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USA.  
 &nbsp;&nbsp;&nbsp; Song, J. J. (2014). *Linguistic Typology: Morphology and Syntax*. Routledge.  
 &nbsp;&nbsp;&nbsp; Song, J. J. (2010). *The Oxford handbook of Linguistic Typology*. USA.  
-&nbsp;&nbsp;&nbsp; Malchukov, A. and Spencer, A. (2008). *The Handbook of Case*. Oxford University Press, USA.  
+&nbsp;&nbsp;&nbsp; Malchukov, A. and Spencer, A. (2008). *The Handbook of Case*. Oxford University Press,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USA.  
 
-Language-specific descriptions:  
+*Language-specific descriptions:*  
 &nbsp;&nbsp;&nbsp; You may find more detailed information on some languages here: [https://langsci-press.org/series](https://langsci-press.org/series)
 
 
@@ -242,6 +590,7 @@ Andrej Krizhanovsky (Karelian Research Centre, Russia)
 Antonios Anastasopoulos (Carnegie Mellon University, USA)   
 Edoardo Ponti (University of Cambridge, UK)   
 Elena Klyachko (National Research University Higher School of Economics, Russia)   
+Ilya Yegorov (Lomonosov Moscow State University)   
 Irene Nikkarinen (University of Cambridge, UK)   
 Jennifer White (University of Cambridge, UK)   
 Josef Valvoda (University of Cambridge, UK)   
@@ -253,4 +602,3 @@ Ran Zmigrod (University of Cambridge, UK)
 Rowan Hall Maudslay (University of Cambridge, UK)   
 Svetlana Toldova (National Research University Higher School of Economics, Russia)   
 Tiago Pimentel (University of Cambridge, UK)   
-Tim Arkhangelskij (University of Hamburg, Germany)   
