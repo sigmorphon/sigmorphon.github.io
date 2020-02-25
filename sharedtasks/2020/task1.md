@@ -19,7 +19,7 @@ Data
 
 The data is primarily extracted from [Wiktionary](https://www.wiktionary.org/)
 using the [`wikipron`](https://github.com/kylebgorman/wikipron) library (Lee et
-al.Â in press).
+al. in press).
 
 ### Languages
 
@@ -56,8 +56,8 @@ using the [`segments`](https://github.com/cldf/segments) library (Moran & Cysouw
 2018). The following show three lines of Romanian data:
 
     antonim a n t o n i m
-    ploaie  p lÊ· a j e
-    porneÈ™te    p o r n e Êƒ t e
+    ploaie  p lʷ a j e
+    pornește    p o r n e ʃ t e
 
 Test files consist of a single column, containing grapheme sequences.
 
@@ -120,10 +120,10 @@ Baselines
 
 We provide implementations of two baseline systems for the task:
 
--   a pair n-gram model (Novak et al.Â 2016) implemented using the [OpenGrm
-    toolkit](http://opengrm.org/) (Roark et al.Â 2012, Gorman 2016), and
+-   a pair n-gram model (Novak et al. 2016) implemented using the [OpenGrm
+    toolkit](http://opengrm.org/) (Roark et al. 2012, Gorman 2016), and
 -   a bidirectional LSTM encoder-decoder sequence model implemented using the
-    [Fairseq toolkit](https://github.com/pytorch/fairseq) (Ott et al.Â 2019).
+    [Fairseq toolkit](https://github.com/pytorch/fairseq) (Ott et al. 2019).
 
 Participants are welcome to adapt these baselines for their purposes.
 
@@ -207,7 +207,7 @@ Data
 
 The data is primarily extracted from [Wiktionary](https://www.wiktionary.org/)
 using the [`wikipron`](https://github.com/kylebgorman/wikipron) library (Lee et
-al.Â in press).
+al. in press).
 
 ### Languages
 
@@ -244,8 +244,8 @@ using the [`segments`](https://github.com/cldf/segments) library (Moran & Cysouw
 2018). The following show three lines of Romanian data:
 
     antonim a n t o n i m
-    ploaie  p lÊ· a j e
-    porneÈ™te    p o r n e Êƒ t e
+    ploaie  p lʷ a j e
+    pornește    p o r n e ʃ t e
 
 Test files consist of a single column, containing grapheme sequences.
 
@@ -308,10 +308,10 @@ Baselines
 
 We provide implementations of two baseline systems for the task:
 
--   a pair n-gram model (Novak et al.Â 2016) implemented using the [OpenGrm
-    toolkit](http://opengrm.org/) (Roark et al.Â 2012, Gorman 2016), and
+-   a pair n-gram model (Novak et al. 2016) implemented using the [OpenGrm
+    toolkit](http://opengrm.org/) (Roark et al. 2012, Gorman 2016), and
 -   a bidirectional LSTM encoder-decoder sequence model implemented using the
-    [Fairseq toolkit](https://github.com/pytorch/fairseq) (Ott et al.Â 2019).
+    [Fairseq toolkit](https://github.com/pytorch/fairseq) (Ott et al. 2019).
 
 Participants are welcome to adapt these baselines for their purposes.
 
@@ -377,3 +377,4 @@ Sagot, B. 2018. A multilingual collection of CoNLL-U-compatible morphological
 lexicons. In *Proceedings of the Eleventh International Conference on Language
 Resources and Evaluation (LREC)*, pages 1861-1867. Miyazaki, Japan. European
 Language Resources Association.
+
