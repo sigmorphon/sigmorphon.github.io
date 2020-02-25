@@ -38,20 +38,20 @@ In the Development Phase, we will provide training and development splits from t
 
 In the Generalization Phase, we will provide training and development splits for new languages where approximately half are genetically related (belong to the same family) and half are genetically *unrelated* (are isolates or belong to a different family) to the development languages. We will keep the languages in the Generalization Phase a surprise until April 2020 (see [timeline](#timeline)). We will also keep the genetically unrelated language *families* a surprise, though some languages will come from the same families as those in the Development Phase. 
  
-In the Evaluation Phase, the participants’ models will be evaluated on held-out forms from all of the languages from the previous phases. The languages from the Development Phase and the Generalization Phase are evaluated simultaneously. The only difference is that there has been more time to construct a model for those languages released in the Development Phase. It follows that a model could easily overfit to or favor phenomena that are more frequent in languages presented in the Development Phase, especially if parameters are shared across languages. For instance, a model based on the morphological patterning of the Indo-European languages may end up with a bias towards suffixing and will struggle to learn prefixing or circumfixation, the degree to which only becomes apparent during experimentation on other languages whose inflectional morphology patterns differ. Of course, the model architecture itself could explicitly or implicitly favor certain word formation types (suffixing, prefixing, etc.).
+In the Evaluation Phase, the participants’ models will be evaluated on surprise forms from all of the languages from the previous phases. The languages from the Development Phase and the Generalization Phase are evaluated simultaneously. The only difference is that there has been more time to construct a model for those languages released in the Development Phase. It follows that a model could easily overfit to or favor phenomena that are more frequent in languages presented in the Development Phase, especially if parameters are shared across languages. For instance, a model based on the morphological patterning of the Indo-European languages may end up with a bias towards suffixing and will struggle to learn prefixing or circumfixation, the degree to which only becomes apparent during experimentation on other languages whose inflectional morphology patterns differ. Of course, the model architecture itself could explicitly or implicitly favor certain word formation types (suffixing, prefixing, etc.).
 
 <sup>1</sup> See [References](#references)
 
 
 **Glossary**
 
-The shared task features both held-out morphological inflection triples and held-out languages. The organizers created a short glossary of task-specific terminology for clarity. We use the language described in this glossary unambiguously throughout the task description.
+The shared task features both surprise morphological inflection triples and surprise languages. The organizers created a short glossary of task-specific terminology for clarity. We use the language described in this glossary unambiguously throughout the task description.
 
 * **Development language**: A language for which the participants will have an elongated period of time (about two months) to construct a machine learning model for morphological inflection generation.
-* **Held-out language**: A language for which the participants will have a short period of time (about one week) to construct or adapt a machine learning model for morphological inflection generation. The idea is that the participants apply the knowledge accrued from the Development Phase to choose a good model and good hyperparameters. Most of the held-out languages will be *typologically distinct* from the development languages, i.e. the majority of the languages will be taken from language families other than the ones used during the Development Phase.
-* **Training split**: A selection of lemma–form–tag triples for a language (either development or held-out) that the participants may train their machine learning model on.
-* **Development split**: A selection of lemma–form–tag triples for a language (either development or held-out) that the participants may tune the hyperparameters of their machine learning model on.
-* **Test split**: A selection of lemma–tag pairs for a language (either development or held-out) for which the participants will predict target forms. The organizers will evaluate the models based on these predictions.
+* **Surprise language**: A language for which the participants will have a short period of time (about one week) to construct or adapt a machine learning model for morphological inflection generation. The idea is that the participants apply the knowledge accrued from the Development Phase to choose a good model and good hyperparameters. Most of the surprise languages will be *typologically distinct* from the development languages, i.e. the majority of the languages will be taken from language families other than the ones used during the Development Phase.
+* **Training split**: A selection of lemma–form–tag triples for a language (either development or surprise) that the participants may train their machine learning model on.
+* **Development split**: A selection of lemma–form–tag triples for a language (either development or surprise) that the participants may tune the hyperparameters of their machine learning model on.
+* **Test split**: A selection of lemma–tag pairs for a language (either development or surprise) for which the participants will predict target forms. The organizers will evaluate the models based on these predictions.
 
 
 ## Timeline
@@ -59,14 +59,14 @@ The shared task features both held-out morphological inflection triples and held
 **Stage 1: Development Phase**
 * February 24th, 2020: Training and development splits for development languages released; we invite participants to report errors.
 * February 24th, 2020: Neural and non-neural baselines for development languages released.
-* March 1st, 2020: Held-out language data are frozen.  
+* March 1st, 2020: Surprise language data are frozen.  
 
 **Stage 2: Generalization Phase**
-* April 13th, 2020: Training and development splits for held-out languages released.   
+* April 13th, 2020: Training and development splits for surprise languages released.   
 (This is not a zero-shot learning task. Participants will be given training data for all languages.)  
 
 **Stage 3: Evaluation Phase**
-* April 20th, 2020: Test splits for all languages (both development and held-out) released.
+* April 20th, 2020: Test splits for all languages (both development and surprise) released.
 * April 27th, 2020: Participants submit test predictions on all languages.  
 
 **Stage 4: Write-up Phase**
@@ -75,7 +75,7 @@ The shared task features both held-out morphological inflection triples and held
  
 
 ## Data
-The training and development data are provided in a simple utf-8 encoded text format for both the development and held-out languages. Each line in a file is an example that consists of word forms and corresponding morphosyntactic descriptions (MSDs) provided as a set of features, separated by semicolons. We refer to the MSDs as (morphological) tags for simplicity. The fields on a line are TAB-separated.
+The training and development data are provided in a simple utf-8 encoded text format for both the development and surprise languages. Each line in a file is an example that consists of word forms and corresponding morphosyntactic descriptions (MSDs) provided as a set of features, separated by semicolons. We refer to the MSDs as (morphological) tags for simplicity. The fields on a line are TAB-separated.
 The fields are: lemma, target form, tag. Here we present an example from the Akan training data (the Akan verb “bisa” means “to ask” in English):
 
 ```
@@ -467,16 +467,16 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
 <sup>2</sup>The organizers may increase the number of total languages, if annotation efforts allow.
 
 
-**Held-out Languages** 
+**Surprise Languages** 
 
-The remaining 45 of these 90 languages will be *held-out languages*. The shared task organizers will provide the participants with enough time (about a week according to the current timeline) to train a model that they have previously selected on the development languages. However, there will not be enough time for choosing a new model or extensive hyperparameter tuning. 
+The remaining 45 of these 90 languages will be *surprise languages*. The shared task organizers will provide the participants with enough time (about a week according to the current timeline) to train a model that they have previously selected on the development languages. However, there will not be enough time for choosing a new model or extensive hyperparameter tuning. 
 
 Which languages? They’re a surprise!
 
 
 **Multilingual Modeling [Recommendation]**
 
-Many of the languages in the shared task have only a few morphological forms annotated. In most cases, this is not because we have a larger stash that we are withholding, but rather because there is no resource known to the organizers for such data. To model these low-resource languages well, the organizers *recommend* a multilingual approach that exploits the genetic similarity within the development and held-out languages provided. For instance, we only give the participants a handful of lemma–form–tag triples of, say, Kongo, generalization will be difficult without using data from related Niger-Congo languages. 
+Many of the languages in the shared task have only a few morphological forms annotated. In most cases, this is not because we have a larger stash that we are withholding, but rather because there is no resource known to the organizers for such data. To model these low-resource languages well, the organizers *recommend* a multilingual approach that exploits the genetic similarity within the development and surprise languages provided. For instance, we only give the participants a handful of lemma–form–tag triples of, say, Kongo, generalization will be difficult without using data from related Niger-Congo languages. 
 
 
 **Restrictions**
@@ -486,9 +486,9 @@ Additional UniMorph (and ICGI) data beyond what is provided is not allowed for m
 
 ## Evaluation
 
-Our shared task also comes with a somewhat novel experimental design. We will simultaneously evaluate models for both the Development languages, whose training and development sets will be available for an elongated period of time, and the Held-out languages, whose training and development sets will only be available for a short time prior to submission, which precludes extensive tuning. To be officially ranked, you must submit results for **all** evaluation languages. Thus, to succeed, your class of models (e.g. neural sequence-to-sequence models or weighted finite-state transducers with hand-crafted features) must generalize well to the group of Held-out languages that are typologically distinct from the Development languages you performed model selection on. To repeat: This is not a zero-shot learning task, but rather our evaluation set-up is designed to test the inherent inductive bias in the participants’ chosen model class. We attribute the inspiration for this experimental design to [Emily Bender](https://faculty.washington.edu/ebender/), who often [advocates for such positions](https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/).
+Our shared task also comes with a somewhat novel experimental design. We will simultaneously evaluate models for both the Development languages, whose training and development sets will be available for an elongated period of time, and the Surprise languages, whose training and development sets will only be available for a short time prior to submission, which precludes extensive tuning. To be officially ranked, you must submit results for **all** evaluation languages. Thus, to succeed, your class of models (e.g. neural sequence-to-sequence models or weighted finite-state transducers with hand-crafted features) must generalize well to the group of Surprise languages that are typologically distinct from the Development languages you performed model selection on. To repeat: This is not a zero-shot learning task, but rather our evaluation set-up is designed to test the inherent inductive bias in the participants’ chosen model class. We attribute the inspiration for this experimental design to [Emily Bender](https://faculty.washington.edu/ebender/), who often [advocates for such positions](https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/).
 
-We will simultaneously evaluate the accuracy on held-out forms for languages from the following three categories of languages separately: 1) held-out forms from the Development languages, 2) held-out forms from genetically related Held-out languages, and 3) held-out forms from genetically unrelated Held-out languages. This tripartite split should give the field insight into how reliable performance of certain classes of models are on typologically distinct languages. It should also help answer the following question: If my model class works well when trained on English and many others, will the same model class work well on languages which exhibit linguistic characteristics distinct from English?
+We will simultaneously evaluate the accuracy on surprise forms for languages from the following three categories of languages separately: 1) surprise forms from the Development languages, 2) surprise forms from genetically related Surprise languages, and 3) surprise forms from genetically unrelated surprise languages. This tripartite split should give the field insight into how reliable performance of certain classes of models are on typologically distinct languages. It should also help answer the following question: If my model class works well when trained on English and many others, will the same model class work well on languages which exhibit linguistic characteristics distinct from English?
 
 As mentioned in Restrictions above, we will evaluate submissions in two categories: monolingual, constrained data models, and unconstrained -- the world is your oyster!
 
