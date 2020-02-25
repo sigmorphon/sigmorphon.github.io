@@ -1,125 +1,129 @@
----
-layout: page
-longtitle: "Task 1 - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme and Unsupervised Induction of Morphology"
-title: "Task 1: Multilingual Grapheme-to-Phoneme Conversion"
----
+Task 1: Multilingual Grapheme-to-Phoneme Conversion
+===================================================
 
 In this task, participants will create computational models that map a sequence
-of "graphemes" (characters, specfically Unicode codepoints) representing a word
-in a given language to that word's pronunciation (represented as a roughly
-phonemic [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
-transcription). This task is an important part of speech technologies such as
-recognition and synthesis.
+of "graphemes"---characters---representing a word to a transcription of that
+word's pronunciation.
 
-Data and Format
----------------
+This task is an important part of speech technologies including recognition and
+synthesis.
 
-The training and development data will be provided as UTF-8-encoded
-[tab-separated values](https://en.wikipedia.org/wiki/Tab-separated_values)
-files. Each example occupies a single line and consists of a grapheme sequence,
-a tab character, and the corresponding phone sequence. The phone sequences have
-been automatically tokenzed using the [`segments`
-library](https://github.com/cldf/segments). These are followed by another tab
-character, then a count derived from [Wortschatz](https://wortschatz.uni-leipzig.de),
-which you may choose to use as an additional feature in your system.
-The following shows three lines from
-the Romanian data set:
+Data
+----
 
-    antonim	a n t o n i m	808
-    ploaie	p lʷ a j e	8675309
-    pornește	p o r n e ʃ t e	1337
+### Source
 
-The test file will consist of a single column, containing grapheme sequences.
-Please provide your results in the two-column (grapheme sequence, phone
-sequence) format. If your system only provides the predicted phone sequences,
-you can use the UNIX command-line tool `paste` to combine the columns.
+The data is primarily extracted from [Wiktionary](https://www.wiktionary.org/)
+using the [`wikipron`](https://github.com/kylebgorman/wikipron) library (Lee et
+al.Â in press).
 
-The data used in this task is primarily extracted from
-[Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page).
+### Languages
 
-### Data conditions
+We initially provide data for 10 languages:
 
-There will be two data quantities for each language, a high-resource and a
-low-resource setting. The low-resource setting will be restricted to 1000
-training examples.
-Please report test outputs for systems trained on 
-each setting.
+1.  Armenian (`arm`)
+2.  Bulgarian (`bul`)
+3.  French (`fre`)
+4.  Georgian (`geo`)
+5.  Hindi (`hin`)
+6.  Hungarian (`hun`)
+7.  Icelandic (`ice`)
+8.  Korean (`kor`)
+9.  Lithuanian (`lit`)
+10. Modern Greek (`gre`)
+
+We will announce an additional 5 "surprise languages" just before the conclusion
+of the task.
+
+### Size
+
+There are 3600 training data examples and 450 development and test data examples
+for each language.
+
+### Format
+
+Training and development data are UTF-8-encoded tab-separated values files. Each
+example occupies a single line and consists of a grapheme
+sequence---[NFC](https://en.wikipedia.org/wiki/Unicode_equivalence#Normal_forms)
+Unicode codepoints---a tab character, and the corresponding phone sequence, a
+roughly-phonemic
+[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet), tokenized
+using the [`segments`](https://github.com/cldf/segments) library (Moran & Cysouw
+2018). The following show three lines of Romanian data:
+
+    antonim a n t o n i m
+    ploaie  p lÊ· a j e
+    porneÈ™te    p o r n e Êƒ t e
+
+Test files consist of a single column, containing grapheme sequences.
+
+Please provide your results in the two-column (grapheme sequence, tab-character,
+tokenized phone sequence) TSV format, the same one used for the training and
+development data. If your system only provides the predicted phone sequences,
+use the UNIX command-line tool `paste` to combine the columns.
+
+### Exclusions
+
+We exclude from the provided data any words which:
+
+-   have multiple pronunciations in the source data
+-   consist of less than 3 graphemes, or
+-   consist of less than 3 phonemes.
 
 ### External data
 
-Participants are permitted to use the following types of external data:
+Participants are **permitted** to use:
 
--   Open-source pronunciation data *not derived from Wiktionary* (e.g., for
-    instance, for French one may use pronunciations from
-    [Lexique](http://www.lexique.org/), though note that these pronunciations
-    are not in IPA)
--   Open-source pronunciation data from languages *not targeted in this
-    challenge*, including those derived from Wiktionary
--   Open-source morphological analyzers
--   Word frequency distributions
+-   open-source databases of phoneme inventories and features such as
+    [Phoible](https://phoible.org/) (Moran & McCloy 2019),
+-   open-source pronunciation data for languages not targeted in this challenge,
+    and
+-   open-source morphological analyzers and lexicons such as
+    [UDLexicons](https://www.aclweb.org/anthology/L18-1292/) (Sagot 2018).
 
-*Participants may not make use of any Wiktionary data or Wiktionary-derived data for the targeted
-languages.*
+Participants who use such data must disclose their use of it at time of
+submission.
+
+Participants are **not permitted** to use any form of pronunciation data derived
+from Wiktionary, except for the provided training and test data; they are also
+**not permitted** to use external pronunciation dictionaries for any of the
+targeted languages.
 
 Evaluation
 ----------
 
-Systems should predict a single phone sequence for each test example. The
-primary measure will be the word error rate (WER), which is the percentage of
-words for which the hypothesized transcription sequence does not match the gold
-transcription. We also report phone error rate (PER), the micro-averaged edit distance
-between hypotheses and gold transcriptions, computed by summing the minimum edit
-distance between the hypothsis and gold transcriptions and then dividing by the
-summed length of the gold transcriptions. As is common practice, we multiply
-both numbers by 100.
+Systems should predict a single phone sequence for each test example.
 
-Both metrics can be automatically computed using a provided Python script.
+### Metrics
 
-### Ambiguous examples
+The primary measure will be the word error rate (WER), which is the percentage
+of words for which the hypothesized transcription sequence does not match the
+gold transcription. We also report phone error rate (PER), the micro-averaged
+edit distance between hypotheses and gold transcriptions, computed by summing
+the minimum edit distance between the hypothesis and gold transcriptions and
+then dividing by the summed length of the gold transcriptions. As is common
+practice, we multiply both numbers by 100. Both metrics will be computed using
+the provided Python script `evaluate.py`.
 
-There are many reasons a word in a given language might have multiple
-pronunciations. For instance, there may be inherent, or
-sociolinguistically-conditioned, variation, or the word may be a homograph. We
-deliberately exclude from the test data any words for which the source data
-gives multiple pronunciations.
+### System comparison
 
-### Averaging
-
-We will evaluate on each language separately. An aggregate evaluation will
-weight all languages equally (i.e. macro-averaging), including surprise
-languages released later during the development period.
-
-### Languages
-
-We evaluate the task on 15 languages. The ten core languages are listed below:
-
-1. Bulgarian
-1. French
-1. Georgian
-1. Hindi
-1. Hungarian
-1. Icelandic
-1. Japanese (Hiragana)
-1. Korean
-1. Lithuanian
-1. Modern Greek
-
-The remaining five languages are "surprise languages" to be announced and
-released at a late date.
+We will evaluate on each language separately. The final system ranking will be
+produced by macro-averaging the per-language WERs. We will also employ
+statistical analysis for system comparison.
 
 Baselines
 ---------
 
 We provide implementations of two baseline systems for the task:
 
-1.  a *pair n-gram* model (Novak et al. 2016) implemented using the OpenGrm
-    toolkit (Roark et al. 2012, Gorman 2016), and
-2.  *a bidirectional LSTM encoder-decoder sequence model* implemented using the
-    Fairseq toolkit (Ott et al. 2019).
+-   a pair n-gram model (Novak et al.Â 2016) implemented using the [OpenGrm
+    toolkit](http://opengrm.org/) (Roark et al.Â 2012, Gorman 2016), and
+-   a bidirectional LSTM encoder-decoder sequence model implemented using the
+    [Fairseq toolkit](https://github.com/pytorch/fairseq) (Ott et al.Â 2019).
 
 Participants are welcome to adapt these baselines for their purposes.
 
-Overview Paper
+Overview paper
 --------------
 
 In an overview paper for the shared task, we will compare the performance of
@@ -130,29 +134,242 @@ submitted systems in detail. We will assess:
     them, and
 -   which systems would provide complementary benefit in an ensemble system.
 
-Included in the paper will be a summary of scores. Participants who produce
-outputs for all languages will be ranked; others may still have their systems
-described in the overview paper.
+Included in the paper will be a summary of scores for all participants who
+produce outputs for all targeted languages.
+
+Organizers
+----------
+
+This task is organized by Lucas Ashby and Kyle Gorman at the [Graduate Center,
+City University of New
+York](https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Doctoral-Programs/Linguistics/Linguistics?gclid=Cj0KCQiA4sjyBRC5ARIsAEHsELHv8TTKiWAj74vMEHsPdp8xF2zs3ploIj-n_2FiOjpO81kASYtduk8aAj17EALw_wcB),
+with help from other members of the [WikiPron
+team](https://github.com/kylebgorman/wikipron/graphs/contributors).
+
+Contact: [Kyle Gorman](mailto:kgorman@gc.cuny.edu).
 
 References
 ----------
 
 Gorman, K. (2016). Pynini: a Python library for weighted finite-state grammar
 compilation. In *Proceedings of the SIGFSM Workshop on Statistical NLP and
-Weighted Automata*, pages 75–80, Berlin. Association for Computational
+Weighted Automata*, pages 75--80, Berlin. Association for Computational
 Linguistics.
+
+Lee, J. L, Ashby, L. F.E., Garza, M. E., Lee-Sikka, Y., Miller, S., Wong, A.,
+McCarthy, A. D., and Gorman, K. (in press). *Massively multilingual
+pronunciation mining with WikiPron*. To appear in the proceedings of LREC 2020.
+
+Moran, S. and Cysouw, M. (2018). *The Unicode cookbook for linguists: managing
+writing systems using orthography profiles*. Berlin: Language Science Press.
+
+Moran, S. and McCloy, D. (2019). *PHOIBLE 2.0*. Jena: Max Planck Institute for
+the Science of Human History.
 
 Novak, J. R., Minematsu, N., and Hirose, K. (2016). Phonetisaurus: exploring
 grapheme-to-phoneme conversion with joint n-gram models in the WFST framework.
-*Natural Language Engineering*, 22(6):907–938.
+*Natural Language Engineering*, 22(6):907--938.
 
 Ott, M., Edunov, S., Baevski, A., Fan, A., Gross, S., Ng, N., Grangier, D., and
 Auli, M. (2019). fairseq: a fast, extensible toolkit for sequence modeling. In
 *Proceedings of the 2019 Conference of the North American Chapter of the
-Association for Computational Linguistics (Demonstrations)*, pages 48–53,
+Association for Computational Linguistics (Demonstrations)*, pages 48--53,
 Minneapolis. Association for Computational Linguistics.
 
 Roark, B., Sproat, R., Allauzen, C., Riley, M., Sorensen, J., and Tai, T.
 (2012). The OpenGrm open-source finite-state grammar software libraries. In
-*Proceedings of the ACL 2012 System Demonstrations*, pages 61–66, Jeju Island,
+*Proceedings of the ACL 2012 System Demonstrations*, pages 61--66, Jeju Island,
 Korea. Association for Computational Linguistics.
+
+Sagot, B. 2018. A multilingual collection of CoNLL-U-compatible morphological
+lexicons. In *Proceedings of the Eleventh International Conference on Language
+Resources and Evaluation (LREC)*, pages 1861-1867. Miyazaki, Japan. European
+Language Resources Association.
+
+Task 1: Multilingual Grapheme-to-Phoneme Conversion
+===================================================
+
+In this task, participants will create computational models that map a sequence
+of "graphemes"---characters---representing a word to a transcription of that
+word's pronunciation.
+
+This task is an important part of speech technologies including recognition and
+synthesis.
+
+Data
+----
+
+### Source
+
+The data is primarily extracted from [Wiktionary](https://www.wiktionary.org/)
+using the [`wikipron`](https://github.com/kylebgorman/wikipron) library (Lee et
+al.Â in press).
+
+### Languages
+
+We initially provide data for 10 languages:
+
+1.  Armenian (`arm`)
+2.  Bulgarian (`bul`)
+3.  French (`fre`)
+4.  Georgian (`geo`)
+5.  Hindi (`hin`)
+6.  Hungarian (`hun`)
+7.  Icelandic (`ice`)
+8.  Korean (`kor`)
+9.  Lithuanian (`lit`)
+10. Modern Greek (`gre`)
+
+We will announce an additional 5 "surprise languages" just before the conclusion
+of the task.
+
+### Size
+
+There are 3600 training data examples and 450 development and test data examples
+for each language.
+
+### Format
+
+Training and development data are UTF-8-encoded tab-separated values files. Each
+example occupies a single line and consists of a grapheme
+sequence---[NFC](https://en.wikipedia.org/wiki/Unicode_equivalence#Normal_forms)
+Unicode codepoints---a tab character, and the corresponding phone sequence, a
+roughly-phonemic
+[IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet), tokenized
+using the [`segments`](https://github.com/cldf/segments) library (Moran & Cysouw
+2018). The following show three lines of Romanian data:
+
+    antonim a n t o n i m
+    ploaie  p lÊ· a j e
+    porneÈ™te    p o r n e Êƒ t e
+
+Test files consist of a single column, containing grapheme sequences.
+
+Please provide your results in the two-column (grapheme sequence, tab-character,
+tokenized phone sequence) TSV format, the same one used for the training and
+development data. If your system only provides the predicted phone sequences,
+use the UNIX command-line tool `paste` to combine the columns.
+
+### Exclusions
+
+We exclude from the provided data any words which:
+
+-   have multiple pronunciations in the source data
+-   consist of less than 3 graphemes, or
+-   consist of less than 3 phonemes.
+
+### External data
+
+Participants are **permitted** to use:
+
+-   open-source databases of phoneme inventories and features such as
+    [Phoible](https://phoible.org/) (Moran & McCloy 2019),
+-   open-source pronunciation data for languages not targeted in this challenge,
+    and
+-   open-source morphological analyzers and lexicons such as
+    [UDLexicons](https://www.aclweb.org/anthology/L18-1292/) (Sagot 2018).
+
+Participants who use such data must disclose their use of it at time of
+submission.
+
+Participants are **not permitted** to use any form of pronunciation data derived
+from Wiktionary, except for the provided training and test data; they are also
+**not permitted** to use external pronunciation dictionaries for any of the
+targeted languages.
+
+Evaluation
+----------
+
+Systems should predict a single phone sequence for each test example.
+
+### Metrics
+
+The primary measure will be the word error rate (WER), which is the percentage
+of words for which the hypothesized transcription sequence does not match the
+gold transcription. We also report phone error rate (PER), the micro-averaged
+edit distance between hypotheses and gold transcriptions, computed by summing
+the minimum edit distance between the hypothesis and gold transcriptions and
+then dividing by the summed length of the gold transcriptions. As is common
+practice, we multiply both numbers by 100. Both metrics will be computed using
+the provided Python script `evaluate.py`.
+
+### System comparison
+
+We will evaluate on each language separately. The final system ranking will be
+produced by macro-averaging the per-language WERs. We will also employ
+statistical analysis for system comparison.
+
+Baselines
+---------
+
+We provide implementations of two baseline systems for the task:
+
+-   a pair n-gram model (Novak et al.Â 2016) implemented using the [OpenGrm
+    toolkit](http://opengrm.org/) (Roark et al.Â 2012, Gorman 2016), and
+-   a bidirectional LSTM encoder-decoder sequence model implemented using the
+    [Fairseq toolkit](https://github.com/pytorch/fairseq) (Ott et al.Â 2019).
+
+Participants are welcome to adapt these baselines for their purposes.
+
+Overview paper
+--------------
+
+In an overview paper for the shared task, we will compare the performance of
+submitted systems in detail. We will assess:
+
+-   which systems are significantly different in performance
+-   which languages were challenging and which types of systems succeeded on
+    them, and
+-   which systems would provide complementary benefit in an ensemble system.
+
+Included in the paper will be a summary of scores for all participants who
+produce outputs for all targeted languages.
+
+Organizers
+----------
+
+This task is organized by Lucas Ashby and Kyle Gorman at the [Graduate Center,
+City University of New
+York](https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Doctoral-Programs/Linguistics/Linguistics?gclid=Cj0KCQiA4sjyBRC5ARIsAEHsELHv8TTKiWAj74vMEHsPdp8xF2zs3ploIj-n_2FiOjpO81kASYtduk8aAj17EALw_wcB),
+with help from other members of the [WikiPron
+team](https://github.com/kylebgorman/wikipron/graphs/contributors).
+
+Contact: [Kyle Gorman](mailto:kgorman@gc.cuny.edu).
+
+References
+----------
+
+Gorman, K. (2016). Pynini: a Python library for weighted finite-state grammar
+compilation. In *Proceedings of the SIGFSM Workshop on Statistical NLP and
+Weighted Automata*, pages 75--80, Berlin. Association for Computational
+Linguistics.
+
+Lee, J. L, Ashby, L. F.E., Garza, M. E., Lee-Sikka, Y., Miller, S., Wong, A.,
+McCarthy, A. D., and Gorman, K. (in press). *Massively multilingual
+pronunciation mining with WikiPron*. To appear in the proceedings of LREC 2020.
+
+Moran, S. and Cysouw, M. (2018). *The Unicode cookbook for linguists: managing
+writing systems using orthography profiles*. Berlin: Language Science Press.
+
+Moran, S. and McCloy, D. (2019). *PHOIBLE 2.0*. Jena: Max Planck Institute for
+the Science of Human History.
+
+Novak, J. R., Minematsu, N., and Hirose, K. (2016). Phonetisaurus: exploring
+grapheme-to-phoneme conversion with joint n-gram models in the WFST framework.
+*Natural Language Engineering*, 22(6):907--938.
+
+Ott, M., Edunov, S., Baevski, A., Fan, A., Gross, S., Ng, N., Grangier, D., and
+Auli, M. (2019). fairseq: a fast, extensible toolkit for sequence modeling. In
+*Proceedings of the 2019 Conference of the North American Chapter of the
+Association for Computational Linguistics (Demonstrations)*, pages 48--53,
+Minneapolis. Association for Computational Linguistics.
+
+Roark, B., Sproat, R., Allauzen, C., Riley, M., Sorensen, J., and Tai, T.
+(2012). The OpenGrm open-source finite-state grammar software libraries. In
+*Proceedings of the ACL 2012 System Demonstrations*, pages 61--66, Jeju Island,
+Korea. Association for Computational Linguistics.
+
+Sagot, B. 2018. A multilingual collection of CoNLL-U-compatible morphological
+lexicons. In *Proceedings of the Eleventh International Conference on Language
+Resources and Evaluation (LREC)*, pages 1861-1867. Miyazaki, Japan. European
+Language Resources Association.
