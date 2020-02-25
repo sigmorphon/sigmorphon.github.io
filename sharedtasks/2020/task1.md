@@ -1,5 +1,9 @@
-Task 1: Multilingual Grapheme-to-Phoneme Conversion
-===================================================
+---
+layout: page
+longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Typologically Diverse Morphological Inflection"
+title: "Task 1: Multilingual Grapheme-to-Phoneme Conversion"
+---
+
 
 In this task, participants will create computational models that map a sequence
 of "graphemes"---characters---representing a word to a transcription of that
