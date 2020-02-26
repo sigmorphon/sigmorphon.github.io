@@ -1,7 +1,7 @@
 ---
 layout: page
-longtitle: "Task 2 - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme and Unsupervised Induction of Morphology"
-title: "Task 2: Unsupervised Discovery of Morphlogical Paradigms"
+longtitle: "Task 2 - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Typologically Diverse Morphological Inflection"
+title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
 ---
 
 Details to come!
