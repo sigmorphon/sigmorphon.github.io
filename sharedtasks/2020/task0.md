@@ -4,8 +4,6 @@ longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervis
 title: "Task 0: Typologically Diverse Morphological Inflection"
 ---
 
-# SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection 
-
 SIGMORPHON’s fifth installment of its inflection generation shared task focuses on languages that are typologically diverse from languages in our previous tasks. Many of these languages are extremely low-resource. In this edition, we are specifically interested in inflection generation systems’ ability to generalize to new languages, including languages that are typologically distinct. For example, if you have a neural network architecture that works well for a sample of Indo-European languages, should you expect the same architecture to also work well for Tupi–Guarani languages (where nouns are “declined” for tense)? The organizers suspect not, but you could prove us wrong!
 
 ## Important Links
@@ -38,14 +36,14 @@ In the Development Phase, we will provide training and development splits from t
 
 In the Generalization Phase, we will provide training and development splits for new languages where approximately half are genetically related (belong to the same family) and half are genetically *unrelated* (are isolates or belong to a different family) to the development languages. We will keep the languages in the Generalization Phase a surprise until April 2020 (see [timeline](#timeline)). We will also keep the genetically unrelated language *families* a surprise, though some languages will come from the same families as those in the Development Phase. 
  
-In the Evaluation Phase, the participants’ models will be evaluated on surprise forms from all of the languages from the previous phases. The languages from the Development Phase and the Generalization Phase are evaluated simultaneously. The only difference is that there has been more time to construct a model for those languages released in the Development Phase. It follows that a model could easily overfit to or favor phenomena that are more frequent in languages presented in the Development Phase, especially if parameters are shared across languages. For instance, a model based on the morphological patterning of the Indo-European languages may end up with a bias towards suffixing and will struggle to learn prefixing or circumfixation, the degree to which only becomes apparent during experimentation on other languages whose inflectional morphology patterns differ. Of course, the model architecture itself could explicitly or implicitly favor certain word formation types (suffixing, prefixing, etc.).
+In the Evaluation Phase, the participants’ models will be evaluated on held-out forms from all of the languages from the previous phases. The languages from the Development Phase and the Generalization Phase are evaluated simultaneously. The only difference is that there has been more time to construct a model for those languages released in the Development Phase. It follows that a model could easily overfit to or favor phenomena that are more frequent in languages presented in the Development Phase, especially if parameters are shared across languages. For instance, a model based on the morphological patterning of the Indo-European languages may end up with a bias towards suffixing and will struggle to learn prefixing or circumfixation, the degree to which only becomes apparent during experimentation on other languages whose inflectional morphology patterns differ. Of course, the model architecture itself could explicitly or implicitly favor certain word formation types (suffixing, prefixing, etc.).
 
 <sup>1</sup> See [References](#references)
 
 
 **Glossary**
 
-The shared task features both surprise morphological inflection triples and surprise languages. The organizers created a short glossary of task-specific terminology for clarity. We use the language described in this glossary unambiguously throughout the task description.
+The shared task features both held-out morphological inflection triples and surprise languages. The organizers created a short glossary of task-specific terminology for clarity. We use the language described in this glossary unambiguously throughout the task description.
 
 * **Development language**: A language for which the participants will have an elongated period of time (about two months) to construct a machine learning model for morphological inflection generation.
 * **Surprise language**: A language for which the participants will have a short period of time (about one week) to construct or adapt a machine learning model for morphological inflection generation. The idea is that the participants apply the knowledge accrued from the Development Phase to choose a good model and good hyperparameters. Most of the surprise languages will be *typologically distinct* from the development languages, i.e. the majority of the languages will be taken from language families other than the ones used during the Development Phase.
@@ -59,7 +57,7 @@ The shared task features both surprise morphological inflection triples and surp
 **Stage 1: Development Phase**
 * February 24th, 2020: Training and development splits for development languages released; we invite participants to report errors.
 * February 24th, 2020: Neural and non-neural baselines for development languages released.
-* March 1st, 2020: Surprise language data are frozen.  
+* March 1st, 2020: Development language data are frozen.  
 
 **Stage 2: Generalization Phase**
 * April 13th, 2020: Training and development splits for surprise languages released.   
@@ -95,12 +93,12 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
 
 <table>
     <tr>
-        <td><sub>Language</sub></td>
-        <td><sub>ISO 639-3</sub></td>
-        <td><sub>Family</sub></td>
-        <td><sub>Genus</sub></td>
-        <td><sub># Train</sub></td>
-        <td><sub># Dev</sub></td>
+        <td><sub><b>Language</b></sub></td>
+        <td><sub><b>ISO 639-3</b></sub></td>
+        <td><sub><b>Family</b></sub></td>
+        <td><sub><b>Genus</b></sub></td>
+        <td><sub><b># Train</b></sub></td>
+        <td><sub><b># Dev</b></sub></td>
     </tr>
     <tr>
         <td><sub>Malagasy</sub></td>
@@ -488,7 +486,7 @@ Additional UniMorph (and ICGI) data beyond what is provided is not allowed for m
 
 Our shared task also comes with a somewhat novel experimental design. We will simultaneously evaluate models for both the Development languages, whose training and development sets will be available for an elongated period of time, and the Surprise languages, whose training and development sets will only be available for a short time prior to submission, which precludes extensive tuning. To be officially ranked, you must submit results for **all** evaluation languages. Thus, to succeed, your class of models (e.g. neural sequence-to-sequence models or weighted finite-state transducers with hand-crafted features) must generalize well to the group of Surprise languages that are typologically distinct from the Development languages you performed model selection on. To repeat: This is not a zero-shot learning task, but rather our evaluation set-up is designed to test the inherent inductive bias in the participants’ chosen model class. We attribute the inspiration for this experimental design to [Emily Bender](https://faculty.washington.edu/ebender/), who often [advocates for such positions](https://thegradient.pub/the-benderrule-on-naming-the-languages-we-study-and-why-it-matters/).
 
-We will simultaneously evaluate the accuracy on surprise forms for languages from the following three categories of languages separately: 1) surprise forms from the Development languages, 2) surprise forms from genetically related Surprise languages, and 3) surprise forms from genetically unrelated surprise languages. This tripartite split should give the field insight into how reliable performance of certain classes of models are on typologically distinct languages. It should also help answer the following question: If my model class works well when trained on English and many others, will the same model class work well on languages which exhibit linguistic characteristics distinct from English?
+We will simultaneously evaluate the accuracy on held-out forms for languages from the following three categories of languages separately: 1) held-out forms from the Development languages, 2) held-out forms from genetically related Surprise languages, and 3) held-out forms from genetically unrelated Surprise languages. This tripartite split should give the field insight into how reliable performance of certain classes of models are on typologically distinct languages. It should also help answer the following question: If my model class works well when trained on English and many others, will the same model class work well on languages which exhibit linguistic characteristics distinct from English?
 
 As mentioned in Restrictions above, we will evaluate submissions in two categories: monolingual, constrained data models, and unconstrained -- the world is your oyster!
 
@@ -590,7 +588,7 @@ Andrej Krizhanovsky (Karelian Research Centre, Russia)
 Antonios Anastasopoulos (Carnegie Mellon University, USA)   
 Edoardo Ponti (University of Cambridge, UK)   
 Elena Klyachko (National Research University Higher School of Economics, Russia)   
-Ilya Yegorov (Lomonosov Moscow State University)   
+Ilya Yegorov (Lomonosov Moscow State University, Russia)   
 Irene Nikkarinen (University of Cambridge, UK)   
 Jennifer White (University of Cambridge, UK)   
 Josef Valvoda (University of Cambridge, UK)   
