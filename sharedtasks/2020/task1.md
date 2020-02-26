@@ -135,20 +135,11 @@ Participants are welcome to adapt these baselines for their purposes.
 
 ## Timeline
 
-**Stage 1: Development Phase**
 * February 24th, 2020: Training and development splits for development languages released; we invite participants to report errors.
 * February 24th, 2020: Neural and non-neural baselines for development languages released.
-* March 1st, 2020: Surprise language data are frozen.  
-
-**Stage 2: Generalization Phase**
 * April 13th, 2020: Training and development splits for surprise languages released.   
-(This is not a zero-shot learning task. Participants will be given training data for all languages.)  
-
-**Stage 3: Evaluation Phase**
 * April 20th, 2020: Test splits for all languages (both development and surprise) released.
 * April 27th, 2020: Participants submit test predictions on all languages.  
-
-**Stage 4: Write-up Phase**
 * May 4th, 2020: Participants’ system description papers due.  
 * May 18th, 2020: Participants’ system description papers camera ready due.  
 
