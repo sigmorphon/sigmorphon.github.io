@@ -54,7 +54,7 @@ One corresponding output file (the order of lines is not important) could be:
 
 ###  Languages
 
-We will provide *development languages* at the start of the shared task. Those languages should be used for model development, hyperparameter tuning, etc. However, **performance on the development languages will not be taken into account for the final evaluation**. (Note, in particular, that this is different from the evaluation of this year's Task 0.)
+We will provide *development languages* at the start of the shared task. Those languages should be used for model development, hyper-parameter tuning, etc. However, **performance on the development languages will not be taken into account for the final evaluation**. (Note, in particular, that this is different from the evaluation of this year's Task 0.)
 
 The final evaluation of all submitted systems will be on *test languages*, which we will only reveal at the beginning of the test phase (*probably around mid April*).
 
@@ -83,9 +83,9 @@ Evaluation scripts will be provided [here, *to come soon*].
 
 ## Baseline
 
-We will provide a baseline system for the task as a starting points for participants [here, *to come soon*]. 
+We will provide a baseline system for the task as a starting point for participants [here, *to come soon*]. 
 
-In short, our baseline system consists of a pipeline of 4 different components, which perform edit tree construction and discovery of new lemmas (via bootstrapping), discovery of paradigms by grouping observed forms, and generalization from existing forms to fill unobserved slots. In particular, the last part is a sequence-to-sequence model known to perform well for mophological inflection in the low-resource setting (Makarov and Clematide, 2018). Thus, a suggested starting point for participants could be to substitute this last component by more recent sequence-to-sequence models for inflection (e.g., one based on the Transformer (Vaswani et al., 2017) architecture), in order to improve over the provided baseline.
+In short, our baseline system consists of a pipeline of 4 different components, which perform edit tree construction and discovery of new lemmas (via bootstrapping), discovery of paradigms by grouping observed forms, and generalization from existing forms to fill unobserved slots. In particular, the last part is a sequence-to-sequence model known to perform well for morphological inflection in the low-resource setting (Makarov and Clematide, 2018). Thus, a suggested starting point for participants could be to substitute this last component by more recent sequence-to-sequence models for inflection (e.g., one based on the Transformer (Vaswani et al., 2017) architecture), in order to improve over the provided baseline.
 In order to make this as easy as possible, we will additionally provide the final output of the first three components, i.e., the training file for the inflection model, to the participants [here, *to come soon*].
 
 ## Overview Paper
