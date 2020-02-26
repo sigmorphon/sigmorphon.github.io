@@ -65,6 +65,9 @@ tokenized phone sequence) TSV format, the same one used for the training and
 development data. If your system only provides the predicted phone sequences,
 use the UNIX command-line tool `paste` to combine the columns.
 
+
+Data can be obtained [here]( https://github.com/sigmorphon/2020/tree/master/task1/data).
+
 ### Exclusions
 
 We exclude from the provided data any words which:
@@ -106,7 +109,8 @@ edit distance between hypotheses and gold transcriptions, computed by summing
 the minimum edit distance between the hypothesis and gold transcriptions and
 then dividing by the summed length of the gold transcriptions. As is common
 practice, we multiply both numbers by 100. Both metrics will be computed using
-the provided Python script `evaluate.py`.
+the provided Python script `evaluate.py`, available [here](https://github.com/sigmorphon/2020/blob/master/task1/evaluation/evaluate.py).
+
 
 ### System comparison
 
@@ -123,8 +127,32 @@ We provide implementations of two baseline systems for the task:
     toolkit](http://opengrm.org/) (Roark et al. 2012, Gorman 2016), and
 -   a bidirectional LSTM encoder-decoder sequence model implemented using the
     [Fairseq toolkit](https://github.com/pytorch/fairseq) (Ott et al. 2019).
+    
+
+The baselines are available [here](https://github.com/sigmorphon/2020/tree/master/task1/baselines).
 
 Participants are welcome to adapt these baselines for their purposes.
+
+## Timeline
+
+**Stage 1: Development Phase**
+* February 24th, 2020: Training and development splits for development languages released; we invite participants to report errors.
+* February 24th, 2020: Neural and non-neural baselines for development languages released.
+* March 1st, 2020: Surprise language data are frozen.  
+
+**Stage 2: Generalization Phase**
+* April 13th, 2020: Training and development splits for surprise languages released.   
+(This is not a zero-shot learning task. Participants will be given training data for all languages.)  
+
+**Stage 3: Evaluation Phase**
+* April 20th, 2020: Test splits for all languages (both development and surprise) released.
+* April 27th, 2020: Participants submit test predictions on all languages.  
+
+**Stage 4: Write-up Phase**
+* May 4th, 2020: Participants’ system description papers due.  
+* May 18th, 2020: Participants’ system description papers camera ready due.  
+
+
 
 Overview paper
 --------------
