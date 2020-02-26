@@ -4,15 +4,36 @@ longtitle: "Task 2 - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervi
 title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
 ---
 
-Details to come!
+Morphologically rich languages express certain properties—like tense or case—of words by changing their surface forms. This process is called (morphological) inflection, and the set of all inflected
+forms of a lemma—the canonical form—is called its paradigm. While English does not dispose of a rich inflectional morphology, a rather extreme example, Archi paradigms, can have over 1.5 million slots (Kibrik, 1977). This leads to data sparsity and has shown to be challenging for natural language processing (NLP) systems.
 
-In this task, participants will create a computational system that receives raw text and a set of (verbal) lemmas in the same languages, then produces complete morphological paradigms for these lemmas.
+Children master the task of morphological inflection without access to explicit morphological information. Do they dispose of an innate capacity that enables them to learn a language’s morphology? Or can morphological inflection be learned in an unsupervised fashion? Furthermore, wouldn't it be amazing to obtain an explanation of a long forgotten language's morphology from raw text and some remaining translated words alone? 
+
+This year's SIGMORPHON Task 2 finally fills the gap between recent SIGMORPHON shared tasks on morphological inflection learned from limited training data and completely unsupervised morphological generation by proposing the task of **unsupervised morphological paradigm completion**. The goal is to construct and fill inflection tables exclusively from raw text and a lemma list for a known part of speech (POS). 
+
+**TL;DR**: In this task, participants will create a computational system that receives raw text and a set of (verbal) lemmas in the same language, then produces complete morphological paradigms for these lemmas.
+
+## Important Links
+
+1. Register for the shared task using our [Google form](https://forms.gle/vrKKVepXqpb1rLuc9)
+2. Have a look at [the data](https://github.com/sigmorphon/2020.git) we provide
+3. Check out our baseline system (to come soon!)
 
 ## Data and Format
 
-The raw text and lemma files will be provided in a simple utf-8 encoded text format. Each will be a separate file. The raw text has been tokenized; if you wish, you may further preprocess it.
+We will provide the following resources for each language:
 
-The output should contain (number of paradigm slots) * (number of lemmas) lines; each lemma, word form, and paradigm slot number should be separated by a TAB.
+1. The tokenized Bible in the language
+2. A list of (verbal) lemmas in the language for development, together with gold paradigms for each lemma
+3. A list of (verbal) lemmas in the language for testing
+
+The raw text and lemma files will be provided in a simple utf-8 encoded text format. Each will be a separate file. The raw Bible text has been tokenized; if you wish, you may further preprocess it.
+
+By establishing the Bible as a standard for unsupervised paradigm completion, we hope to leverage developments made within the framework of the shared task to soon construct large inflection tables for all of the >2000 languages the Bible is available in (semi-)automatically.
+
+###  Output Format
+
+The output of each system for each language should contain (number of paradigm slots) * (number of lemmas) lines; each lemma, word form, and paradigm slot number should be separated by a TAB.
 
 For example, for the English lemmas file:
 
@@ -31,37 +52,58 @@ One corresponding output file (the order of lines is not important) could be:
 
 (The ellipses should not appear in your output.)
 
-We will provide development languages at the start of the shared task. However, the final evaluation will be on test languages, which we will only reveal at the beginning of the test phase.
+###  Languages
+
+We will provide *development languages* at the start of the shared task. Those languages should be used for model development, hyperparameter tuning, etc. However, **performance on the development languages will not be taken into account for the final evaluation**. (Note, in particular, that this is different from the evaluation of this year's Task 0.)
+
+The final evaluation of all submitted systems will be on *test languages*, which we will only reveal at the beginning of the test phase (*probably around mid April*).
+
+**Development languages**: Maltese, Persian, Portuguese, Russian, Swedish
+
+**Test languages**: Stay tuned!
 
 ###  External Data
 
-In order to enable a fair comparison between systems, we don't allow the use of any external data. (Thus, the use of pretrained models like morphological analyzers or BERT (Devlin et al., 2018) isn't allowed, either.)
+In order to enable a fair comparison between systems, we don't allow the use of any external resources, i.e., anything not provided in the task 2 folder of the [data repository](https://github.com/sigmorphon/2020.git). Importantly, this excludes both unlabeled data and any trained models available online. (Thus, the use of pretrained models like morphological analyzers or BERT (Devlin et al., 2018) isn't allowed!)
+
+Finally, we do **not** allow participation of multilingual systems; one language, one system!
 
 ## Evaluation
 
 Systems should produce a file as described above. There should be no column headers.
 
-### Evaluation Measures
+### Evaluation Metrics
 
-We will compare against ground-truth morphological paradigms from UniMorph 3.0 (CITE), a morphological database which provides paradigms for over 100 languages.
+We will compare against ground-truth morphological paradigms from [UniMorph](https://unimorph.github.io), a morphological database which provides paradigms for over 100 languages.
 
 Systems for *supervised* paradigm completion are commonly being evaluated using word-level accuracy (Cotterell et al., 2017, *inter alia*).  However, this is not possible for our task because slots are not labeled with gold data paradigm slot descriptions.
 
-We will use best-match accuracy, both macro-averaged (i.e., per-slot) and micro-averaged (i.e., per-form), with micro-average being the main metric. Evaluation scripts will be provided, with links [on this page].
+Thus, we will evaluate using a metric we specifically designed for this task: **best-match accuracy**, both macro-averaged (i.e., per-slot) and micro-averaged (i.e., per-form), with micro-average being the main metric. This metric first matches predicted paradigm slots with gold slots in the best possible way, and then evaluates correctness of each individual inflected form.
+Evaluation scripts will be provided [here, *to come soon*].
 
 ## Baseline
 
-We will provide and describe a baseline system [here]. It relies on a pipeline of edit tree construction and discovery of new lemmas (performed by bootstrapping), discovery of paradigms by grouping observed forms, and generalization from existing forms to fill unobserved slots.
+We will provide a baseline system for the task as a starting points for participants [here, *to come soon*]. 
+
+In short, our baseline system consists of a pipeline of 4 different components, which perform edit tree construction and discovery of new lemmas (via bootstrapping), discovery of paradigms by grouping observed forms, and generalization from existing forms to fill unobserved slots. In particular, the last part is a sequence-to-sequence model known to perform well for mophological inflection in the low-resource setting (Makarov and Clematide, 2018). Thus, a suggested starting point for participants could be to substitute this last component by more recent sequence-to-sequence models for inflection (e.g., one based on the Transformer (Vaswani et al., 2017) architecture), in order to improve over the provided baseline.
+In order to make this as easy as possible, we will additionally provide the final output of the first three components, i.e., the training file for the inflection model, to the participants [here, *to come soon*].
 
 ## Overview Paper
 
 In an overview paper for the shared task, we will compare the performance of submitted systems in detail. We will evaluate:
 
-1. which systems are significantly different in performance
-1. which examples were hard and which types of systems succeeded on them
-1. which systems would provide complementary benefit in an ensemble system
+1. which systems are significantly different in performance,
+1. which examples were hard and which types of systems succeeded on them,
+1. which systems would provide complementary benefit in an ensemble system.
 
-Included in the paper will be a summary of scores. Participants who produce outputs for all languages will be ranked; others may still have their systems described in the overview paper.
+Included in the paper will be a summary of all scores. Only participants who produce outputs for all languages will be ranked, but all others may still have their systems described in the overview paper.
 
 Further, regardless of performance, you are invited (and expected) to submit a summary paper (4–8 pages) for the SIGMORPHON proceedings. In it, you should detail your system, any clever choices you made, details for those hoping to reproduce it, and avenues for extending or improving the system.
 
+## References
+
+1. Cotterell et al. 2017. CoNLL-SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection in 52 Languages. Proceedings of CoNLL-SIGMORPHON. 
+2. Devlin et al.. 2019. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Proceedings of NAACL.
+3. Kibrik, Aleksandr E. 1998. Archi. In Andrew Spencer; Arnold M. Zwicky. The Handbook of Morphology. Blackwell Publishers.
+4. Peter Makarov and Simon Clematide. 2018. Imitation learning for neural morphological string transduction. Proceedings of EMNLP.
+5. Vaswani et al. 2017. Attention is All You Need. Proceedings of NeurIPS.
