@@ -10,7 +10,7 @@ title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
 
 1. Register for the shared task using our [Google form](https://forms.gle/vrKKVepXqpb1rLuc9)
 2. Join our [Google group](https://groups.google.com/forum/#!forum/sigmorphon-2020)
-3. Have a look at [the data](https://github.com/sigmorphon/2020.git) we provide
+3. Have a look at [the data](https://github.com/sigmorphon/2020/tree/master/task2) we provide
 4. Check out our baseline system (to come soon!)
 
 ## Unsupervised Paradigm Completion
