@@ -4,6 +4,17 @@ longtitle: "Task 2 - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervi
 title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
 ---
 
+**Summary**: In this task, participants will create a computational system that receives raw Bible text together with a set of (verbal) lemmas in the same language and outputs complete morphological paradigms for these lemmas.
+
+## Important Links
+
+1. Register for the shared task using our [Google form](https://forms.gle/vrKKVepXqpb1rLuc9)
+2. Join our [Google group](https://groups.google.com/forum/#!forum/sigmorphon-2020)
+3. Have a look at [the data](https://github.com/sigmorphon/2020.git) we provide
+4. Check out our baseline system (to come soon!)
+
+## Unsupervised Paradigm Completion
+
 Morphologically rich languages express certain properties—like tense or case—of words by changing their surface forms. This process is called (morphological) inflection, and the set of all inflected
 forms of a lemma—the canonical form—is called its paradigm. While English does not dispose of a rich inflectional morphology, a rather extreme example, Archi paradigms, can have over 1.5 million slots (Kibrik, 1977). This leads to data sparsity and has shown to be challenging for natural language processing (NLP) systems.
 
@@ -11,13 +22,13 @@ Children master the task of morphological inflection without access to explicit 
 
 This year's SIGMORPHON Task 2 finally fills the gap between recent SIGMORPHON shared tasks on morphological inflection learned from limited training data and completely unsupervised morphological generation by proposing the task of **unsupervised morphological paradigm completion**. The goal is to construct and fill inflection tables exclusively from raw text and a lemma list for a known part of speech (POS). 
 
-**Summary**: In this task, participants will create a computational system that receives raw text and a set of (verbal) lemmas in the same language, then produces complete morphological paradigms for these lemmas.
+###  2 Tracks
 
-## Important Links
+In **Track 1**, submitted systems will need to figure out the number of paradigm slots from the provided data alone.
 
-1. Register for the shared task using our [Google form](https://forms.gle/vrKKVepXqpb1rLuc9)
-2. Have a look at [the data](https://github.com/sigmorphon/2020.git) we provide
-3. Check out our baseline system (to come soon!)
+**Track 2** features a slightly easier version of the task, where the number of paradigm slots in the gold data will be provided. 
+
+Participants are allowed to participate in either or both tracks, but we strongly encourage everyone to submit to both tracks.
 
 ## Data and Format
 
@@ -78,8 +89,40 @@ We will compare against ground-truth morphological paradigms from [UniMorph](htt
 
 Systems for *supervised* paradigm completion are commonly being evaluated using word-level accuracy (Cotterell et al., 2017, *inter alia*).  However, this is not possible for our task because slots are not labeled with gold data paradigm slot descriptions.
 
-Thus, we will evaluate using a metric we specifically designed for this task: **best-match accuracy**, both macro-averaged (i.e., per-slot) and micro-averaged (i.e., per-form), with micro-average being the main metric. This metric first matches predicted paradigm slots with gold slots in the best possible way, and then evaluates correctness of each individual inflected form.
+Thus, we will evaluate using a metric we specifically designed for this task: **best-match accuracy**, both macro-averaged (i.e., per-slot) and micro-averaged (i.e., per-form), with micro-average being the main metric. This metric first matches predicted paradigm slots with gold slots in the best possible way, i.e., the way which leads to the highest overall accuracy, and then evaluates correctness of each individual inflected form.
 Evaluation scripts will be provided [here, *to come soon*].
+
+The task's metric penalizes systems (heavily) for predicting a wrong number of paradigm slots. This will, on average, result in worse performance of all systems for Track 1 as compared to Track 2.
+
+### Evaluation Example
+
+Imagine a language with two paradigm slots. The given verbal lemmas (e.g., in ExampleLanguage.V-dev) are AAA and BBB, and the task is to predict the entire paradigms of the verbs AAA and BBB.
+
+The gold paradigms (e.g., in ExampleLanguage.V-dev.gold), are:
+
+    AAA AAAs PLURAL
+    AAA AAAd PAST
+    BBB BBBs PLURAL
+    BBB BBBn PAST
+
+Our system predicts only one paradigm slot:
+
+    AAA AAAd 1
+    BBB BBBd 1
+
+Then, the shared task metric first computes the best match for that paradigm slot with the gold paradigm slots: the slot denoted as “PAST”, which yields 50% accuracy, resulting in a score of .25 when weighting by the number of examples as needed for the micro-average accuracy, as compared to “PLURAL”, which would result in a score of 0%. We then compute per-slot accuracies:
+
+    [50%, 0%]
+
+(The second entry is 0%, since the second slot hasn’t been discovered by the system.)
+
+Next, we compute the micro-average: 
+
+    50% * 0.5 + 0% * 0.5 = 25% 
+
+(Note that, in this example, micro- and macro-average are identical.)
+
+Thus, our system’s best-match accuracy would be 25%.
 
 ## Baseline
 
