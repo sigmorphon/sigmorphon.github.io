@@ -11,7 +11,7 @@ Children master the task of morphological inflection without access to explicit 
 
 This year's SIGMORPHON Task 2 finally fills the gap between recent SIGMORPHON shared tasks on morphological inflection learned from limited training data and completely unsupervised morphological generation by proposing the task of **unsupervised morphological paradigm completion**. The goal is to construct and fill inflection tables exclusively from raw text and a lemma list for a known part of speech (POS). 
 
-**TL;DR**: In this task, participants will create a computational system that receives raw text and a set of (verbal) lemmas in the same language, then produces complete morphological paradigms for these lemmas.
+**Summary**: In this task, participants will create a computational system that receives raw text and a set of (verbal) lemmas in the same language, then produces complete morphological paradigms for these lemmas.
 
 ## Important Links
 
