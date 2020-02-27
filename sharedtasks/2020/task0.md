@@ -23,6 +23,7 @@ SIGMORPHON’s fifth installment of its inflection generation shared task focuse
 * [Submission](#submission)
 * [ICGI Shared Task](#icgi-shared-task)
 * [References](#references)
+* [Contact](#contact)
 * [Task Organization](#task-organization)
 
 
@@ -567,6 +568,13 @@ Vaswani et al. [“Attention is All You Need.”](https://papers.nips.cc/paper/7
 &nbsp;&nbsp;&nbsp; You may find more detailed information on some languages here: [https://langsci-press.org/series](https://langsci-press.org/series)
 
 
+## Contact
+
+Point of Contact: [Ekaterina Vylomova](mailto:evylomova@gmail.com)  
+Discussion: [Task 0 Google Group](https://groups.google.com/forum/#!forum/sigmorphon2020-task0)  
+Submission: [sigmorphon2020sharedtask@gmail.com](mailto:sigmorphon2020sharedtask@gmail.com)  
+
+
 ## Task Organization   
 
 **Logistics**  
@@ -600,3 +608,4 @@ Ran Zmigrod (University of Cambridge, UK)
 Rowan Hall Maudslay (University of Cambridge, UK)   
 Svetlana Toldova (National Research University Higher School of Economics, Russia)   
 Tiago Pimentel (University of Cambridge, UK)   
+
