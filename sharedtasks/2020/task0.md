@@ -378,8 +378,8 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>est</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Finnic</sub></td>
-        <td><sub>27373</sub></td>
-        <td><sub>3911</sub></td>
+        <td><sub>26740</sub></td>
+        <td><sub>3823</sub></td>
     </tr>
     <tr>
         <td><sub>Finnish</sub></td>
@@ -394,8 +394,8 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>izh</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Finnic</sub></td>
-        <td><sub>805</sub></td>
-        <td><sub>115</sub></td>
+        <td><sub>763</sub></td>
+        <td><sub>112</sub></td>
     </tr>
     <tr>
         <td><sub>Karelian</sub></td>
@@ -410,8 +410,8 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>liv</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Finnic</sub></td>
-        <td><sub>2936</sub></td>
-        <td><sub>420</sub></td>
+        <td><sub>2787</sub></td>
+        <td><sub>398</sub></td>
     </tr>
     <tr>
         <td><sub>Veps</sub></td>
@@ -426,8 +426,8 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>vot</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Finnic</sub></td>
-        <td><sub>1040</sub></td>
-        <td><sub>149</sub></td>
+        <td><sub>1003</sub></td>
+        <td><sub>146</sub></td>
     </tr>
     <tr>
         <td><sub>Meadow Mari</sub></td>
@@ -458,8 +458,8 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>sme</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Sami</sub></td>
-        <td><sub>45350</sub></td>
-        <td><sub>6479</sub></td>
+        <td><sub>43877</sub></td>
+        <td><sub>6273</sub></td>
     </tr>
 </table>
 
@@ -550,7 +550,6 @@ Devlin et al. [“BERT: Pre-training of Deep Bidirectional Transformers for Lang
 
 Vaswani et al. [“Attention is All You Need.”](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) Proceedings of NeurIPS 2017.  
 
-&nbsp;    
 *Introduction into morphology:*   
 &nbsp;&nbsp;&nbsp; Haspelmath, M. (2002). [*Understanding Morphology*](https://www.researchgate.net/publication/271018639_Understanding_Morphology). Oxford University Press,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USA.  
@@ -608,4 +607,3 @@ Ran Zmigrod (University of Cambridge, UK)
 Rowan Hall Maudslay (University of Cambridge, UK)   
 Svetlana Toldova (National Research University Higher School of Economics, Russia)   
 Tiago Pimentel (University of Cambridge, UK)   
-
