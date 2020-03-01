@@ -16,9 +16,9 @@ title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
 ## Unsupervised Paradigm Completion
 
 Morphologically rich languages express certain properties—like tense or case—of words by changing their surface forms. This process is called (morphological) inflection, and the set of all inflected
-forms of a lemma—the canonical form—is called its paradigm. While English does not dispose of a rich inflectional morphology, a rather extreme example, Archi paradigms, can have over 1.5 million slots (Kibrik, 1977). This leads to data sparsity and has shown to be challenging for natural language processing (NLP) systems.
+forms of a lemma—the canonical form—is called its paradigm. While English does not have a rich inflectional morphology, a rather extreme example, Archi paradigms, can have over 1.5 million slots (Kibrik, 1977). This leads to data sparsity and has shown to be challenging for natural language processing (NLP) systems.
 
-Children master the task of morphological inflection without access to explicit morphological information. Do they dispose of an innate capacity that enables them to learn a language’s morphology? Or can morphological inflection be learned in an unsupervised fashion? Furthermore, wouldn't it be amazing to obtain an explanation of a long forgotten language's morphology from raw text and some remaining translated words alone? 
+Children master the task of morphological inflection without access to explicit morphological information. Do they have an innate capacity that enables them to learn a language’s morphology? Or can morphological inflection be learned in an unsupervised fashion? Furthermore, wouldn't it be amazing to obtain an explanation of a long forgotten language's morphology from raw text and some remaining translated words alone? 
 
 This year's SIGMORPHON Task 2 finally fills the gap between recent SIGMORPHON shared tasks on morphological inflection learned from limited training data and completely unsupervised morphological generation by proposing the task of **unsupervised morphological paradigm completion**. The goal is to construct and fill inflection tables exclusively from raw text and a lemma list for a known part of speech (POS). 
 
@@ -87,12 +87,16 @@ Systems should produce a file as described above. There should be no column head
 
 We will compare against ground-truth morphological paradigms from [UniMorph](https://unimorph.github.io), a morphological database which provides paradigms for over 100 languages.
 
-Systems for *supervised* paradigm completion are commonly being evaluated using word-level accuracy (Cotterell et al., 2017, *inter alia*).  However, this is not possible for our task because slots are not labeled with gold data paradigm slot descriptions.
+Systems for *supervised* paradigm completion are commonly being evaluated using word-level accuracy (Cotterell et al., 2017, *inter alia*).  However, this is not possible for our *unsupervised* task because slots are not labeled with gold data paradigm slot descriptions. Thus, we will evaluate using a metric we specifically designed for this task: **best-match accuracy**. This metric first matches predicted paradigm slots with gold slots in the best possible way, i.e., the way which leads to the highest overall accuracy, and then evaluates correctness of each individual inflected form.
+Evaluation scripts will be provided [here, *to come soon*], and perform the following steps:
 
-Thus, we will evaluate using a metric we specifically designed for this task: **best-match accuracy**, both macro-averaged (i.e., per-slot) and micro-averaged (i.e., per-form), with micro-average being the main metric. This metric first matches predicted paradigm slots with gold slots in the best possible way, i.e., the way which leads to the highest overall accuracy, and then evaluates correctness of each individual inflected form.
-Evaluation scripts will be provided [here, *to come soon*].
+1. Compute the average exact-match accuracy between each predicted slot and each gold slot, leading to a weighted bipartite graph.  
+2. Compute a maximum weighted bipartite matching. 
+3. To obtain the final score, divide the total weight of all edges in the matching by the total number of edges + unmatched vertices. (The denominator is equivalent to max(predicted slots, gold slots) regardless of the choice of matching, as long as the matching is maximal. Maximum-weight matching gives us the highest possible numerator.)
 
-The task's metric penalizes systems (heavily) for predicting a wrong number of paradigm slots. This will, on average, result in worse performance of all systems for Track 1 as compared to Track 2.
+We will account for syncretism (i.e., two paradigm slots being identical for all lemmas in a language), since a system should not be penalized for making a different decision than the gold standard about counting those as one or two slots.  Thus, our evaluation script will begin by merging identical slots: one copy of each pair of identical slots will be dropped before computing the bipartite matching. This is done for both the system output and the gold data. The number of gold paradigm slots provided for Track 2 will be the number after merging.
+
+The task's metric penalizes systems (heavily) for predicting a wrong number of paradigm slots. We expect that this will, on average, result in worse performance of all systems for Track 1 as compared to Track 2. 
 
 ### Evaluation Example
 
@@ -110,19 +114,15 @@ Our system predicts only one paradigm slot:
     AAA AAAd 1
     BBB BBBd 1
 
-Then, the shared task metric first computes the best match for that paradigm slot with the gold paradigm slots: the slot denoted as “PAST”, which yields 50% accuracy, resulting in a score of .25 when weighting by the number of examples as needed for the micro-average accuracy, as compared to “PLURAL”, which would result in a score of 0%. We then compute per-slot accuracies:
+Then, the shared task metric first computes the best match for that paradigm slot with the gold paradigm slots: the slot denoted as “PAST”, which yields 50% accuracy as compared to “PLURAL”, which would result in an accuracy of 0%. We then compute per-slot accuracies:
 
     [50%, 0%]
 
 (The second entry is 0%, since the second slot hasn’t been discovered by the system.)
 
-Next, we compute the micro-average: 
+Then, we compute the best-match accuracy by averaging: 
 
     50% * 0.5 + 0% * 0.5 = 25% 
-
-(Note that, in this example, micro- and macro-average are identical.)
-
-Thus, our system’s best-match accuracy would be 25%.
 
 ## Baseline
 
@@ -142,6 +142,25 @@ In an overview paper for the shared task, we will compare the performance of sub
 Included in the paper will be a summary of all scores. Only participants who produce outputs for all languages will be ranked, but all others may still have their systems described in the overview paper.
 
 Further, regardless of performance, you are invited (and expected) to submit a summary paper (4–8 pages) for the SIGMORPHON proceedings. In it, you should detail your system, any clever choices you made, details for those hoping to reproduce it, and avenues for extending or improving the system.
+
+## Organization
+
+### Logistics
+
+Arya McCarthy (Johns Hopkins University, USA)
+Katharina Kann (University of Colorado Bouler, USA)
+Mans Hulden (University of Colorado Boulder, USA)
+
+### Baseline and Evaluation Script
+
+Chen Xia (Carnegie Mellon University, USA)
+Huiming Jin (Carnegie Mellon University, USA)
+Liwei Cai (Carnegie Mellon University, USA)
+Yihui Peng (Carnegie Mellon University, USA)
+
+### Point of Contact
+
+Katharina Kann: katharina.kann@colorado.edu
 
 ## References
 
