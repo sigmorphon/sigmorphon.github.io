@@ -147,16 +147,16 @@ Further, regardless of performance, you are invited (and expected) to submit a s
 
 ### Logistics
 
-Arya McCarthy (Johns Hopkins University, USA)
-Katharina Kann (University of Colorado Bouler, USA)
+Arya McCarthy (Johns Hopkins University, USA) <br>
+Katharina Kann (University of Colorado Bouler, USA)<br>
 Mans Hulden (University of Colorado Boulder, USA)
 
 ### Baseline and Evaluation Script
 
-Chen Xia (Carnegie Mellon University, USA)
-Huiming Jin (Carnegie Mellon University, USA)
-Liwei Cai (Carnegie Mellon University, USA)
-Yihui Peng (Carnegie Mellon University, USA)
+Chen Xia (Carnegie Mellon University, USA)<br>
+Huiming Jin (Carnegie Mellon University, USA)<br>
+Liwei Cai (Carnegie Mellon University, USA)<br>
+Yihui Peng (Carnegie Mellon University, USA)<br>
 
 ### Point of Contact
 
