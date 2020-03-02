@@ -143,20 +143,29 @@ Included in the paper will be a summary of all scores. Only participants who pro
 
 Further, regardless of performance, you are invited (and expected) to submit a summary paper (4–8 pages) for the SIGMORPHON proceedings. In it, you should detail your system, any clever choices you made, details for those hoping to reproduce it, and avenues for extending or improving the system.
 
+## Timeline
+
+- February 24th, 2020: Data for development languages released
+- March 8th, 2020: Baseline and evaluation script released
+- April 13th, 2020: Data for test languages released
+- April 27th, 2020: Participants submit their system output for all languages
+- May 4th, 2020: Participants’ system description papers due
+- May 18th, 2020: Camera-ready version of participants’ system description papers due
+
 ## Organization
 
 ### Logistics
 
 Arya McCarthy (Johns Hopkins University, USA) <br>
-Katharina Kann (University of Colorado Bouler, USA)<br>
-Mans Hulden (University of Colorado Boulder, USA)
+Katharina Kann (University of Colorado Bouler, USA) <br>
+Mans Hulden (University of Colorado Boulder, USA) <br>
 
 ### Baseline and Evaluation Script
 
-Chen Xia (Carnegie Mellon University, USA)<br>
-Huiming Jin (Carnegie Mellon University, USA)<br>
-Liwei Cai (Carnegie Mellon University, USA)<br>
-Yihui Peng (Carnegie Mellon University, USA)<br>
+Chen Xia (Carnegie Mellon University, USA) <br>
+Huiming Jin (Carnegie Mellon University, USA) <br>
+Liwei Cai (Carnegie Mellon University, USA) <br>
+Yihui Peng (Carnegie Mellon University, USA) <br>
 
 ### Point of Contact
 
