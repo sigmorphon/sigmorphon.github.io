@@ -8,7 +8,7 @@ SIGMORPHON’s fifth installment of its inflection generation shared task focuse
 
 ## Important Links
 * Register for the shared task using our [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfaHAklgEaFGpu6PvP1Br7V5ouVB17NFh6l0oLGVui01uSXlA/viewform).
-* Please join our [Google group](https://groups.google.com/forum/#!groupsettings/sigmorphon2020-sharedtask0/basic) to stay up to date.
+* Please join our [Google group](https://groups.google.com/forum/#!managemembers/sigmorphon2020-task0/members/active) to stay up to date.
 * [Download the Data](https://github.com/sigmorphon2020/data)! 
 * [Download a Baseline System](https://github.com/sigmorphon2020/baselines)!
 * [Baseline Numbers](https://docs.google.com/spreadsheets/d/1sYHAhhhf9rpmsm_g6dIwIDgfsaPxFdM72qOVMjK2EgQ/edit?usp=sharing).
