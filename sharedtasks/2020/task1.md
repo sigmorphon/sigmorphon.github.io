@@ -133,6 +133,17 @@ The baselines are available [here](https://github.com/sigmorphon/2020/tree/maste
 
 Participants are welcome to adapt these baselines for their purposes.
 
+
+## Submission
+
+Participants will submit to this task by sending their models' predictions to 
+[sigmorphon2020.task1@gmail.com](mailto:sigmorphon2020.task1@gmail.com) by April 27th, 2020. 
+Participants may submit predictions from as many models as they wish; each submission will be scored separately. 
+Participants must submit predictions for all languages to be scored. 
+Participants must specify any external resources used at time of submission.
+
+System description papers will be submitted using [softconf](https://www.softconf.com/) - links will be provided at a later date.
+
 ## Timeline
 
 * February 24th, 2020: Training and development splits for development languages released; we invite participants to report errors.
@@ -142,7 +153,6 @@ Participants are welcome to adapt these baselines for their purposes.
 * April 27th, 2020: Participants submit test predictions on all languages.  
 * May 4th, 2020: Participants’ system description papers due.  
 * May 18th, 2020: Participants’ system description papers camera ready due.  
-
 
 
 Overview paper
