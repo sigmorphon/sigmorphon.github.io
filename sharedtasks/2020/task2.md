@@ -11,7 +11,7 @@ title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
 1. Register for the shared task using our [Google form](https://forms.gle/vrKKVepXqpb1rLuc9)
 2. Join our [Google group](https://groups.google.com/forum/#!forum/sigmorphon-2020)
 3. Have a look at [the data](https://github.com/sigmorphon/2020/tree/master/task2) we provide
-4. Check out our baseline system (to come soon!)
+4. Check out our [baseline system](https://github.com/cai-lw/morpho-baseline/tree/e20fe0e9d902924a008f84eb91877b8af2ab4189)
 
 ## Unsupervised Paradigm Completion
 
@@ -67,7 +67,7 @@ One corresponding output file (the order of lines is not important) could be:
 
 We will provide *development languages* at the start of the shared task. Those languages should be used for model development, hyper-parameter tuning, etc. However, **performance on the development languages will not be taken into account for the final evaluation**. (Note, in particular, that this is different from the evaluation of this year's Task 0.)
 
-The final evaluation of all submitted systems will be on *test languages*, which we will only reveal at the beginning of the test phase (*probably around mid April*).
+The final evaluation of all submitted systems will be on *test languages*, which we will only reveal at the beginning of the test phase.
 
 **Development languages**: Maltese, Persian, Portuguese, Russian, Swedish
 
@@ -75,7 +75,7 @@ The final evaluation of all submitted systems will be on *test languages*, which
 
 ###  External Data
 
-In order to enable a fair comparison between systems, we don't allow the use of any external resources, i.e., anything not provided in the task 2 folder of the [data repository](https://github.com/sigmorphon/2020.git). Importantly, this excludes both unlabeled data and any trained models available online. (Thus, the use of pretrained models like morphological analyzers or BERT (Devlin et al., 2018) isn't allowed!)
+In order to enable a fair comparison between systems, we don't allow the use of any external resources, i.e., anything not provided in the task2 folder of the [data repository](https://github.com/sigmorphon/2020.git). Importantly, this excludes both unlabeled data and any trained models available online. (Thus, the use of pretrained models like morphological analyzers or BERT (Devlin et al., 2018) isn't allowed!)
 
 Finally, we do **not** allow participation of multilingual systems; one language, one system!
 
@@ -88,7 +88,7 @@ Systems should produce a file as described above. There should be no column head
 We will compare against ground-truth morphological paradigms from [UniMorph](https://unimorph.github.io), a morphological database which provides paradigms for over 100 languages.
 
 Systems for *supervised* paradigm completion are commonly being evaluated using word-level accuracy (Cotterell et al., 2017, *inter alia*).  However, this is not possible for our *unsupervised* task because slots are not labeled with gold data paradigm slot descriptions. Thus, we will evaluate using a metric we specifically designed for this task: **best-match accuracy**. This metric first matches predicted paradigm slots with gold slots in the best possible way, i.e., the way which leads to the highest overall accuracy, and then evaluates correctness of each individual inflected form.
-Evaluation scripts will be provided [here, *to come soon*], and perform the following steps:
+The official evaluation script can be found [here](https://github.com/cai-lw/morpho-baseline/tree/e20fe0e9d902924a008f84eb91877b8af2ab4189), and performs the following steps:
 
 1. Compute the average exact-match accuracy between each predicted slot and each gold slot, leading to a weighted bipartite graph.  
 2. Compute a maximum weighted bipartite matching. 
@@ -126,10 +126,22 @@ Then, we compute the best-match accuracy by averaging:
 
 ## Baseline
 
-We will provide a baseline system for the task as a starting point for participants [here, *to come soon*]. 
+We will provide a baseline system for the task as a starting point for participants [here](https://github.com/cai-lw/morpho-baseline/tree/e20fe0e9d902924a008f84eb91877b8af2ab4189). 
 
 In short, our baseline system consists of a pipeline of 4 different components, which perform edit tree construction and discovery of new lemmas (via bootstrapping), discovery of paradigms by grouping observed forms, and generalization from existing forms to fill unobserved slots. In particular, the last part is a sequence-to-sequence model known to perform well for morphological inflection in the low-resource setting (Makarov and Clematide, 2018). Thus, a suggested starting point for participants could be to substitute this last component by more recent sequence-to-sequence models for inflection (e.g., one based on the Transformer (Vaswani et al., 2017) architecture), in order to improve over the provided baseline.
-In order to make this as easy as possible, we will additionally provide the final output of the first three components, i.e., the training file for the inflection model, to the participants [here, *to come soon*].
+In order to make this as easy as possible, the baseline system will generate the final output of the first three components, i.e., the training file for the inflection model, to be used by the participants.
+
+We additionally provide two trivial baselines (which do not merge identical paradigm slots for evaluation):
+- LB-GT: This baseline generates inflected forms identical to the lemma for each paradigm slot; the gold number of paradigm slots is given (*Track 2*).
+- LB-Dev: This baseline generates inflected forms identical to the lemma for each paradigm slot; the number of paradigm slots is the average over the number of paradigm slots in all development languages (*Track 1*).
+
+### Baseline Results
+
+|       | Maltese | Persian | Portuguese | Russian | Swedish |
+| ----------- | :----: | :----: | :----: | :----: | :----: |
+| Official baseline  | 20.00 | 6.49 | 31.57 | 41.74 | 40.87 |
+| LB-GT  | 7.19 | 2.07 | 6.55 | 6.25 | 15.73 |
+| LB-Dev | 1.92 | 2.07 | 6.55 | 1.67 | 2.84 |
 
 ## Overview Paper
 
@@ -145,8 +157,8 @@ Further, regardless of performance, you are invited (and expected) to submit a s
 
 ## Timeline
 
-- February 24th, 2020: Data for development languages released
-- March 8th, 2020: Baseline and evaluation script released
+- February 24th, 2020: Data for development languages released [*done*]
+- March 6th, 2020: Baseline and evaluation script released [*done*]
 - April 13th, 2020: Data for test languages released
 - April 27th, 2020: Participants submit their system output for all languages
 - May 4th, 2020: Participants’ system description papers due
