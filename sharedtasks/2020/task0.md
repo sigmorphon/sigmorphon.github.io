@@ -3,12 +3,11 @@ layout: page
 longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Typologically Diverse Morphological Inflection"
 title: "Task 0: Typologically Diverse Morphological Inflection"
 ---
-
 SIGMORPHON’s fifth installment of its inflection generation shared task focuses on languages that are typologically diverse from languages in our previous tasks. Many of these languages are extremely low-resource. In this edition, we are specifically interested in inflection generation systems’ ability to generalize to new languages, including languages that are typologically distinct. For example, if you have a neural network architecture that works well for a sample of Indo-European languages, should you expect the same architecture to also work well for Tupi–Guarani languages (where nouns are “declined” for tense)? The organizers suspect not, but you could prove us wrong!
 
 ## Important Links
 * Register for the shared task using our [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfaHAklgEaFGpu6PvP1Br7V5ouVB17NFh6l0oLGVui01uSXlA/viewform).
-* Please join our [Google group](https://groups.google.com/forum/#!managemembers/sigmorphon2020-task0/members/active) to stay up to date.
+* Please join our [Google group](https://groups.google.com/forum/#!groupsettings/sigmorphon2020-sharedtask0/basic) to stay up to date.
 * [Download the Data](https://github.com/sigmorphon2020/data)! 
 * [Download a Baseline System](https://github.com/sigmorphon2020/baselines)!
 * [Baseline Numbers](https://docs.google.com/spreadsheets/d/1sYHAhhhf9rpmsm_g6dIwIDgfsaPxFdM72qOVMjK2EgQ/edit?usp=sharing).
@@ -107,7 +106,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Austronesian</sub></td>
         <td><sub>Barito</sub></td>
         <td><sub>450</sub></td>
-        <td><sub>65</sub></td>
+        <td><sub>62</sub></td>
     </tr>
     <tr>
         <td><sub>Cebuano</sub></td>
@@ -115,7 +114,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Austronesian</sub></td>
         <td><sub>Greater Central Phillipine</sub></td>
         <td><sub>432</sub></td>
-        <td><sub>62</sub></td>
+        <td><sub>58</sub></td>
     </tr>
     <tr>
         <td><sub>Hiligaynon</sub></td>
@@ -123,7 +122,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Austronesian</sub></td>
         <td><sub>Greater Central Phillipine</sub></td>
         <td><sub>879</sub></td>
-        <td><sub>125</sub></td>
+        <td><sub>117</sub></td>
     </tr>
     <tr>
         <td><sub>Tagalog</sub></td>
@@ -131,7 +130,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Austronesian</sub></td>
         <td><sub>Greater Central Phillipine</sub></td>
         <td><sub>2038</sub></td>
-        <td><sub>291</sub></td>
+        <td><sub>240</sub></td>
     </tr>
     <tr>
         <td><sub>Maori</sub></td>
@@ -139,7 +138,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Austronesian</sub></td>
         <td><sub>Oceanic</sub></td>
         <td><sub>149</sub></td>
-        <td><sub>22</sub></td>
+        <td><sub>21</sub></td>
     </tr>
     <tr>
         <td><sub>Danish</sub></td>
@@ -163,7 +162,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Indo-European</sub></td>
         <td><sub>North Germanic</sub></td>
         <td><sub>13372</sub></td>
-        <td><sub>1954</sub></td>
+        <td><sub>1929</sub></td>
     </tr>
     <tr>
         <td><sub>Swedish</sub></td>
@@ -211,7 +210,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Indo-European</sub></td>
         <td><sub>West Germanic</sub></td>
         <td><sub>2240</sub></td>
-        <td><sub>321</sub></td>
+        <td><sub>227</sub></td>
     </tr>
     <tr>
         <td><sub>Old English</sub></td>
@@ -219,7 +218,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Indo-European</sub></td>
         <td><sub>West Germanic</sub></td>
         <td><sub>29665</sub></td>
-        <td><sub>4255</sub></td>
+        <td><sub>4132</sub></td>
     </tr>
     <tr>
         <td><sub>Chewa</sub></td>
@@ -227,7 +226,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Niger-Congo</sub></td>
         <td><sub>Bantu</sub></td>
         <td><sub>3059</sub></td>
-        <td><sub>437</sub></td>
+        <td><sub>429</sub></td>
     </tr>
     <tr>
         <td><sub>Kongo</sub></td>
@@ -235,7 +234,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Niger-Congo</sub></td>
         <td><sub>Bantu</sub></td>
         <td><sub>579</sub></td>
-        <td><sub>83</sub></td>
+        <td><sub>77</sub></td>
     </tr>
     <tr>
         <td><sub>Lingala</sub></td>
@@ -251,7 +250,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Niger-Congo</sub></td>
         <td><sub>Bantu</sub></td>
         <td><sub>3426</sub></td>
-        <td><sub>490</sub></td>
+        <td><sub>489</sub></td>
     </tr>
     <tr>
         <td><sub>Sotho</sub></td>
@@ -267,7 +266,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Niger-Congo</sub></td>
         <td><sub>Bantu</sub></td>
         <td><sub>3464</sub></td>
-        <td><sub>495</sub></td>
+        <td><sub>469</sub></td>
     </tr>
     <tr>
         <td><sub>Zulu</sub></td>
@@ -275,7 +274,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Niger-Congo</sub></td>
         <td><sub>Bantu</sub></td>
         <td><sub>350</sub></td>
-        <td><sub>50</sub></td>
+        <td><sub>43</sub></td>
     </tr>
     <tr>
         <td><sub>Akan</sub></td>
@@ -283,7 +282,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Niger-Congo</sub></td>
         <td><sub>Kwa</sub></td>
         <td><sub>2927</sub></td>
-        <td><sub>418</sub></td>
+        <td><sub>383</sub></td>
     </tr>
     <tr>
         <td><sub>Gã</sub></td>
@@ -291,7 +290,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Niger-Congo</sub></td>
         <td><sub>Kwa</sub></td>
         <td><sub>636</sub></td>
-        <td><sub>91</sub></td>
+        <td><sub>81</sub></td>
     </tr>
     <tr>
         <td><sub>Tlatepuzco Chinantec</sub></td>
@@ -299,7 +298,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Chinantecan</sub></td>
         <td><sub>5525</sub></td>
-        <td><sub>789</sub></td>
+        <td><sub>732</sub></td>
     </tr>
     <tr>
         <td><sub>San Pedro Amuzgo Amuzgos</sub></td>
@@ -307,7 +306,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Amuzgo-Mixtecan</sub></td>
         <td><sub>8542</sub></td>
-        <td><sub>1221</sub></td>
+        <td><sub>1189</sub></td>
     </tr>
     <tr>
         <td><sub>Yoloxóchitl Mixtec</sub></td>
@@ -315,7 +314,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Amuzgo-Mixtecan</sub></td>
         <td><sub>2139</sub></td>
-        <td><sub>306</sub></td>
+        <td><sub>299</sub></td>
     </tr>
     <tr>
         <td><sub>Chichicapan Zapotec</sub></td>
@@ -323,7 +322,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Popolocal-Zapotecan</sub></td>
         <td><sub>814</sub></td>
-        <td><sub>117</sub></td>
+        <td><sub>113</sub></td>
     </tr>
     <tr>
         <td><sub>Yaitepec Chatino</sub></td>
@@ -331,7 +330,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Popolocal-Zapotecan</sub></td>
         <td><sub>2657</sub></td>
-        <td><sub>379</sub></td>
+        <td><sub>317</sub></td>
     </tr>
     <tr>
         <td><sub>Zenzontepec Chatino</sub></td>
@@ -339,7 +338,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Popolocal-Zapotecan</sub></td>
         <td><sub>1096</sub></td>
-        <td><sub>157</sub></td>
+        <td><sub>154</sub></td>
     </tr>
     <tr>
         <td><sub>Eastern Highland Chatino</sub></td>
@@ -355,7 +354,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Oto-Pamean</sub></td>
         <td><sub>21966</sub></td>
-        <td><sub>3138</sub></td>
+        <td><sub>3030</sub></td>
     </tr>
     <tr>
         <td><sub>Mezquital Otomi</sub></td>
@@ -363,7 +362,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Oto-Pamean</sub></td>
         <td><sub>23213</sub></td>
-        <td><sub>3316</sub></td>
+        <td><sub>3236</sub></td>
     </tr>
     <tr>
         <td><sub>Chichimec</sub></td>
@@ -371,7 +370,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Oto-Manguean</sub></td>
         <td><sub>Oto-Pamean</sub></td>
         <td><sub>10584</sub></td>
-        <td><sub>3024</sub></td>
+        <td><sub>1358</sub></td>
     </tr>
     <tr>
         <td><sub>Estonian</sub></td>
@@ -379,7 +378,7 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>Uralic</sub></td>
         <td><sub>Finnic</sub></td>
         <td><sub>26740</sub></td>
-        <td><sub>3823</sub></td>
+        <td><sub>3821</sub></td>
     </tr>
     <tr>
         <td><sub>Finnish</sub></td>
@@ -402,8 +401,8 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>krl</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Finnic</sub></td>
-        <td><sub>81725</sub></td>
-        <td><sub>11675</sub></td>
+        <td><sub>80216</sub></td>
+        <td><sub>11225</sub></td>
     </tr>
     <tr>
         <td><sub>Livonian</sub></td>
@@ -418,8 +417,8 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>vep</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Finnic</sub></td>
-        <td><sub>95879</sub></td>
-        <td><sub>13697</sub></td>
+        <td><sub>94395</sub></td>
+        <td><sub>13320</sub></td>
     </tr>
     <tr>
         <td><sub>Votic</sub></td>
@@ -434,24 +433,24 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
         <td><sub>mhr</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Mari</sub></td>
-        <td><sub>76681</sub></td>
-        <td><sub>10955</sub></td>
+        <td><sub>71476</sub></td>
+        <td><sub>10086</sub></td>
     </tr>
     <tr>
         <td><sub>Erzya</sub></td>
         <td><sub>myv</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Mordvinic</sub></td>
-        <td><sub>82346</sub></td>
-        <td><sub>11764</sub></td>
+        <td><sub>74964</sub></td>
+        <td><sub>10738</sub></td>
     </tr>
     <tr>
         <td><sub>Moksha</sub></td>
         <td><sub>mdf</sub></td>
         <td><sub>Uralic</sub></td>
         <td><sub>Mordvinic</sub></td>
-        <td><sub>51726</sub></td>
-        <td><sub>7390</sub></td>
+        <td><sub>46387</sub></td>
+        <td><sub>6635</sub></td>
     </tr>
     <tr>
         <td><sub>Northern Sami</sub></td>
@@ -607,3 +606,4 @@ Ran Zmigrod (University of Cambridge, UK)
 Rowan Hall Maudslay (University of Cambridge, UK)   
 Svetlana Toldova (National Research University Higher School of Economics, Russia)   
 Tiago Pimentel (University of Cambridge, UK)   
+ 
