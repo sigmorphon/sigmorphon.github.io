@@ -47,7 +47,7 @@ and become exposed to each others’ ideas and research.
 
 ## Important Dates
 
-March 31, 2020: Paper submission deadline <br>
+<strong> April 7, 2020 </strong>: Paper submission deadline <br>
 May 4, 2020: Notification of acceptance <br>
 May 18, 2020: Camera-ready papers due <br>
 July 10, 2020: Workshop <br>
