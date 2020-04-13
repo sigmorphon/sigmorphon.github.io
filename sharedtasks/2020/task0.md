@@ -61,16 +61,16 @@ The shared task features both held-out morphological inflection triples and surp
 * March 1st, 2020: Development language data are frozen.  
 
 **Stage 2: Generalization Phase**
-* April 13th, 2020: Training and development splits for surprise languages released.   
+* <del>April 13th</del> April 20, 2020: Training and development splits for surprise languages released.   
 (This is not a zero-shot learning task. Participants will be given training data for all languages.)  
 
 **Stage 3: Evaluation Phase**
-* April 20th, 2020: Test splits for all languages (both development and surprise) released.
-* April 27th, 2020: Participants submit test predictions on all languages.  
+* <del>April 20th</del> April 27, 2020: Test splits for all languages (both development and surprise) released.
+* <del>April 27th</del> May 4, 2020: Participants submit test predictions on all languages.  
 
 **Stage 4: Write-up Phase**
-* May 4th, 2020: Participants’ system description papers due.  
-* May 18th, 2020: Participants’ system description papers camera ready due.  
+* <del>May 4th, 2020</del> May 11, 2020: Participants’ system description papers due.  
+* <del>May 18th, 2020</del> May 25, 2020: Participants’ system description papers camera ready due.  
  
 
 ## Data
