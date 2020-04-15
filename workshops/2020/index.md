@@ -95,6 +95,37 @@ SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
 - Rob Malouf, San Diego State University
 - Clara Vania, NYU
 
+## Program Committee
+
+Çağrı Çöltekin, University of Tübingen <br>
+Daniel Dakota, Indiana University <br>
+Ewan Dunbar, Université Paris Diderot <br>
+Micha Elsner, The Ohio State University <br>
+Jeffrey Heinz, Stony Brook University <br>
+Mans Hulden, University of Colorado <br>
+Adam Jardine, Rutgers University <br>
+Christo Kirov, Google AI <br>
+Greg Kondrak, University of Alberta <br>
+Sandra Kübler, Indiana University <br>
+Andrew Lamont, University of Massachusetts Amherst <br>
+Fred Mailhot, Dialpad, Inc. <br> 
+Arya D. McCarthy, Johns Hopkins University <br>
+Kemal Oflazer, CMU Qatar <br>
+Jeff Parker, Brigham Young University <br>
+Gerald Penn, University of Toronto <br>
+Jelena Prokic, Ludwig-Maximilians-University Munich <br>
+Mohamad Salameh, Huawei <br>
+Miikka Silfverberg, University of British Columbia <br>
+Kairit Sirts, University of Tartu <br>
+Kenneth Steimel, Indiana University <br>
+Francis Tyers, Indiana University <br>
+Ivan Vulić, University of Cambridge <br>
+Ekaterina Vylomova, University of Melbourne <br>
+Anssi Yli-Jyrä, University of Helsinki <br>
+Kristine Yu, University of Massachusetts Amherst <br>
+
+
+
 ## Organizers
 
 - Garrett Nicolai, University of British Columbia
