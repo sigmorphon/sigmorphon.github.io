@@ -21,7 +21,6 @@ SIGMORPHON’s fifth installment of its inflection generation shared task focuse
 * [Evaluation](#evaluation)
 * [Baselines](#baselines)
 * [Submission](#submission)
-* [ICGI Shared Task](#icgi-shared-task)
 * [References](#references)
 * [Contact](#contact)
 * [Task Organization](#task-organization)
@@ -480,7 +479,7 @@ Many of the languages in the shared task have only a few morphological forms ann
 
 **Restrictions**
 
-Additional UniMorph (and ICGI) data beyond what is provided is not allowed for model training. There are no other restrictions about what sort of data you can use for this task. For example, if you would like to use a large, unlabeled corpus, such as Wikipedia, that is acceptable. You may also use a pre-trained language model, e.g. BERT ([Devlin et al. 2019](https://www.aclweb.org/anthology/N19-1423/)). However, we will evaluate models in two different categories: (1) those that use external resources (beyond what is provided by the task), and (2) those that do not. The constrained data category (2) will be restricted to monolingual models, while category (1) may include multilingual models -- we encourage you to be creative! Participants are asked to clearly specify the submission category. 
+Additional UniMorph data beyond what is provided is not allowed for model training. There are no other restrictions about what sort of data you can use for this task. For example, if you would like to use a large, unlabeled corpus, such as Wikipedia, that is acceptable. You may also use a pre-trained language model, e.g. BERT ([Devlin et al. 2019](https://www.aclweb.org/anthology/N19-1423/)). However, we will evaluate models in two different categories: (1) those that use external resources (beyond what is provided by the task), and (2) those that do not. The constrained data category (2) will be restricted to monolingual models, while category (1) may include multilingual models -- we encourage you to be creative! Participants are asked to clearly specify the submission category. 
 
 
 ## Evaluation
@@ -532,11 +531,11 @@ Participants will be asked to submit a tarball of their models’ predictions to
 
 Participants’ system description papers will be handled through softconf. The link will be provided a week before submission.
 
-
+<!--
 ## ICGI Shared Task
 
 This year, [ICGI 2020](https://icgi2020.lis-lab.fr) is hosting a [sister shared task](https://aryamccarthy.github.io/icgi2020/) on morphological inflection. The task focuses on 10 languages with data originally from UniMorph which have undergone additional inspection by linguists. The task will be evaluated with several novel evaluation metrics to more closely investigate properties of different models, and focus on the generalizability of morphological systems. Submissions should be monolingual models. The timeline and similarity of task enables models developed for SIGMORPHON to easily be minimally-adapted and submitted to the ICGI task as well. We strongly encourage participants to submit to both, to enable people from both communities to benefit from each other and allow greater discussion about morphology! 
-
+-->
 
 ## References
 
