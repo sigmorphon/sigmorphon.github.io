@@ -3,7 +3,6 @@ layout: page
 longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Typologically Diverse Morphological Inflection"
 title: "Task 0: Typologically Diverse Morphological Inflection"
 ---
-
 SIGMORPHON’s fifth installment of its inflection generation shared task focuses on languages that are typologically diverse from languages in our previous tasks. Many of these languages are extremely low-resource. In this edition, we are specifically interested in inflection generation systems’ ability to generalize to new languages, including languages that are typologically distinct. For example, if you have a neural network architecture that works well for a sample of Indo-European languages, should you expect the same architecture to also work well for Tupi–Guarani languages (where nouns are “declined” for tense)? The organizers suspect not, but you could prove us wrong!
 
 ## Important Links
@@ -60,16 +59,16 @@ The shared task features both held-out morphological inflection triples and surp
 * March 1st, 2020: Development language data are frozen.  
 
 **Stage 2: Generalization Phase**
-* <del>April 13th</del> April 20, 2020: Training and development splits for surprise languages released.   
+* April 13th, 2020: Training and development splits for surprise languages released.   
 (This is not a zero-shot learning task. Participants will be given training data for all languages.)  
 
 **Stage 3: Evaluation Phase**
-* <del>April 20th</del> April 27, 2020: Test splits for all languages (both development and surprise) released.
-* <del>April 27th</del> May 4, 2020: Participants submit test predictions on all languages.  
+* April 20th, 2020: Test splits for all languages (both development and surprise) released.
+* April 27th, 2020: Participants submit test predictions on all languages.  
 
 **Stage 4: Write-up Phase**
-* <del>May 4th, 2020</del> May 11, 2020: Participants’ system description papers due.  
-* <del>May 18th, 2020</del> May 25, 2020: Participants’ system description papers camera ready due.  
+* May 4th, 2020: Participants’ system description papers due.  
+* May 18th, 2020: Participants’ system description papers camera ready due.  
  
 
 ## Data
@@ -469,7 +468,333 @@ The task features 90 languages in total.<sup>2</sup> 45 of these 90 languages ar
 
 The remaining 45 of these 90 languages will be *surprise languages*. The shared task organizers will provide the participants with enough time (about a week according to the current timeline) to train a model that they have previously selected on the development languages. However, there will not be enough time for choosing a new model or extensive hyperparameter tuning. 
 
-Which languages? They’re a surprise!
+Which languages? ~~They’re a surprise!~~ Surprise no longer! 
+
+
+<table>
+  <tr>
+    <td><sub><b>Language</b></sub></td>
+    <td><sub><b>ISO 639-3</b></sub></td>
+    <td><sub><b>Family</b></sub></td>
+    <td><sub><b># Train</b></sub></td>
+    <td><sub><b># Dev</b></sub></td>
+  </tr>
+  <tr>
+    <td><sub>Maltese</sub></td>
+    <td><sub>mlt</sub></td>
+    <td><sub>Afro-Asiatic</sub></td>
+    <td><sub>1233</sub></td>
+    <td><sub>176</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Oromo</sub></td>
+    <td><sub>orm</sub></td>
+    <td><sub>Afro-Asiatic</sub></td>
+    <td><sub>1424</sub></td>
+    <td><sub>203</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Classical Syriac</sub></td>
+    <td><sub>syc</sub></td>
+    <td><sub>Afro-Asiatic</sub></td>
+    <td><sub>1917</sub></td>
+    <td><sub>275</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Cree</sub></td>
+    <td><sub>cre</sub></td>
+    <td><sub>Algic</sub></td>
+    <td><sub>4571</sub></td>
+    <td><sub>584</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Murrinh-Patha</sub></td>
+    <td><sub>mwf</sub></td>
+    <td><sub>Australian</sub></td>
+    <td><sub>777</sub></td>
+    <td><sub>111</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Kannada</sub></td>
+    <td><sub>kan</sub></td>
+    <td><sub>Dravidian</sub></td>
+    <td><sub>3670</sub></td>
+    <td><sub>524</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Telugu</sub></td>
+    <td><sub>tel</sub></td>
+    <td><sub>Dravidian</sub></td>
+    <td><sub>952</sub></td>
+    <td><sub>136</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Middle Low German</sub></td>
+    <td><sub>gml</sub></td>
+    <td><sub>Germanic</sub></td>
+    <td><sub>890</sub></td>
+    <td><sub>127</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Swiss German</sub></td>
+    <td><sub>gsw</sub></td>
+    <td><sub>Germanic</sub></td>
+    <td><sub>1345</sub></td>
+    <td><sub>192</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Norwegian Nynorsk</sub></td>
+    <td><sub>nno</sub></td>
+    <td><sub>Germanic</sub></td>
+    <td><sub>10101</sub></td>
+    <td><sub>1443</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Bengali</sub></td>
+    <td><sub>ben</sub></td>
+    <td><sub>Indo-Aryan</sub></td>
+    <td><sub>2816</sub></td>
+    <td><sub>402</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Hindi</sub></td>
+    <td><sub>hin</sub></td>
+    <td><sub>Indo-Aryan</sub></td>
+    <td><sub>36300</sub></td>
+    <td><sub>5186</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Sanskrit</sub></td>
+    <td><sub>san</sub></td>
+    <td><sub>Indo-Aryan</sub></td>
+    <td><sub>22968</sub></td>
+    <td><sub>3188</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Urdu</sub></td>
+    <td><sub>urd</sub></td>
+    <td><sub>Indo-Aryan</sub></td>
+    <td><sub>8486</sub></td>
+    <td><sub>1213</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Persian</sub></td>
+    <td><sub>fas</sub></td>
+    <td><sub>Iranian</sub></td>
+    <td><sub>25225</sub></td>
+    <td><sub>3603</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Pushto; Pashto</sub></td>
+    <td><sub>pus</sub></td>
+    <td><sub>Iranian</sub></td>
+    <td><sub>4861</sub></td>
+    <td><sub>695</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Tajik</sub></td>
+    <td><sub>tgk</sub></td>
+    <td><sub>Iranian</sub></td>
+    <td><sub>53</sub></td>
+    <td><sub>8</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Shona</sub></td>
+    <td><sub>sna</sub></td>
+    <td><sub>Niger-Congo</sub></td>
+    <td><sub>1897</sub></td>
+    <td><sub>246</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Zarma</sub></td>
+    <td><sub>dje</sub></td>
+    <td><sub>Nilo-Sahan</sub></td>
+    <td><sub>56</sub></td>
+    <td><sub>9</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Asturian</sub></td>
+    <td><sub>ast</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>5096</sub></td>
+    <td><sub>728</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Catalan</sub></td>
+    <td><sub>cat</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>51944</sub></td>
+    <td><sub>7421</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Middle French</sub></td>
+    <td><sub>frm</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>24612</sub></td>
+    <td><sub>3516</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Friulian</sub></td>
+    <td><sub>fur</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>5408</sub></td>
+    <td><sub>772</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Galician</sub></td>
+    <td><sub>glg</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>24087</sub></td>
+    <td><sub>3441</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Ladin</sub></td>
+    <td><sub>lld</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>5073</sub></td>
+    <td><sub>725</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Venetian</sub></td>
+    <td><sub>vec</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>12203</sub></td>
+    <td><sub>1743</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Anglo-Norman</sub></td>
+    <td><sub>xno</sub></td>
+    <td><sub>Romance</sub></td>
+    <td><sub>178</sub></td>
+    <td><sub>26</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Tibetan</sub></td>
+    <td><sub>bod</sub></td>
+    <td><sub>Sino-Tibetan</sub></td>
+    <td><sub>3428</sub></td>
+    <td><sub>466</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Dakota</sub></td>
+    <td><sub>dak</sub></td>
+    <td><sub>Siouan</sub></td>
+    <td><sub>2636</sub></td>
+    <td><sub>376</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Evenki</sub></td>
+    <td><sub>evn</sub></td>
+    <td><sub>Tungusic</sub></td>
+    <td><sub>5413</sub></td>
+    <td><sub>774</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Azerbaijani</sub></td>
+    <td><sub>aze</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>5602</sub></td>
+    <td><sub>801</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Bashkir</sub></td>
+    <td><sub>bak</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>8517</sub></td>
+    <td><sub>1217</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Crimean Tatar; Crimean Turkish</sub></td>
+    <td><sub>crh</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>5215</sub></td>
+    <td><sub>745</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Kazakh</sub></td>
+    <td><sub>kaz</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>7852</sub></td>
+    <td><sub>1063</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Kyrgyz</sub></td>
+    <td><sub>kir</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>3855</sub></td>
+    <td><sub>547</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Khakas</sub></td>
+    <td><sub>kjh</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>840</sub></td>
+    <td><sub>120</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Turkmen</sub></td>
+    <td><sub>tuk</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>20963</sub></td>
+    <td><sub>2992</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Uighur; Uyghur</sub></td>
+    <td><sub>uig</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>5372</sub></td>
+    <td><sub>750</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Uzbek</sub></td>
+    <td><sub>uzb</sub></td>
+    <td><sub>Turkic</sub></td>
+    <td><sub>25199</sub></td>
+    <td><sub>3596</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Komi-Zyrian</sub></td>
+    <td><sub>kpv</sub></td>
+    <td><sub>Uralic</sub></td>
+    <td><sub>57919</sub></td>
+    <td><sub>8263</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Ludian</sub></td>
+    <td><sub>lud</sub></td>
+    <td><sub>Uralic</sub></td>
+    <td><sub>294</sub></td>
+    <td><sub>41</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Livvi</sub></td>
+    <td><sub>olo</sub></td>
+    <td><sub>Uralic</sub></td>
+    <td><sub>43936</sub></td>
+    <td><sub>6260</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Udmurt</sub></td>
+    <td><sub>udm</sub></td>
+    <td><sub>Uralic</sub></td>
+    <td><sub>88774</sub></td>
+    <td><sub>12665</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Võro</sub></td>
+    <td><sub>vro</sub></td>
+    <td><sub>Uralic</sub></td>
+    <td><sub>357</sub></td>
+    <td><sub>51</sub></td>
+  </tr>
+  <tr>
+    <td><sub>Papago (O'odham)</sub></td>
+    <td><sub>ood</sub></td>
+    <td><sub>Uto-Aztecan</sub></td>
+    <td><sub>1123</sub></td>
+    <td><sub>160</sub></td>
+  </tr>
+</table>
 
 
 **Multilingual Modeling [Recommendation]**
@@ -479,7 +804,7 @@ Many of the languages in the shared task have only a few morphological forms ann
 
 **Restrictions**
 
-Additional UniMorph data beyond what is provided is not allowed for model training. There are no other restrictions about what sort of data you can use for this task. For example, if you would like to use a large, unlabeled corpus, such as Wikipedia, that is acceptable. You may also use a pre-trained language model, e.g. BERT ([Devlin et al. 2019](https://www.aclweb.org/anthology/N19-1423/)). However, we will evaluate models in two different categories: (1) those that use external resources (beyond what is provided by the task), and (2) those that do not. The constrained data category (2) will be restricted to monolingual models, while category (1) may include multilingual models -- we encourage you to be creative! Participants are asked to clearly specify the submission category. 
+Additional UniMorph (and ICGI) data beyond what is provided is not allowed for model training. There are no other restrictions about what sort of data you can use for this task. For example, if you would like to use a large, unlabeled corpus, such as Wikipedia, that is acceptable. You may also use a pre-trained language model, e.g. BERT ([Devlin et al. 2019](https://www.aclweb.org/anthology/N19-1423/)). However, we will evaluate models in two different categories: (1) those that use external resources (beyond what is provided by the task), and (2) those that do not. The constrained data category (2) will be restricted to monolingual models, while category (1) may include multilingual models -- we encourage you to be creative! Participants are asked to clearly specify the submission category. 
 
 
 ## Evaluation
@@ -531,11 +856,6 @@ Participants will be asked to submit a tarball of their models’ predictions to
 
 Participants’ system description papers will be handled through softconf. The link will be provided a week before submission.
 
-<!--
-## ICGI Shared Task
-
-This year, [ICGI 2020](https://icgi2020.lis-lab.fr) is hosting a [sister shared task](https://aryamccarthy.github.io/icgi2020/) on morphological inflection. The task focuses on 10 languages with data originally from UniMorph which have undergone additional inspection by linguists. The task will be evaluated with several novel evaluation metrics to more closely investigate properties of different models, and focus on the generalizability of morphological systems. Submissions should be monolingual models. The timeline and similarity of task enables models developed for SIGMORPHON to easily be minimally-adapted and submitted to the ICGI task as well. We strongly encourage participants to submit to both, to enable people from both communities to benefit from each other and allow greater discussion about morphology! 
--->
 
 ## References
 
@@ -606,4 +926,5 @@ Ran Zmigrod (University of Cambridge, UK)
 Rowan Hall Maudslay (University of Cambridge, UK)   
 Svetlana Toldova (National Research University Higher School of Economics, Russia)   
 Tiago Pimentel (University of Cambridge, UK)   
+
 
