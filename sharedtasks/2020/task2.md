@@ -11,7 +11,7 @@ title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
 1. Register for the shared task using our [Google form](https://forms.gle/vrKKVepXqpb1rLuc9)
 2. Join our [Google group](https://groups.google.com/forum/#!forum/sigmorphon-2020)
 3. Have a look at [the data](https://github.com/sigmorphon/2020/tree/master/task2) we provide
-4. Check out our [baseline system](https://github.com/cai-lw/morpho-baseline/tree/e20fe0e9d902924a008f84eb91877b8af2ab4189)
+4. Check out our [baseline system](https://github.com/cai-lw/morpho-baseline/tree/a4b5c4ef9fe7a542c134b0ad451033b9f19e4216)
 
 ## Unsupervised Paradigm Completion
 
@@ -88,7 +88,7 @@ Systems should produce a file as described above. There should be no column head
 We will compare against ground-truth morphological paradigms from [UniMorph](https://unimorph.github.io), a morphological database which provides paradigms for over 100 languages.
 
 Systems for *supervised* paradigm completion are commonly being evaluated using word-level accuracy (Cotterell et al., 2017, *inter alia*).  However, this is not possible for our *unsupervised* task because slots are not labeled with gold data paradigm slot descriptions. Thus, we will evaluate using a metric we specifically designed for this task: **best-match accuracy**. This metric first matches predicted paradigm slots with gold slots in the best possible way, i.e., the way which leads to the highest overall accuracy, and then evaluates correctness of each individual inflected form.
-The official evaluation script can be found [here](https://github.com/cai-lw/morpho-baseline/tree/e20fe0e9d902924a008f84eb91877b8af2ab4189), and performs the following steps:
+The official evaluation script can be found [here](https://github.com/cai-lw/morpho-baseline/tree/a4b5c4ef9fe7a542c134b0ad451033b9f19e4216), and performs the following steps:
 
 1. Compute the average exact-match accuracy between each predicted slot and each gold slot, leading to a weighted bipartite graph.  
 2. Compute a maximum weighted bipartite matching. 
@@ -126,7 +126,7 @@ Then, we compute the best-match accuracy by averaging:
 
 ## Baseline
 
-We will provide a baseline system for the task as a starting point for participants [here](https://github.com/cai-lw/morpho-baseline/tree/e20fe0e9d902924a008f84eb91877b8af2ab4189). 
+We will provide a baseline system for the task as a starting point for participants [here](https://github.com/cai-lw/morpho-baseline/tree/a4b5c4ef9fe7a542c134b0ad451033b9f19e4216). 
 
 In short, our baseline system consists of a pipeline of 4 different components, which perform edit tree construction and discovery of new lemmas (via bootstrapping), discovery of paradigms by grouping observed forms, and generalization from existing forms to fill unobserved slots. In particular, the last part is a sequence-to-sequence model known to perform well for morphological inflection in the low-resource setting (Makarov and Clematide, 2018). Thus, a suggested starting point for participants could be to substitute this last component by more recent sequence-to-sequence models for inflection (e.g., one based on the Transformer (Vaswani et al., 2017) architecture), in order to improve over the provided baseline.
 In order to make this as easy as possible, the baseline system will generate the final output of the first three components, i.e., the training file for the inflection model, to be used by the participants.
