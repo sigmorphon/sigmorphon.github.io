@@ -3,6 +3,7 @@ layout: page
 longtitle: "Task  - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Typologically Diverse Morphological Inflection"
 title: "Task 0: Typologically Diverse Morphological Inflection"
 ---
+
 SIGMORPHON’s fifth installment of its inflection generation shared task focuses on languages that are typologically diverse from languages in our previous tasks. Many of these languages are extremely low-resource. In this edition, we are specifically interested in inflection generation systems’ ability to generalize to new languages, including languages that are typologically distinct. For example, if you have a neural network architecture that works well for a sample of Indo-European languages, should you expect the same architecture to also work well for Tupi–Guarani languages (where nouns are “declined” for tense)? The organizers suspect not, but you could prove us wrong!
 
 ## Important Links
@@ -59,16 +60,16 @@ The shared task features both held-out morphological inflection triples and surp
 * March 1st, 2020: Development language data are frozen.  
 
 **Stage 2: Generalization Phase**
-* April 13th, 2020: Training and development splits for surprise languages released.   
+* <del>April 13th</del> April 20, 2020: Training and development splits for surprise languages released.   
 (This is not a zero-shot learning task. Participants will be given training data for all languages.)  
 
 **Stage 3: Evaluation Phase**
-* April 20th, 2020: Test splits for all languages (both development and surprise) released.
-* April 27th, 2020: Participants submit test predictions on all languages.  
+* <del>April 20th</del> April 27, 2020: Test splits for all languages (both development and surprise) released.
+* <del>April 27th</del> May 4, 2020: Participants submit test predictions on all languages.  
 
 **Stage 4: Write-up Phase**
-* May 4th, 2020: Participants’ system description papers due.  
-* May 18th, 2020: Participants’ system description papers camera ready due.  
+* <del>May 4th</del> May 11, 2020: Participants’ system description papers due.  
+* <del>May 18th</del> May 25, 2020: Participants’ system description papers camera ready due.  
  
 
 ## Data
