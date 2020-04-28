@@ -143,6 +143,14 @@ We additionally provide two trivial baselines (which do not merge identical para
 | LB-GT  | 7.19 | 2.07 | 6.55 | 6.25 | 15.73 |
 | LB-Dev | 1.92 | 2.07 | 6.55 | 1.67 | 2.84 |
 
+## Submission
+
+Participants will submit to this task by sending their models' predictions to 
+[sigmorphon2020.task1@gmail.com](mailto:katharina.kann@colorado.edu) by May 4th, 2020. 
+Participants may submit predictions from as many models as they wish; each submission will be scored separately. 
+Participants must submit predictions for all languages to be scored. 
+Participants must specify any external resources used at time of submission.
+
 ## Overview Paper
 
 In an overview paper for the shared task, we will compare the performance of submitted systems in detail. We will evaluate:
