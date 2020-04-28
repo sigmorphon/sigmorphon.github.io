@@ -149,7 +149,6 @@ Participants will submit to this task by sending their models' predictions to
 [katharina.kann@colorado.edu](mailto:katharina.kann@colorado.edu) by May 4th, 2020. 
 Participants may submit predictions from as many models as they wish; each submission will be scored separately. 
 Participants must submit predictions for all languages to be scored. 
-Participants must specify any external resources used at time of submission.
 
 ## Overview Paper
 
