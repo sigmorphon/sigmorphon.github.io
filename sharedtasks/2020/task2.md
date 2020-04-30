@@ -1,7 +1,7 @@
 ---
 layout: page
 longtitle: "Task 2 - SIGMORPHON 2020 Shared Task: Grapheme-to-Phoneme, Unsupervised Induction of Morphology, and Typologically Diverse Morphological Inflection"
-title: "Task 2: Unsupervised Discovery of Morphological Paradigms"
+title: "Task 2: Unsupervised Morphological Paradigm Completion"
 ---
 
 **Summary**: In this task, participants will create a computational system that receives raw Bible text together with a set of (verbal) lemmas in the same language and outputs complete morphological paradigms for these lemmas.
