@@ -146,7 +146,7 @@ We additionally provide two trivial baselines (which do not merge identical para
 ## Submission
 
 Participants will submit to this task by sending their models' predictions to 
-[katharina.kann@colorado.edu](mailto:katharina.kann@colorado.edu) by May 4th, 2020. 
+[katharina.kann@colorado.edu](mailto:katharina.kann@colorado.edu) by May 7th, 2020. 
 Participants may submit predictions from as many models as they wish; each submission will be scored separately. 
 Participants must submit predictions for all languages to be scored. 
 
