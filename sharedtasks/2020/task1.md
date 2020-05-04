@@ -163,7 +163,7 @@ System description papers will be submitted using [softconf](https://www.softcon
 * February 24th, 2020: Neural and non-neural baselines for development languages released.
 * April <del>13th</del> 20th, 2020: Training and development splits for surprise languages released.   
 * April <del>20th</del> 27th, 2020: Test splits for all languages (both development and surprise) released.
-* <del>April 27th</del> May 4th, 2020: Participants submit test predictions on all languages.  
+* <del>April 27th</del> May 5th, 2020: Participants submit test predictions on all languages.  
 * May <del>4th</del> 11th, 2020: Participants’ system description papers due.  
 * May <del>18th</del> 25th, 2020: Participants’ system description papers camera ready due.  
 
