@@ -86,6 +86,25 @@ Most importantly, the policies refer to the anonymity period, which begins
 one month before the 2020 submission deadline and ends at time of
 notification (or withdrawal).
 
+### Mentorship Program
+
+This year SIGMORPHON plans to offer a mentorship program in conjunction with its 2020 workshop. The goal of the program is to connect researchers new to the field of computational morphology and phonology with more experienced members of our sub-community. Any researcher may request mentorship by filling out [this Google form](https://forms.gle/ikQEKfsR2vwCrR7r9). Those who sign up will be matched with more senior researchers who will act as a mentor and both of you will be placed in contact. As ACL 2020 will be virtual, we expect all mentorship to take place remotely this year.
+
+#### How will SIGMORPHON’s mentorship work? 
+We will organize remote 1-on-1 mentoring sessions. Through our mentorship program, 
+SIGMORPHON hopes to specifically reach the following groups:
+Not-yet-graduate students considering applying to doctoral programs,
+Graduate students who will soon enter the academic or industrial job market,
+Students seeking feedback on high-level research ideas.
+However, in principle, anyone can sign up!
+
+#### What is SIGMORPHON mentorship? 
+The exact nature will depend on the particular mentor--mentee pairing. However, the default assumption, unless otherwise negotiated, is that there should be a 1-hour meeting between the mentor and mentee. SIGMORPHON encourages further cultivation of the mentorship if fitting. 
+
+Matched mentors and mentees will be placed in contact and are expected to set up one or more virtual meetings during the week of ACL (July 5, 2020 – Fri, July 10, 2020).
+
+Please email [Ryan Cotterell](mailto:ryan.cotterell@inf.ethz.ch) with any questions.
+
 ## Invited Talks
 
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
