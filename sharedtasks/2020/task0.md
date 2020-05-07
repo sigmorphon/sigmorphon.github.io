@@ -855,7 +855,7 @@ The second baseline is a multilingual transformer ([Vaswani et al., 2017](https:
 
 Participants will be asked to submit a tarball of their models’ predictions to [sigmorphon2020sharedtask@gmail.com](mailto:sigmorphon2020sharedtask@gmail.com) at the end of the task on April 27, 2020. The exact file format will be clarified one week in advance on the shared task’s mailing list. A team (group of participants) may submit predictions from as many models as they would like. Each submission will be scored separately. Submissions must specify whether they are (1) unconstrained (use external resources) or (2) constrained (use only the data from our released splits). For evaluation purposes, we will rank using an aggregate of all test languages, so participants are encouraged to submit for all languages. Results will be announced as a public Google sheet a few days after submission.
 
-Participants’ system description papers will be handled through softconf. The link will be provided a week before submission.
+Participants’ system description papers will be handled through softconf. Papers can be submitted at <https://www.softconf.com/acl2020/SIGMORPHON/>
 
 
 ## References
