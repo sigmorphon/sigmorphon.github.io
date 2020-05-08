@@ -51,6 +51,11 @@ Results for the three baselines will be made available
 [here](https://docs.google.com/spreadsheets/d/1g0HyGeVzFrNt2pvNuu8L1voFFQY-0CwjTxGA3VXXNGI/edit?usp=sharing)
 as they become available.
 
+Official submission results
+================
+
+Results for submitted systems are available [here](https://docs.google.com/spreadsheets/d/1g0HyGeVzFrNt2pvNuu8L1voFFQY-0CwjTxGA3VXXNGI/edit?usp=sharing)
+
 ### Size
 
 There are 3600 training data examples and 450 development and test data examples
