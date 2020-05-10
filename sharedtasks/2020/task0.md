@@ -68,8 +68,8 @@ The shared task features both held-out morphological inflection triples and surp
 * <del>April 27th</del> May 4, 2020: Participants submit test predictions on all languages.  
 
 **Stage 4: Write-up Phase**
-* <del>May 4th</del> May 11, 2020: Participants’ system description papers due.  
-* <del>May 18th</del> May 25, 2020: Participants’ system description papers camera ready due.  
+* <del>May 11th</del> May 17, 2020: Participants’ system description papers due.  
+* <del>May 18th</del> May 24, 2020: Participants’ system description papers camera ready due.  
  
 
 ## Data
