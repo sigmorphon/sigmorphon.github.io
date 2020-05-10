@@ -143,6 +143,10 @@ We additionally provide two trivial baselines (which do not merge identical para
 | LB-GT  | 7.19 | 2.07 | 6.55 | 6.25 | 15.73 |
 | LB-Dev | 1.92 | 2.07 | 6.55 | 1.67 | 2.84 |
 
+### Official Submission Results
+
+Official results for all submissions can be found [here](https://docs.google.com/spreadsheets/d/1FN6nQEPff5m9IohGV02ZOY0ifinXe4xmkb46KLVBG80/edit?usp=sharing).
+
 ## Submission
 
 Participants will submit to this task by sending their models' predictions to 
