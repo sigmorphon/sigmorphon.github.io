@@ -170,7 +170,7 @@ System description papers will be submitted using [softconf](https://www.softcon
 * April <del>20th</del> 27th, 2020: Test splits for all languages (both development and surprise) released.
 * <del>April 27th</del> May 5th, 2020: Participants submit test predictions on all languages.  
 * May <del>11th</del> 17th, 2020: Participants’ system description papers due.  
-* May <del>18th</del> 25th, 2020: Participants’ system description papers camera ready due.  
+* May <del>18th</del> 24th, 2020: Participants’ system description papers camera ready due.  
 
 
 Overview paper
