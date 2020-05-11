@@ -172,8 +172,8 @@ Further, regardless of performance, you are invited (and expected) to submit a s
 - March 6th, 2020: Baseline and evaluation script released [*done*]
 - April <del>13th</del> 20th, 2020: Data for test languages released
 - <del>April 27th</del> May 7th , 2020: Participants submit their system output for all languages
-- May <del>4th</del> 11th, 2020: Participants’ system description papers due
-- May <del>18th</del> 25th, 2020: Camera-ready version of participants’ system description papers due
+- May <del>11th</del> 17th, 2020: Participants’ system description papers due
+- May <del>18th</del> 24th, 2020: Camera-ready version of participants’ system description papers due
 
 ## Organization
 
