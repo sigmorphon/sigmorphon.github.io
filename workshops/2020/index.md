@@ -60,8 +60,8 @@ We are happy to announce that the following papers have been accepted to be pres
 
 ## Important Dates
 
-<strong> April 7, 2020 (anywhere in the world) </strong>: Paper submission deadline <br>May 4, 2020: Notification of acceptance <br>
-May 22, 2020: Camera-ready papers due <br>
+April 7, 2020 (anywhere in the world): Paper submission deadline <br>May 4, 2020: Notification of acceptance <br>
+<strong> May 22, 2020 </strong>: Camera-ready papers due <br>
 July 10, 2020: Workshop <br>
 
 ## Paper submission
