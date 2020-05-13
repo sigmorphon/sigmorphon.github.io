@@ -83,6 +83,7 @@ Submissions should follow the two-column format of ACL proceedings,
 and long papers should not exceed eight (8) pages, short papers should not exceed four (4) pages.
 Unlimited additional pages are allowed for the references section in both cases.
 However, all material other than the bibliography must fall within the first 8/4 pages!
+<strong> The camera-ready submission will be allowed to have 1 extra page to address reviewer concerns. </strong>
 We encourage the submission of supplemental material such as data and code,
 as well as appendices; however, supplemental material should not be essential
 for the understanding of the submission.
