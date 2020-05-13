@@ -44,11 +44,23 @@ and for computational linguists may be of interest to theoretical linguists work
 This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
+## Accepted Papers
+
+We are happy to announce that the following papers have been accepted to be presented at our workshop:
+
+* *Evaluating Neural Morphological Taggers for Sanskrit.* Ashim Gupta, Amrith Krishna, Pawan Goyal and Oliver Hellwig
+* *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl 
+* *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky
+* *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson
+* *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin
+* *Putting the ##laughter In Manslaughter: How Adequate Are Word-Pieces for Modelling Complex Morphology?* Stav Klein and Reut Tsarfaty
+* *Representation Learning for Discovering Phonemic Tone Contours.* Bai Li, Jing Yi Xie and Frank Rudzicz
+* *Transliteration for Cross-Lingual Morphological Inflection.* Nikitha Murikinati, Antonios Anastasopoulos and Graham Neubig
+
 
 ## Important Dates
 
-<strong> April 7, 2020 (anywhere in the world) </strong>: Paper submission deadline <br>
-May 4, 2020: Notification of acceptance <br>
+<strong> April 7, 2020 (anywhere in the world) </strong>: Paper submission deadline <br>May 4, 2020: Notification of acceptance <br>
 May 22, 2020: Camera-ready papers due <br>
 July 10, 2020: Workshop <br>
 
