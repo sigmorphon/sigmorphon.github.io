@@ -53,7 +53,7 @@ We are happy to announce that the following papers have been accepted to be pres
 * *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky
 * *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson
 * *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin
-* *Putting the ##laughter In Manslaughter: How Adequate Are Word-Pieces for Modelling Complex Morphology?* Stav Klein and Reut Tsarfaty
+* *Getting the ##life Out of Living: How Adequate Are Word-Pieces for Modelling Complex Morphology?* Stav Klein and Reut Tsarfaty
 * *Representation Learning for Discovering Phonemic Tone Contours.* Bai Li, Jing Yi Xie and Frank Rudzicz
 * *Transliteration for Cross-Lingual Morphological Inflection.* Nikitha Murikinati, Antonios Anastasopoulos and Graham Neubig
 
