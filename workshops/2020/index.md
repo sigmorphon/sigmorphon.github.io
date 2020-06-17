@@ -7,7 +7,7 @@ breadcrumb: 2020
 <p><i>
 co-located with ACL 2020<br>
 July 10, 2020<br>
-Seattle, USA<br>
+<del>Seattle, USA</del> Online<br>
 </i></p>
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
@@ -49,7 +49,7 @@ and become exposed to each others’ ideas and research.
 We are happy to announce that the following papers have been accepted to be presented at our workshop:
 
 * *Evaluating Neural Morphological Taggers for Sanskrit.* Ashim Gupta, Amrith Krishna, Pawan Goyal and Oliver Hellwig
-* *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl (<b> Best paper runner-up </b>)
+* *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl (<strong> Best paper runner-up </strong>)
 * *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky
 * *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson
 * *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin
@@ -61,8 +61,8 @@ We are happy to announce that the following papers have been accepted to be pres
 ## Important Dates
 
 April 7, 2020 (anywhere in the world): Paper submission deadline <br>May 4, 2020: Notification of acceptance <br>
-<strong> May 22, 2020 </strong>: Camera-ready papers due <br>
-July 10, 2020: Workshop <br>
+May 22, 2020: Camera-ready papers due <br>
+<strong> July 10, 2020: Workshop </strong> <br>
 
 ## Paper submission
 
