@@ -49,7 +49,7 @@ and become exposed to each others’ ideas and research.
 We are happy to announce that the following papers have been accepted to be presented at our workshop:
 
 * *Evaluating Neural Morphological Taggers for Sanskrit.* Ashim Gupta, Amrith Krishna, Pawan Goyal and Oliver Hellwig
-* *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl 
+* *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl (<b> Best paper runner-up </b>)
 * *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky
 * *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson
 * *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin
