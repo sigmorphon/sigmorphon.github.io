@@ -127,6 +127,8 @@ SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
 - Rob Malouf, San Diego State University
 - Clara Vania, NYU
 
+For more information, please visit [here](invited.md).
+
 ## Program Committee
 
 Çağrı Çöltekin, University of Tübingen <br>
