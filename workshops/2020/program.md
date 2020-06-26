@@ -4,7 +4,7 @@ All times are Pacific Daylight Time (UTC-7)
 ## Workshop to be held online on July 10, 2020
 
 
-## 8:25-8:30 Opening Comments </br>
+## 8:25-8:30 Opening Comments
 
 ## 8:30 - 10:30 - Morning Session
 
@@ -70,5 +70,5 @@ All times are Pacific Daylight Time (UTC-7)
 * ### 17:00 - 18:00 - Invited Talk - Modeling failure in morphophonological learning
   ###     Bruce Hayes, UCLA
   
-## 18:00-18:05 Closing Comments </br>
+## 18:00-18:05 Closing Comments
   
