@@ -59,7 +59,11 @@ We are happy to announce that the following papers have been accepted to be pres
 
 ## Program
 
-Our workshop program is available [here](program.md)
+Our workshop program is available [here](program.md).
+
+## Proceedings
+
+Our workshop proceedings will be available soon!
 
 
 ## Important Dates
