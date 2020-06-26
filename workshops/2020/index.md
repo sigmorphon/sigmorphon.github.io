@@ -57,6 +57,10 @@ We are happy to announce that the following papers have been accepted to be pres
 * *Representation Learning for Discovering Phonemic Tone Contours.* Bai Li, Jing Yi Xie and Frank Rudzicz
 * *Transliteration for Cross-Lingual Morphological Inflection.* Nikitha Murikinati, Antonios Anastasopoulos and Graham Neubig
 
+## Program
+
+Our workshop program is available [here](program.md)
+
 
 ## Important Dates
 
