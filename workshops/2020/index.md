@@ -44,6 +44,12 @@ and for computational linguists may be of interest to theoretical linguists work
 This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
+## Registration
+
+Registration for SIGMORPHON is conducted through the [ACL website](https://acl2020.org/registration/).  
+Early registration ends at 23:59 EDT (UTC - 6)June 26, 2020.
+Regular registration will be available throughout the end of the conference.
+
 ## Accepted Papers
 
 We are happy to announce that the following papers have been accepted to be presented at our workshop:
