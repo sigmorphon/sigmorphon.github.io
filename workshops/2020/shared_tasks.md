@@ -46,7 +46,7 @@ title: "Shared Task Poster Session Information"
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **NYU-CUBoulder**
+- **NYU-CUBoulder**
   **Paper:**  [The NYU-CUBoulder Systems for SIGMORPHON 2020 Task 0 and Task 2](Papers/23_Paper.pdf) <br>
   **Poster: **  [Download](./Posters/23_Poster.pdf) <br>
   **Zoom Link:** <br>
@@ -58,73 +58,73 @@ title: "Shared Task Poster Session Information"
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **ETS-Zürich**
+- **ETS-Zürich**
   **Paper:**  [SIGMORPHON 2020 Task 0 System Description: ETH Zürich Team](Papers/25_Paper.pdf) <br>
   **Poster: **  <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **KU-CST
+- **KU-CST
   **Paper:**  [KU-CST at the SIGMORPHON 2020 Task 2 on Unsupervised Morphological Paradigm Completion](Papers/26_Paper.pdf) <br>
   **Poster: **  [Download](Posters/26_Poster.pdf)<br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **UAlberta
+- **UAlberta
   **Paper:**  [Low-Resource G2P and P2G Conversion with Synthetic Training Data](Papers/27_Paper.pdf) <br>
   **Poster: ** [Download](Posters/27_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **UBoulder - Task 1
+- **UBoulder - Task 1
   **Paper:**  [Frustratingly Easy Multilingual Grapheme-to-Phoneme Conversion](Papers/28_Paper.pdf) <br>
   **Poster: **   [Download](Posters/27_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **CMU
+- **CMU
   **Paper:**  [Exploring Neural Architectures And Techniques For Typologically Diverse Morphological Inflection](Papers/29_Paper.pdf) <br>
   **Poster: **  <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **Illinois
+- **Illinois
   **Paper:**  [University of Illinois Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/30_Paper.pdf) <br>
   **Poster: **  [Download](Posters/30_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **UBC
+- **UBC
   **Paper:**  [One Model to Pronounce Them All: Multilingual Grapheme-to-Phoneme Conversion With a Transformer Ensemble](Papers/31_Paper.pdf) <br>
   **Poster: **  [Download](Posters/31_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **UBoulder - Task 0
+- **UBoulder - Task 0
   **Paper:**  [Leveraging Principal Parts for Morphological Inflection](Papers/32_Paper.pdf) <br>
   **Poster: **  [Download](Posters/32_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **Colorado - Task 0
+- **Colorado - Task 0
   **Paper:**  [Linguist vs. Machine: Rapid Development of Finite-State Morphological Grammars](Papers/33_Paper.pdf) <br>
   **Poster: **  <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **CLUZH
+- **CLUZH
   **Paper:**  [CLUZH at SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion](Papers/34_Paper.pdf) <br>
   **Poster: **  [Download](Posters/34_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **UniMelb
+- **UniMelb
   **Paper:**  [The UniMelb Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/35_Paper.pdf) <br>
   **Poster: **  <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-  - **Colorado - Task 1
+- **Colorado - Task 1
   **Paper:**  [Data Augmentation for Transformer-based G2P](Papers/36_Paper.pdf) <br>
   **Poster: **  <br>
   **Zoom Link:** <br>
