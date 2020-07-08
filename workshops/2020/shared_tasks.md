@@ -28,8 +28,9 @@ title: "Shared Task Poster Session Information"
   **Poster:** [Download](Posters/18_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/18_Poster.png" alt="DeepSpin" width="300"/> <br>
-
+  ![](./Posters/18_Poster.png&s=300) <br>
+ 
+  
 - **IMS** <br>
   **Paper:**  [Ensemble Self-Training for Low-Resource Languages: Grapheme-to-Phoneme Conversion and Morphological Inflection](Papers/19_Paper.pdf) <br>
   **Poster:** [Download](./Posters/19_Poster.pdf) <br>
