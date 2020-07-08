@@ -91,7 +91,7 @@ title: "Shared Task Poster Session Information"
   
 - **UBoulder - Task 1** <br>
   **Paper:**  [Frustratingly Easy Multilingual Grapheme-to-Phoneme Conversion](Papers/28_Paper.pdf) <br>
-  **Poster:**   [Enlarge](Posters/27_Poster.pdf) <br>
+  **Poster:**   [Enlarge](Posters/28_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   <img src="../Posters/28_Poster.png" alt="UBoulder" width="300"/> <br>
@@ -108,7 +108,7 @@ title: "Shared Task Poster Session Information"
   **Poster:**  [Enlarge](Posters/30_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/30_Poster.png" alt="Illinois" width="300"/> <br>
+  <img src="../Posters/30_Poster.png" alt="Illinois" width="300"/> <br>
 
   
 - **UBC** <br>
