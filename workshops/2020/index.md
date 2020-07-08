@@ -69,7 +69,7 @@ Our workshop program is available [here](program.md).
 
 ## Proceedings
 
-The proceedings can be found [here](./SIGMORPHON2020).
+The proceedings can be found [here](./SIGMORPHON2020.pdf).
 
 
 
