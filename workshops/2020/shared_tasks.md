@@ -3,7 +3,6 @@ layout: page
 title: "Shared Task Poster Session Information"
 ---
 
-<a href="Papers/39_paper.pdf">Paper</a>
 - **Task 0 Q/A**
   **Paper:**  [The SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion](Papers/39_paper.pdf) <br>
   **Zoom Link:** <br>
@@ -26,5 +25,11 @@ title: "Shared Task Poster Session Information"
 - **DeepSpin**
   **Paper:**  [DeepSPIN at SIGMORPHON 2020: One-Size-Fits-All Multilingual Models](Papers/18_paper.pdf) <br>
   **Poster: ** [Download](Posters/18_poster.pdf) <br>
+  **Zoom Link:** <br>
+  **Chat Link:** <br>
+
+- **IMS**
+  **Paper:**  [Ensemble Self-Training for Low-Resource Languages: Grapheme-to-Phoneme Conversion and Morphological Inflection](Papers/19_paper.pdf) <br>
+  **Poster: ** [Download](Posters/19_poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
