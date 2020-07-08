@@ -33,7 +33,7 @@ title: "Shared Task Poster Session Information"
   
 - **IMS** <br>
   **Paper:**  [Ensemble Self-Training for Low-Resource Languages: Grapheme-to-Phoneme Conversion and Morphological Inflection](Papers/19_Paper.pdf) <br>
-  **Poster:** [Enlarge](https://github.com/sigmorphon/sigmorphon.github.io/blob/master/workshops/2020//Posters/19_Poster.pdf) <br>
+  **Poster:** [Enlarge](Posters/19_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   <img src="../Posters/19_Poster.png" alt="IMS" width="300"/> <br>
