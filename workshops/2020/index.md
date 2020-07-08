@@ -69,7 +69,8 @@ Our workshop program is available [here](program.md).
 
 ## Proceedings
 
-Our workshop proceedings will be available soon!
+The proceedings can be found [here](./SIGMORPHON2020).
+
 
 
 ## Important Dates
