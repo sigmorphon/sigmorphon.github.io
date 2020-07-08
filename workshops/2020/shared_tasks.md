@@ -161,13 +161,13 @@ title: "Shared Task Poster Session Information"
   </a>
 
   
-- **UniMelb <br>
+- **UniMelb** <br>
   **Paper:**  [The UniMelb Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/35_Paper.pdf) <br>
   **Poster:**  <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
   
-- **Colorado - Task 1 <br>
+- **Colorado - Task 1** <br>
   **Paper:**  [Data Augmentation for Transformer-based G2P](Papers/36_Paper.pdf) <br>
   **Poster:**  <br>
   **Zoom Link:** <br>
