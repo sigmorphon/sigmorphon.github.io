@@ -28,7 +28,7 @@ title: "Shared Task Poster Session Information"
   **Poster:** [Download](Posters/18_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="Posters/18_Poster.png" alt="IMS" width="300"/> <br>
+  <img src="https://github.com/sigmorphon/sigmorphon.github.io/blob/master/workshops/2020/Posters/18_Poster.png" alt="IMS" width="300"/> <br>
   
   
 - **IMS** <br>
