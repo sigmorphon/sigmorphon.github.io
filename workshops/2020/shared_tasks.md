@@ -36,7 +36,7 @@ title: "Shared Task Poster Session Information"
   **Poster:** [Download](https://github.com/sigmorphon/sigmorphon.github.io/blob/master/workshops/2020//Posters/19_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/19_Poster.png" alt="IMS" width="300"/> <br>
+  <img src="../Posters/19_Poster.png" alt="IMS" width="300"/> <br>
   
 - **CMU-LTI** <br>
   **Paper:**  [The CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0: Language-Specific Cross-Lingual Transfer](Papers/21_Paper.pdf) <br>
@@ -56,7 +56,7 @@ title: "Shared Task Poster Session Information"
   **Poster:**  [Download](./Posters/23_Poster.pdf) <br>
   **Zoom Link:** [Join](https://nyu.zoom.us/j/4553539585)<br>
   **Chat Link:** <br>
-  <img src="./Posters/23_Poster.png" alt="NYU-CUBoulder" width="300"/> <br>
+  <img src="../Posters/23_Poster.png" alt="NYU-CUBoulder" width="300"/> <br>
 
      
 - **IMS-CUBoulder** <br>
@@ -64,7 +64,7 @@ title: "Shared Task Poster Session Information"
   **Poster:** [Download](./Posters/24_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/24_Poster.png" alt="IMS-CUBoulder" width="300"/> <br>
+  <img src="../Posters/24_Poster.png" alt="IMS-CUBoulder" width="300"/> <br>
 
   
 - **ETS-Zürich** <br>
@@ -78,7 +78,7 @@ title: "Shared Task Poster Session Information"
   **Poster:**  [Download](Posters/26_Poster.pdf)<br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/26_Poster.png" alt="ETS-Zürich" width="300"/> <br>
+  <img src="../Posters/26_Poster.png" alt="ETS-Zürich" width="300"/> <br>
 
   
 - **UAlberta** <br>
@@ -86,7 +86,7 @@ title: "Shared Task Poster Session Information"
   **Poster:** [Download](Posters/27_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/27_Poster.png" alt="UAlberta" width="300"/> <br>
+  <img src="../Posters/27_Poster.png" alt="UAlberta" width="300"/> <br>
 
   
 - **UBoulder - Task 1** <br>
@@ -94,7 +94,7 @@ title: "Shared Task Poster Session Information"
   **Poster:**   [Download](Posters/27_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/28_Poster.png" alt="UBoulder" width="300"/> <br>
+  <img src="../Posters/28_Poster.png" alt="UBoulder" width="300"/> <br>
 
   
 - **CMU** <br>
@@ -116,7 +116,7 @@ title: "Shared Task Poster Session Information"
   **Poster:**  [Download](Posters/31_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/31_Poster.png" alt="UBC" width="300"/> <br>
+  <img src="../Posters/31_Poster.png" alt="UBC" width="300"/> <br>
 
   
 - **UBoulder - Task 0** <br>
@@ -124,7 +124,7 @@ title: "Shared Task Poster Session Information"
   **Poster:**  [Download](Posters/32_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/32_Poster.png" alt="UBoulder" width="300"/> <br>
+  <img src="../Posters/32_Poster.png" alt="UBoulder" width="300"/> <br>
 
   
 - **Colorado - Task 0** <br>
@@ -138,7 +138,7 @@ title: "Shared Task Poster Session Information"
   **Poster:**  [Download](Posters/34_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./Posters/34_Poster.png" alt="CLUZH" width="300"/> <br>
+  <img src="../Posters/34_Poster.png" alt="CLUZH" width="300"/> <br>
 
   
 - **UniMelb <br>
