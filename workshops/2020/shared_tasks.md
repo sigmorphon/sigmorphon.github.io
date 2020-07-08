@@ -28,7 +28,7 @@ title: "Shared Task Poster Session Information"
   **Poster:** [Download](Posters/18_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
-  <img src="./18_Poster.png" alt="DeepSpin" width="300"/> <br>
+  <img src="./Posters/18_Poster.png" alt="DeepSpin" width="300"/> <br>
   
   
 - **IMS** <br>
