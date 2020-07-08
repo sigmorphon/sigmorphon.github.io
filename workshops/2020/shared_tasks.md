@@ -26,7 +26,7 @@ title: "Shared Task Poster Session Information"
 - **DeepSpin** <br>
   **Paper:**  [DeepSPIN at SIGMORPHON 2020: One-Size-Fits-All Multilingual Models](Papers/18_Paper.pdf) <br>
   **Poster:** [Enlarge](Posters/18_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://us04web.zoom.us/j/79958478453?pwd=cTIvU2M4Z1c3OVdKWm5ZeU45cTNPQT09) <br>
   **Chat Link:** <br>
   <a href="../Posters/18_Poster.pdf">
   <img src="../Posters/18_Poster.png" alt="DeepSpin" width="200"/> <br>
