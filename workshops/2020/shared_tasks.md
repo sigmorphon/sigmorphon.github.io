@@ -3,7 +3,7 @@ layout: page
 title: "Shared Task Poster Session Information"
 ---
 
-
+<a href="Papers/39_paper.pdf">Paper</a>
 - **Task 0 Q/A**
   **Paper:**  [The SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion](Papers/39_paper.pdf) <br>
   **Zoom Link:** <br>
