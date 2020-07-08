@@ -54,14 +54,14 @@ Regular registration will be available throughout the end of the conference.
 
 We are happy to announce that the following papers have been accepted to be presented at our workshop:
 
-* *Evaluating Neural Morphological Taggers for Sanskrit.* Ashim Gupta, Amrith Krishna, Pawan Goyal and Oliver Hellwig
-* *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl (<strong> Best paper runner-up </strong>)
-* *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky
-* *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson
-* *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin (<strong> Best paper winner </strong>)
-* *Getting the ##life Out of Living: How Adequate Are Word-Pieces for Modelling Complex Morphology?* Stav Klein and Reut Tsarfaty
-* *Representation Learning for Discovering Phonemic Tone Contours.* Bai Li, Jing Yi Xie and Frank Rudzicz
-* *Transliteration for Cross-Lingual Morphological Inflection.* Nikitha Murikinati, Antonios Anastasopoulos and Graham Neubig
+* Paper 11 - *Evaluating Neural Morphological Taggers for Sanskrit.* Ashim Gupta, Amrith Krishna, Pawan Goyal and Oliver Hellwig
+* Paper 13 - *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl (<strong> Best paper runner-up </strong>)
+* Paper 3 - *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky
+* Paper 6 - *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson
+* Paper 8 - *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin (<strong> Best paper winner </strong>)
+* Paper 14 - *Getting the ##life Out of Living: How Adequate Are Word-Pieces for Modelling Complex Morphology?* Stav Klein and Reut Tsarfaty
+* Paper 2 - *Representation Learning for Discovering Phonemic Tone Contours.* Bai Li, Jing Yi Xie and Frank Rudzicz
+* Paper 7 - *Transliteration for Cross-Lingual Morphological Inflection.* Nikitha Murikinati, Antonios Anastasopoulos and Graham Neubig
 
 ## Program
 
