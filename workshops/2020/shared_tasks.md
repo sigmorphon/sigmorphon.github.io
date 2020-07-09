@@ -181,7 +181,7 @@ title: "Shared Task Poster Session Information"
   **Paper:**  [Data Augmentation for Transformer-based G2P](Papers/36_Paper.pdf) <br>
   **Poster:**  [Enlarge](Posters/34_Poster.pdf) [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-st-36) <br>
   **Zoom Link:** [Join](https://cuboulder.zoom.us/j/92853893445) <br>
-  **Chat Link:** [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-st-36 <br>
+  **Chat Link:** [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-st-36) <br>
   <a href="../Posters/36_Poster.pdf">
   <img src="../Posters/36_Poster-1.png" alt="Colorado - Task 1" width="200"/> <br>
   </a>
