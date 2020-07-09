@@ -47,7 +47,7 @@ title: "Shared Task Poster Session Information"
   **Zoom Link:** <br>
   **Chat Link:** <br>
   <a href="../Posters/21_Poster.pdf">
-  <img src="../Posters/21_Poster-1.png" alt="DeepSpin" width="200"/> <br>
+  <img src="../Posters/21_Poster-1.png" alt="CMU-LTI" width="200"/> <br>
   </a>
  
 
@@ -154,6 +154,9 @@ title: "Shared Task Poster Session Information"
   **Poster:**  <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
+  <a href="../Posters/33_Poster.pdf">
+  <img src="../Posters/33_Poster-1.png" alt="Colorado - Task 0" width="200"/> <br>
+  </a>
   
 - **CLUZH** <br>
   **Paper:**  [CLUZH at SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion](Papers/34_Paper.pdf) <br>
@@ -171,7 +174,7 @@ title: "Shared Task Poster Session Information"
   **Zoom Link:** <br>
   **Chat Link:** <br>
   <a href="../Posters/35_Poster.pdf">
-  <img src="../Posters/35_Poste-1r.png" alt="CLUZH" width="200"/> <br>
+  <img src="../Posters/35_Poster-1.png" alt="UniMelb" width="200"/> <br>
   </a>
 
   
@@ -181,7 +184,7 @@ title: "Shared Task Poster Session Information"
   **Zoom Link:** <br>
   **Chat Link:** <br>
   <a href="../Posters/36_Poster.pdf">
-  <img src="../Posters/36_Poster-1.png" alt="CLUZH" width="200"/> <br>
+  <img src="../Posters/36_Poster-1.png" alt="Colorado - Task 1" width="200"/> <br>
   </a>
 
   
