@@ -43,9 +43,13 @@ title: "Shared Task Poster Session Information"
   
 - **CMU-LTI** <br>
   **Paper:**  [The CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0: Language-Specific Cross-Lingual Transfer](Papers/21_Paper.pdf) <br>
-  **Poster:**  <br>
+  **Poster:**  [Enlarge](Poster/21_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
+  <a href="../Posters/21_Poster.pdf">
+  <img src="../Posters/21_Poster-1.png" alt="DeepSpin" width="200"/> <br>
+  </a>
+ 
 
     
 - **UZH** <br>
@@ -163,15 +167,23 @@ title: "Shared Task Poster Session Information"
   
 - **UniMelb** <br>
   **Paper:**  [The UniMelb Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/35_Paper.pdf) <br>
-  **Poster:**  <br>
+  **Poster:**  [Enlarge](Posters/34_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
+  <a href="../Posters/35_Poster.pdf">
+  <img src="../Posters/35_Poste-1r.png" alt="CLUZH" width="200"/> <br>
+  </a>
+
   
 - **Colorado - Task 1** <br>
   **Paper:**  [Data Augmentation for Transformer-based G2P](Papers/36_Paper.pdf) <br>
-  **Poster:**  <br>
+  **Poster:**  [Enlarge](Posters/34_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** <br>
+  <a href="../Posters/36_Poster.pdf">
+  <img src="../Posters/36_Poster-1.png" alt="CLUZH" width="200"/> <br>
+  </a>
+
   
   
   
