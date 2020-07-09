@@ -44,7 +44,7 @@ title: "Shared Task Poster Session Information"
 - **CMU-LTI** <br>
   **Paper:**  [The CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0: Language-Specific Cross-Lingual Transfer](Papers/21_Paper.pdf) <br>
   **Poster:**  [Enlarge](Poster/21_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://cmu.zoom.us/j/9736776971)<br>
   **Chat Link:** <br>
   <a href="../Posters/21_Poster.pdf">
   <img src="../Posters/21_Poster-1.png" alt="CMU-LTI" width="200"/> <br>
