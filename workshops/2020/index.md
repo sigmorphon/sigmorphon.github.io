@@ -54,14 +54,14 @@ Regular registration will be available throughout the end of the conference.
 
 We are happy to announce that the following papers have been accepted to be presented at our workshop:
 
-* Paper 11 - *Evaluating Neural Morphological Taggers for Sanskrit.* Ashim Gupta, Amrith Krishna, Pawan Goyal and Oliver Hellwig
-* Paper 13 - *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl (<strong> Best paper runner-up </strong>)
-* Paper 3 - *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky
-* Paper 6 - *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson
-* Paper 8 - *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin (<strong> Best paper winner </strong>)
-* Paper 14 - *Getting the ##life Out of Living: How Adequate Are Word-Pieces for Modelling Complex Morphology?* Stav Klein and Reut Tsarfaty
-* Paper 2 - *Representation Learning for Discovering Phonemic Tone Contours.* Bai Li, Jing Yi Xie and Frank Rudzicz
-* Paper 7 - *Transliteration for Cross-Lingual Morphological Inflection.* Nikitha Murikinati, Antonios Anastasopoulos and Graham Neubig
+* Paper 11 - *Evaluating Neural Morphological Taggers for Sanskrit.* Ashim Gupta, Amrith Krishna, Pawan Goyal and Oliver Hellwig [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-11)
+* Paper 13 - *In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology.* Chundra Cathcart and Florian Wandl (<strong> Best paper runner-up </strong>)[Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-13)
+* Paper 3 - *Induced Inflection-Set Keyword Search in Speech.* Oliver Adams, Matthew Wiesner, Jan Trmal, Garrett Nicolai and David Yarowsky [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-3)
+* Paper 6 - *Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization.* Max Nelson [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-6)
+* Paper 8 - *Multi-Tiered Strictly Local Functions.* Phillip Burness and Kevin McMullin (<strong> Best paper winner </strong>) [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-8)
+* Paper 14 - *Getting the ##life Out of Living: How Adequate Are Word-Pieces for Modelling Complex Morphology?* Stav Klein and Reut Tsarfaty [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-14)
+* Paper 2 - *Representation Learning for Discovering Phonemic Tone Contours.* Bai Li, Jing Yi Xie and Frank Rudzicz [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-2)
+* Paper 7 - *Transliteration for Cross-Lingual Morphological Inflection.* Nikitha Murikinati, Antonios Anastasopoulos and Graham Neubig [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-7)
 
 ## Program
 
@@ -137,10 +137,10 @@ Please email [Ryan Cotterell](mailto:ryan.cotterell@inf.ethz.ch) with any questi
 
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
 
-- Jane Chandlee, Haverford College
-- Bruce Hayes, UCLA
-- Rob Malouf, San Diego State University
-- Clara Vania, NYU
+- Jane Chandlee, Haverford College [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-chandlee)
+- Bruce Hayes, UCLA [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-hayes)
+- Rob Malouf, San Diego State University [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-malouf)
+- Clara Vania, NYU [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-vania)
 
 For more information, please visit [here](invited.md).
 
