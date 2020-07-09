@@ -5,7 +5,7 @@ title: "Shared Task Poster Session Information"
 
 - **Task 0 Q/A** <br>
   **Paper:**  [SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/39_Paper.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://unimelb.zoom.us/j/5922601506?pwd=WVNsY1ZsTXVRY04xTWt0TXRvNDZYZz09) <br>
   **Chat Link:** <br>
   
 - **Task 1 Q/A** <br>
