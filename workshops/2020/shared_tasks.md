@@ -35,7 +35,7 @@ title: "Shared Task Poster Session Information"
 - **IMS** <br>
   **Paper:**  [Ensemble Self-Training for Low-Resource Languages: Grapheme-to-Phoneme Conversion and Morphological Inflection](Papers/19_Paper.pdf) <br>
   **Poster:** [Enlarge](Posters/19_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://zoom.us/j/98404120148) <br>
   **Chat Link:** <br>
   <a href="../Posters/19_Poster.pdf">
   <img src="../Posters/19_Poster.png" alt="IMS" width="200"/> <br>
@@ -63,7 +63,6 @@ title: "Shared Task Poster Session Information"
   **Poster:**  [Enlarge](./Posters/23_Poster.pdf) <br>
   **Zoom Link:** [Join](https://nyu.zoom.us/j/4553539585)<br>
   **Chat Link:** <br>
-  
   <a href="../Posters/23_Poster.pdf">
   <img src="../Posters/23_Poster.png" alt="NYU-CUBoulder" width="200"/> <br>
   </a>
@@ -97,7 +96,7 @@ title: "Shared Task Poster Session Information"
 - **UAlberta** <br>
   **Paper:**  [Low-Resource G2P and P2G Conversion with Synthetic Training Data](Papers/27_Paper.pdf) <br>
   **Poster:** [Enlarge](Posters/27_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://zoom.us/j/94735248602) <br>
   **Chat Link:** <br>
   <a href="../Posters/27_Poster.pdf">
   <img src="../Posters/27_Poster.png" alt="UAlberta" width="200"/> <br>
