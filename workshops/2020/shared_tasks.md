@@ -87,7 +87,7 @@ title: "Shared Task Poster Session Information"
 - **KU-CST** <br>
   **Paper:**  [KU-CST at the SIGMORPHON 2020 Task 2 on Unsupervised Morphological Paradigm Completion](Papers/26_Paper.pdf) <br>
   **Poster:**  [Enlarge](Posters/26_Poster.pdf)<br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://ucph-ku.zoom.us/j/65995753399?pwd=ZEJUVGw0QnA2Sk5vWlk4Qklvb05sZz09)<br>
   **Chat Link:** <br>
   <a href="../Posters/26_Poster.pdf">
   <img src="../Posters/26_Poster.png" alt="ETS-Zürich" width="200"/> <br>
@@ -107,7 +107,7 @@ title: "Shared Task Poster Session Information"
 - **UBoulder - Task 1** <br>
   **Paper:**  [Frustratingly Easy Multilingual Grapheme-to-Phoneme Conversion](Papers/28_Paper.pdf) <br>
   **Poster:**   [Enlarge](Posters/28_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://cuboulder.zoom.us/j/92810502984)<br>
   **Chat Link:** <br>
   <a href="../Posters/28_Poster.pdf">
   <img src="../Posters/28_Poster.png" alt="UBoulder" width="200"/> <br>
@@ -122,7 +122,7 @@ title: "Shared Task Poster Session Information"
 - **Illinois** <br>
   **Paper:**  [University of Illinois Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/30_Paper.pdf) <br>
   **Poster:**  [Enlarge](Posters/30_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://illinois.zoom.us/j/98610215493) <br>
   **Chat Link:** <br>
   <a href="../Posters/30_Poster.pdf">
   <img src="../Posters/30_Poster.png" alt="Illinois" width="200"/> <br>
@@ -142,7 +142,7 @@ title: "Shared Task Poster Session Information"
 - **UBoulder - Task 0** <br>
   **Paper:**  [Leveraging Principal Parts for Morphological Inflection](Papers/32_Paper.pdf) <br>
   **Poster:**  [Enlarge](Posters/32_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://cuboulder.zoom.us/j/6607503853)<br>
   **Chat Link:** <br>
   <a href="../Posters/32_Poster.pdf">
   <img src="../Posters/32_Poster.png" alt="UBoulder" width="200"/> <br>
@@ -151,8 +151,8 @@ title: "Shared Task Poster Session Information"
   
 - **Colorado - Task 0** <br>
   **Paper:**  [Linguist vs. Machine: Rapid Development of Finite-State Morphological Grammars](Papers/33_Paper.pdf) <br>
-  **Poster:**  <br>
-  **Zoom Link:** <br>
+  **Poster:** [Enlarge](Posters/33_Poster.pdf) <br>
+  **Zoom Link:** [Join](https://cuboulder.zoom.us/j/9842431910)<br>
   **Chat Link:** <br>
   <a href="../Posters/33_Poster.pdf">
   <img src="../Posters/33_Poster-1.png" alt="Colorado - Task 0" width="200"/> <br>
@@ -171,7 +171,7 @@ title: "Shared Task Poster Session Information"
 - **UniMelb** <br>
   **Paper:**  [The UniMelb Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/35_Paper.pdf) <br>
   **Poster:**  [Enlarge](Posters/34_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://us04web.zoom.us/j/72698347225?pwd=NTIxZERxdUtSSXJBZ05hb0ZtMUkvQT09) - Password: flexica <br>
   **Chat Link:** <br>
   <a href="../Posters/35_Poster.pdf">
   <img src="../Posters/35_Poster-1.png" alt="UniMelb" width="200"/> <br>
@@ -181,7 +181,7 @@ title: "Shared Task Poster Session Information"
 - **Colorado - Task 1** <br>
   **Paper:**  [Data Augmentation for Transformer-based G2P](Papers/36_Paper.pdf) <br>
   **Poster:**  [Enlarge](Posters/34_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://cuboulder.zoom.us/j/92853893445) <br>
   **Chat Link:** <br>
   <a href="../Posters/36_Poster.pdf">
   <img src="../Posters/36_Poster-1.png" alt="Colorado - Task 1" width="200"/> <br>
