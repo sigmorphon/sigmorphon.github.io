@@ -61,7 +61,7 @@ title: "Shared Task Poster Session Information"
 - **NYU-CUBoulder** <br>
   **Paper:**  [The NYU-CUBoulder Systems for SIGMORPHON 2020 Task 0 and Task 2](Papers/23_Paper.pdf) <br>
   **Poster:**  [Enlarge](./Posters/23_Poster.pdf) <br>
-  **Zoom Link:** [Join](https://nyu.zoom.us/j/4553539585)<br>
+  **Zoom Link:** [Join](https://us04web.zoom.us/j/7333182999?pwd=MS8vWjhGVEhUSkFKUXNSWDZVbTRIUT09)<br>
   **Chat Link:** [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-st-23)<br>
   <a href="../Posters/23_Poster.pdf">
   <img src="../Posters/23_Poster.png" alt="NYU-CUBoulder" width="200"/> <br>
@@ -70,7 +70,7 @@ title: "Shared Task Poster Session Information"
 - **IMS-CUBoulder** <br>
   **Paper:**  [The IMS–CUBoulder System for the SIGMORPHON 2020 Shared Task on Unsupervised Morphological Paradigm Completion](Papers/24_Paper.pdf) <br>
   **Poster:** [Enlarge](./Posters/24_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://zoom.us/j/92495703607)<br>
   **Chat Link:** [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-st-23) <br>
   <a href="../Posters/24_Poster.pdf">
   <img src="../Posters/24_Poster.png" alt="IMS-CUBoulder" width="200"/> <br>
@@ -164,7 +164,7 @@ title: "Shared Task Poster Session Information"
 - **CLUZH** <br>
   **Paper:**  [CLUZH at SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion](Papers/34_Paper.pdf) <br>
   **Poster:**  [Enlarge](Posters/34_Poster.pdf) <br>
-  **Zoom Link:** <br>
+  **Zoom Link:** [Join](https://uzh.zoom.us/j/91645531923?pwd=MmJEdUtRQndGeDArcjdCVTVJdHk5QT09) - Password: 42 <br>
   **Chat Link:** [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-st-34) <br>
   <a href="../Posters/34_Poster.pdf">
   <img src="../Posters/34_Poster.png" alt="CLUZH" width="200"/> <br>
