@@ -114,9 +114,13 @@ title: "Shared Task Poster Session Information"
   
 - **CMU** <br>
   **Paper:**  [Exploring Neural Architectures And Techniques For Typologically Diverse Morphological Inflection](Papers/29_Paper.pdf) <br>
-  **Poster:**  <br>
+  **Poster:**  [Enlarge](Posters/29_Poster.pdf) <br>
   **Zoom Link:** <br>
   **Chat Link:** [Ask Questions](https://acl2020.rocket.chat/channel/sigmorphon-st-29) <br>
+  <a href="../Posters/29_Poster.pdf">
+  <img src="../Posters/29_Poster.png-1" alt="CMU" width="200"/> <br>
+  </a>
+
   
 - **Illinois** <br>
   **Paper:**  [University of Illinois Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection](Papers/30_Paper.pdf) <br>
