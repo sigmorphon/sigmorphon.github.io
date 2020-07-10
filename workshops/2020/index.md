@@ -73,7 +73,7 @@ The proceedings can be found [here](./SIGMORPHON2020.pdf).
 
 ## Shared Task Poster session:
 
-Posters, as well as information for the poster session can be found [here](https://sigmorphon.github.io/workshops/2020/shared_tasks/)
+Posters, as well as information for the poster session can be found [here](https://sigmorphon.github.io/workshops/2020/shared_tasks/).
 
 
 
