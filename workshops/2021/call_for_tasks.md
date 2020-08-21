@@ -1,8 +1,14 @@
 ## Call for Task Proposals
 
 We invite proposals for tasks to be run as part of SIGMORPHON 2021. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 17th workshop.
+
+
 SIGMORPHON aims to investigate language at a level smaller than the word.  Phonetics is concerned with the human production of linguistic sounds, while phonology investigates the patterns that emerge from their interaction with each other and other linguistic aspects.  Morphology is concerned with the shaping of words through the application of semi-regular processes that alter the syntactic and semantic categories of the words they operate on.
+
+
 For SIGMORPHON 2021, we welcome any task that invites participants to further computational knowledge in one of our areas of interest.  We particularly welcome any task that expands phonological or morphological knowledge in under-resourced languages, or languages with under-studied phenomena (ie, reduplication, tonal languages, polysynthetic languages).
+
+
 While we welcome any proposal, we will show preference to tasks that can demonstrate the feasibility of their completion within the task timeline (ie, pilot studies that show reasonable initial results are desirable), and can convincingly demonstrate both the need for the proposed task, and enough interest to justify its inclusion in the workshop.  The goal of our tasks is three-fold: we wish to expand the state-of-the-art in computational phonetics, phonology, and morphology - the task must therefore be relevant to current research.  Secondly, we wish to broaden the participation in SIGMORPHON - the task should therefore not be so difficult that it limits participation.  Finally, we seek to provide standardized data sets that can be benchmarked by the community. 
  
  
