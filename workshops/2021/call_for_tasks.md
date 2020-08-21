@@ -1,5 +1,3 @@
-# SIGMORPHON 2021: Workshop on Computational Phonetics, Phonology, and Morphology
-
 ## Call for Task Proposals
 
 We invite proposals for tasks to be run as part of SIGMORPHON 2021. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 17th workshop.
