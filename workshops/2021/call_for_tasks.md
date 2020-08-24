@@ -97,7 +97,7 @@ Jason Eisner, Johns Hopkins University <br>
 Garrett Nicolai, University of British Columbia <br>
 Kyle Gorman, City University of New York <br>
 Gaja Jarosz, University of Massachusetts <br>
-Ryan Cotterell, University of Zürich <br>
+Ryan Cotterell, ETH Zürich <br>
 Sandra Kübler, Indiana University <br>
 Contact: garrett dot nicolai at ubc dot ca
 
