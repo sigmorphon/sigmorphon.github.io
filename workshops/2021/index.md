@@ -128,9 +128,9 @@ To be Finalized
 
 - Garrett Nicolai, University of British Columbia
 - Kyle Gorman, City University New York
-- Ryan Cotterell, University of Cambridge
+- Ryan Cotterell, ETH Zürich
 
-Email address: TBA
+Email address: <sigmorphon+workshop2021@gmail.com>
 
 
 ## Shared Task
