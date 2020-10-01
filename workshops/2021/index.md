@@ -33,7 +33,7 @@ following as they relate to the areas of the workshop:
 SIGMORPHON encourages interaction between work in computational linguistics
 and work in theoretical phonetics, phonology and morphology, and to ensure that
 each of these fields profits from the interaction. Our recent meetings have been
-successful in this regard, and we hope to see this continue in 2020.
+successful in this regard, and we hope to see this continue in 2021.
 
 Many mainstream linguists studying phonetics, phonology and morphology
 are employing computational tools and models that are of
@@ -46,7 +46,7 @@ and become exposed to each others’ ideas and research.
 
 Registration for SIGMORPHON is conducted through TBA.  
 Early registration ends at TBA.
-Regular registration will be available throughout the end of the conference.
+Regular registration will be available throughout the conference.
 
 
 
@@ -83,7 +83,7 @@ that do not conform to these styles, including font size restrictions.
 
 ### Anonymity period
 
-SIGMORPHON 2021 adopts ACL’s new policies for submission, review, and citation.
+SIGMORPHON 2021 adopts ACL’s [new policies](aclweb.org/adminwiki/index.php?title=ACL_Policies_for_Submission,_Review_and_Citation) for submission, review, and citation.
 Submissions that violate any of these policies will be rejected without review.
 Most importantly, the policies refer to the anonymity period, which begins
 one month before the 2021 submission deadline and ends at time of
@@ -111,12 +111,11 @@ Please email [Ryan Cotterell](mailto:ryan.cotterell@inf.ethz.ch) with any questi
 
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
 
-- Kenny Smith, University of Edinburgh
-- Reut Tsarfaty, Bar-Ilan University
-- Ekaterina Vylomova, University of Melbourne
-- Kristine Yu, University of Massachusetts, Amherst
+- [Kenny Smith, University of Edinburgh](https://www.ed.ac.uk/profile/kenny-smith)
+- [Reut Tsarfaty, Bar-Ilan University](https://research.biu.ac.il/researcher/prof-reut-tsarfaty/)
+- [Ekaterina Vylomova, University of Melbourne](http://kat.academy/)
+- [Kristine Yu, University of Massachusetts, Amherst](https://www.umass.edu/linguistics/member/kristine-yu)
 
-For more information, please visit [here](invited.md).
 
 ## Program Committee
 
