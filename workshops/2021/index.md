@@ -119,8 +119,36 @@ SIGMORPHON is pleased to welcome the following invited speakers to our workshop:
 
 ## Program Committee
 
-To be Finalized
-
+Damián Blasi,	Harvard University <br>
+Grzegorz Chrupała,	Tilburg University <br>
+Jane	Chandlee,	Haverford College	<br>
+Çağrı	Çöltekin,	University of Tübingen	<br>
+Daniel Dakota,	Indiana University	<br>
+Colin	de la Higuera,	University of Nantes <br>
+Micha	Elsner,	The Ohio State University	<br>
+Nizar	Habash,	NYU Abu Dhabi	<br>
+Jeffrey	Heinz,	University of Delaware <br>
+Mans	Hulden,	University of Colorado <br>
+Adam	Jardine,	Rutgers University <br>
+Christo	Kirov,	Google AI	<br>
+Greg	Kobele,	Universität Leipzig <br>
+Grzegorz Kondrak,	University of Alberta	<br>
+Sandra Kübler,	Indiana University	<br>
+Adam Lamont,	University of Massachusetts Amherst	<br>
+Kevin	McMullin,	University of Ottawa <br>
+Kemal Oflazer,	CMU Qatar	<br>
+Jeff Parker,	Brigham Young University	<br>
+Gerald Penn,	University of Toronto	<br>
+Jelena Prokic,	Universiteit Leiden	<br>
+Miikka Silfverberg,	University of British Columbia <br>
+Kairit Sirts,	University of Tartu	<br>
+Kenneth Steimel,	Indiana University <br>
+Reut Tsarfaty,	Bar-Ilan University	<br>
+Francis Tyers,	Indiana University <br>
+Ekaterina Vylomova, University of Melbourne <br>
+Adina	Williams,	Facebook AI Research <br>
+Anssi	Yli-Jyrä,	University of Helsinki <br>
+Kristine Yu,	University of Massachusetts <br>
 
 
 ## Organizers
