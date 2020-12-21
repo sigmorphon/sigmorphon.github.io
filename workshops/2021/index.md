@@ -4,9 +4,9 @@ title: "SIGMORPHON 2021: 18th SIGMORPHON Workshop on Computational Research in P
 breadcrumb: 2021
 ---
 
-<p><i>
+
 SIGMORPHON 2021 will be co-located with ACL-IJCNLP 2021 in Bangkok, Thailand, on either August 5 or 6, 2021.
-</i></p>
+
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
 to problems in morphology, phonology, and phonetics. Work that addresses orthographic issues is also welcome.
