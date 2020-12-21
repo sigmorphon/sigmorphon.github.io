@@ -158,7 +158,7 @@ Kristine Yu,	University of Massachusetts <br>
 ## Organizers
 
 - Garrett Nicolai, University of British Columbia
-- Kyle Gorman, City University New York
+- Kyle Gorman, City University of New York
 - Ryan Cotterell, ETH Zürich
 
 Email address: <sigmorphon+workshop2021@gmail.com>
@@ -168,4 +168,4 @@ Email address: <sigmorphon+workshop2021@gmail.com>
 
 This year, SIGMORPHON is hosting a number of shared tasks:  
 
-For more information, please visit TBA
+More information to come.
