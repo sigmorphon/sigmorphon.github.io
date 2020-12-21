@@ -52,7 +52,11 @@ Regular registration will be available throughout the conference.
 
 ## Important Dates
 
-TBA
+December 21, 2020: First Call for Workshop Papers
+April 26, 2021: Workshop Paper Due Date
+May 28, 2021: Notification of Acceptance
+June 7, 2021: Camera-ready papers due
+August 5-6, 2021: Workshop Dates
 
 ## Paper submission
 
