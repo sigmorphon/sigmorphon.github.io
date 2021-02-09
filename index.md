@@ -24,18 +24,18 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 
 SIGMORPHON has the following office bearers:
 
-**President:**  [Jason Eisner](https://www.cs.jhu.edu/~jason/)
+**President:**  [Garrett Nicolai](https://garrettnicolai.github.io/Garrett-Nicolai/)
 
-**Secretary:** [Garrett Nicolai](https://garrettnicolai.github.io/Garrett-Nicolai/)
+**Secretary:** [Miikka Silfverberg](https://mpsilfve.github.io/)
 
 **At Large:**
 
-* [Kyle Gorman](https://wellformedness.com)
-* [Gaja Jarosz](https://blogs.umass.edu/jarosz/)
-* [Ryan Cotterell](https://ryancotterell.github.io) <!--reinstated by ACL exec after leave-->
+* [Eleanor Chodroff](https://www.eleanorchodroff.com/)
+* [Çağrı Çöltekin](http://coltekin.net/cagri/)
+* [Ryan Cotterell](https://ryancotterell.github.io)
 * [Sandra Kübler](http://cl.indiana.edu/~skuebler/)
 
-**Webmaster:** [Arya McCarthy](https://cs.jhu.edu/~arya)
+**Webmaster:** Garrett Nicolai
 
 ## Contact
 
