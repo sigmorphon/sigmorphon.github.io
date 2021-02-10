@@ -13,7 +13,7 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 ## Useful links
 
 - [Constitution](constitution/)
-- [Mailing list signup ↪](http://mailman.clsp.jhu.edu/mailman/listinfo/sigmorphon)
+- [Mailing list signup ↪](https://groups.google.com/g/sigmorphon)
 - [@sigmorphon on Twitter ↪](https://twitter.com/sigmorphon)
 - [SIGMORPHON proceedings ↪](https://aclweb.org/anthology/sigs/sigmorphon/)
 - [Association for Computational Linguistics ↪](https://www.aclweb.org/portal/)
