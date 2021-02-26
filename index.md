@@ -6,7 +6,7 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 
 **Workshops:** SIGMORPHON also organizes [workshops]({{ "/workshops" | absolute_url }}) in computational morphology and phonology. The next biennial meeting will be the [17th SIGMORPHON Workshop]({{ "/workshops/2020" | absolute_url }}), which will take place at ACL 2020 in Seattle, USA in July.
 
-**Shared tasks:** SIGMORPHON is organizing the [SIGMORPHON 2020 shared task](sharedtasks/2020) on phonology and morphology. It will be presented during ACL 2020. We also organized [four previous shared tasks]({{ "/sharedtasks" | absolute_url }}). Thanks to all those who participated!
+**Shared tasks:** SIGMORPHON is organizing the [SIGMORPHON 2021 shared tasks](sharedtasks/2021) on phonology and morphology. It will be presented during ACL 2021. We also organized [seven previous shared tasks]({{ "/sharedtasks" | absolute_url }}). Thanks to all those who participated!
 
 ---
 
