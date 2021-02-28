@@ -60,7 +60,7 @@ August 5-6, 2021: Workshop Dates <br>
 
 ## Paper submission
 
-TBA
+[Submit] (https://www.softconf.com/acl2021/w05_sigmorphon21/)
 
 ### Content
 
