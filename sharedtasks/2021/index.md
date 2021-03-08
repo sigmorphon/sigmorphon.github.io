@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SIGMORPHON 2021 Shared Tasks"
-breadcrumb: 2020
+breadcrumb: 2021
 ---
 
 - [Task 0](https://github.com/sigmorphon/2021Task0): Generalization in Morphological Inflection Generation
