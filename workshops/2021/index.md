@@ -5,7 +5,8 @@ breadcrumb: 2021
 ---
 
 
-SIGMORPHON 2021 will be co-located with ACL-IJCNLP 2021 in Bangkok, Thailand, on either August 5 or 6, 2021.
+SIGMORPHON 2021 will be co-located with ACL-IJCNLP 2021 in Bangkok, Thailand, on either August 5 or 6, 2021. <br>
+*update: As ACL 2021 has moved completely virtual, SIGMORPHON 2021 will be doing so, as well.  Details to come.*
 
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
