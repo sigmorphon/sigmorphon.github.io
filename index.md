@@ -32,7 +32,6 @@ SIGMORPHON has the following office bearers:
 
 * [Eleanor Chodroff](https://www.eleanorchodroff.com/)
 * [Çağrı Çöltekin](http://coltekin.net/cagri/)
-* [Ryan Cotterell](https://ryancotterell.github.io)
 * [Sandra Kübler](http://cl.indiana.edu/~skuebler/)
 
 **Webmaster:** Garrett Nicolai
