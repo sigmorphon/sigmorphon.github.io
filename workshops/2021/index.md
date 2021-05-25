@@ -160,13 +160,12 @@ Kristine Yu,	University of Massachusetts <br>
 
 - Garrett Nicolai, University of British Columbia
 - Kyle Gorman, City University of New York
-- Ryan Cotterell, ETH Zürich
 
 Email address: <sigmorphon+workshop2021@gmail.com>
 
 
 ## Shared Task
 
-This year, SIGMORPHON is hosting a number of shared tasks:  
+This year, SIGMORPHON is hosting a three shared tasks:  
 
-More information to come.
+https://sigmorphon.github.io/sharedtasks/2021/
