@@ -45,8 +45,8 @@ and become exposed to each others’ ideas and research.
 
 ## Registration
 
-Registration for SIGMORPHON is conducted through TBA.  
-Early registration ends at TBA.
+Registration for SIGMORPHON is conducted through ACL - please register for the conference for access to the workshop.  
+Early registration ends on July 11, 2021.
 Regular registration will be available throughout the conference.
 
 
