@@ -49,7 +49,9 @@ Registration for SIGMORPHON is conducted through ACL - please register for the c
 Early registration ends on July 11, 2021.
 Regular registration will be available throughout the conference.
 
+## Program
 
+Our workshop program is available [here](program.md).
 
 ## Important Dates
 
