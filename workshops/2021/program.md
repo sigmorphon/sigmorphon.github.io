@@ -10,7 +10,7 @@ All times are Eastern Daylight Time (UTC-4)
 
 
   + ### 9:30 - 10:30 Invited Talk: More than Morphs:  Getting More out of UniMorph, Reut Tsarfaty
-  + ### 10:30 - 11:30 Invited Talk: TBD, Kenny Smith 
+  + ### 10:30 - 11:30 Invited Talk: Simplicity and expressivity in the evolution of linguistic systems, Kenny Smith 
   + ### 11:30 - 12:30 Invited Talk: Building Phonological Trees, Kristine Yu
   + ### 12:30 - 13:00 Q/A Session 1
     + ####   Towards Detection and Remediation of Phonemic Confusion
