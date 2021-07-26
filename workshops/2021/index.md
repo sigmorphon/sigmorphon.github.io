@@ -59,7 +59,7 @@ December 21, 2020: First Call for Workshop Papers <br>
 <del>April 26</del> May 3, 2021: Workshop Paper Due Date <br>
 May 28, 2021: Notification of Acceptance <br>
 June 7, 2021: Camera-ready papers due <br>
-August 6, 2021: Workshop Dates <br>
+August 5, 2021: Workshop Date <br>
 
 ## Paper submission
 
