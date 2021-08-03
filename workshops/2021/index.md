@@ -116,7 +116,7 @@ Please email [Ryan Cotterell](mailto:ryan.cotterell@inf.ethz.ch) with any questi
 
 ## Invited Talks
 
-SIGMORPHON is pleased to welcome the following [Invited speakers](_invited.md) to our workshop.
+SIGMORPHON is pleased to welcome the following [Invited speakers](invited.md) to our workshop.
 
 <!---
 - [Kenny Smith, University of Edinburgh](https://www.ed.ac.uk/profile/kenny-smith)
