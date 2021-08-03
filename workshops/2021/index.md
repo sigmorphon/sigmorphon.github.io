@@ -116,14 +116,15 @@ Please email [Ryan Cotterell](mailto:ryan.cotterell@inf.ethz.ch) with any questi
 
 ## Invited Talks
 
-SIGMORPHON is pleased to welcome the following [Invited speakers](invited.md) to our workshop.
+SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 
-<!---
+
 - [Kenny Smith, University of Edinburgh](https://www.ed.ac.uk/profile/kenny-smith)
 - [Reut Tsarfaty, Bar-Ilan University](https://research.biu.ac.il/researcher/prof-reut-tsarfaty/)
 - [Ekaterina Vylomova, University of Melbourne](http://kat.academy/)
 - [Kristine Yu, University of Massachusetts, Amherst](https://www.umass.edu/linguistics/member/kristine-yu)
---->
+
+For more information, please visit [here](invited.md).
 
 ## Program Committee
 
