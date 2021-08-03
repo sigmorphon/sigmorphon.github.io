@@ -32,13 +32,6 @@ title: "Invited Speakers"
   <img align="right" width=150 src="http://kat.academy/images/kat.jpg">  
   * Ekaterina Vylomova is a Postdoctoral Fellow at the University of Melbourne. Her research is focused on compositionality modelling for morphology, models of derivational morphology, linguistic typology, diachronic language models, and neural machine translation. She co-organized Typ-NLP2020 and helped with the SIGMORPHON 2017, 2018, 2019 shared tasks on morphological reinflection.
 
-<script type="text/javascript">
-var ul = document.querySelector('ul');
-for (var i = ul.children.length; i >= 0; i--) {
-    ul.appendChild(ul.children[Math.random() * i | 0]);
-}
-</script>
-
 [smith]: https://www.research.ed.ac.uk/en/persons/kenny-smith
 [tsarfaty]: https://www.openu.ac.il/en/personalsites/ReutTsarfaty.aspx
 [yu]: https://www.umass.edu/linguistics/member/kristine-yu
