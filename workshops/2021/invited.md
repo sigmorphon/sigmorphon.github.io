@@ -35,4 +35,6 @@ title: "Invited Speakers"
 [tsarfaty]: https://www.openu.ac.il/en/personalsites/ReutTsarfaty.aspx
 [yu]: https://www.umass.edu/linguistics/member/kristine-yu
 [vylomova]: http://kat.academy/
+ 
+ <script type="text/javascript"> var ul = document.querySelector('ul'); for (var i = ul.children.length; i >= 0; i--) { ul.appendChild(ul.children[Math.random() * i | 0]); } </script>
 
