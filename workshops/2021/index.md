@@ -55,7 +55,7 @@ Our workshop program is available [here](program.md).
 
 ## Proceedings
 
-Our workshop proceedings are available [here](./2021_SIGMORPHON_Proceedings.pdg)
+Our workshop proceedings are available [here](./2021_SIGMORPHON_Proceedings.pdf)
 
 ## Important Dates
 
