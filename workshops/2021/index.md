@@ -53,6 +53,10 @@ Regular registration will be available throughout the conference.
 
 Our workshop program is available [here](program.md).
 
+## Proceedings
+
+Our workshop proceedings are available [here](./2021_SIGMORPHON_Proceedings.pdg)
+
 ## Important Dates
 
 December 21, 2020: First Call for Workshop Papers <br>
