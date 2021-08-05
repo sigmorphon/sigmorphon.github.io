@@ -1,8 +1,4 @@
 
----
-layout: page
-title: "Invited Speakers"
----
 
 - [**Kenny Smith (Edinburgh)**][smith] <BR>
   **Title:**  Simplicity and expressivity in the evolution of linguistic systems <BR>
