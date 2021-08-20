@@ -85,11 +85,11 @@ All proposals should be e-mailed to the SIGMORPHON president, Garrett Nicolai: g
  
 ## SIGMORPHON Executive Committee:
  
-Garrett Nicolai, University of British Columbia
-Miikka Silfverberg, University of British Columbia
-Sandra Kübler, Indiana University
-Eleanor Chodroff, University of York
-Çağrı Çöltekin, University of Tübingen
+Garrett Nicolai, University of British Columbia <br>
+Miikka Silfverberg, University of British Columbia <br>
+Sandra Kübler, Indiana University <br>
+Eleanor Chodroff, University of York <br>
+Çağrı Çöltekin, University of Tübingen <br>
 
 Contact: garrett.nicolai@ubc.ca
 
