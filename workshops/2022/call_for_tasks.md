@@ -1,12 +1,16 @@
-SIGMORPHON 2021: Workshop on Computational Phonetics, Phonology, and Morphology
-Call for Task Proposals
-We invite proposals for tasks to be run as part of SIGMORPHON 2021. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 17th workshop.
+## Call for Task Proposals
+
+We invite proposals for tasks to be run as part of SIGMORPHON 2022. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 18th workshop.
+
 SIGMORPHON aims to investigate language at a level smaller than the word.  Phonetics is concerned with the human production of linguistic sounds, while phonology investigates the patterns that emerge from their interaction with each other and other linguistic aspects.  Morphology is concerned with the shaping of words through the application of semi-regular processes that alter the syntactic and semantic categories of the words they operate on.
-For SIGMORPHON 2021, we welcome any task that invites participants to further computational knowledge in one of our areas of interest.  We particularly welcome any task that expands phonological or morphological knowledge in under-resourced languages, or languages with under-studied phenomena (ie, reduplication, tonal languages, polysynthetic languages).
+
+For SIGMORPHON 2022, we welcome any task that invites participants to further computational knowledge in one of our areas of interest.  We particularly welcome any task that expands phonological or morphological knowledge in under-resourced languages, or languages with under-studied phenomena (ie, reduplication, tonal languages, polysynthetic languages).
+
 While we welcome any proposal, we will show preference to tasks that can demonstrate the feasibility of their completion within the task timeline (ie, pilot studies that show reasonable initial results are desirable), and can convincingly demonstrate both the need for the proposed task, and enough interest to justify its inclusion in the workshop.  The goal of our tasks is three-fold: we wish to expand the state-of-the-art in computational phonetics, phonology, and morphology - the task must therefore be relevant to current research.  Secondly, we wish to broaden the participation in SIGMORPHON - the task should therefore not be so difficult that it limits participation.  Finally, we seek to provide standardized data sets that can be benchmarked by the community. 
  
  
-Task Selection
+## Task Selection
+
 Task proposals will be reviewed by the SIGMORPHON executive committee (https://sigmorphon.github.io/), and reviews will serve as the basis for acceptance decisions. We are looking to accept any reasonable task. Task proposals will be evaluated on:
 - Novelty: Is the task on a compelling new problem that has not been explored much in the community? Is the task a rerun, but covering substantially new ground (new sub-tasks, new types of data, new languages, etc.)?
 - Interest: Is the proposed task likely to attract a sufficient number of participants?
@@ -17,7 +21,8 @@ New Tasks vs. Task Reruns
 We welcome both new tasks and task reruns. For a new task, an aspect to be addressed in the proposal is whether it would be able to attract participants. Preference will be given to novel tasks that have not received much attention yet.
 For task reruns, the organizers should in their proposal defend the need for another iteration of their task. Valid reasons for a rerun would be: the need for a new form of evaluation (e.g., a new metric to test new phenomena, a new application-oriented scenario, etc.), the need to test on new types of data (e.g., social media, domain-specific corpora), a significant expansion in scale over a previous trial run of the task, etc.
  
-Task Organization
+## Task Organization
+
 We welcome people who have never organized a SIGMORPHON task before, as well as those who have. Apart from providing trial, training, and test data, task organizers are expected to:
 - provide to task participants format checkers and standard scorers.
 - provide baseline systems that participants can use as a starting point (in order to lower the obstacles to participation). A baseline system typically contains code that reads the data, creates a baseline response (e.g., random guessing, majority class prediction, etc.), and outputs the evaluation results. Whenever possible, baseline systems should be written in widely used programming languages, and should provide adequate documentation for modification by potential participants.
@@ -26,20 +31,25 @@ We welcome people who have never organized a SIGMORPHON task before, as well as 
 - write a task description paper to be included in the SIGMORPHON proceedings
 - manage participants’ system description submissions to the task; and possibly shepherd papers that need additional help in improving the writing
 - review one or two other task description papers
-Important dates
-Task proposals due September 30, 2021
-Task selection notification October 15, 2021
-Preliminary dates for SIGMORPHON 2021 (Note that dates may change)
-Training data ready January 30, 2022
-Test data ready April 30, 2022
-Evaluation start May 7, 2022
-Evaluation end May 14, 2022
-Paper submission due May 21, 2022
-Camera ready due May 28, 2022
-SIGMORPHON workshop Summer 2022
+
+## Important dates
+
+Task proposals due September 30, 2021 <br>
+Task selection notification October 15, 2021 <br>
+Preliminary dates for SIGMORPHON 2022 (Note that dates may change) <br>
+Training data ready January 30, 2022 <br>
+Test data ready April 30, 2022 <br>
+Evaluation start May 7, 2022 <br>
+Evaluation end May 14, 2022 <br>
+Paper submission due May 21, 2022 <br>
+Camera ready due May 28, 2022 <br>
+SIGMORPHON workshop Summer 2022 <br>
+
 Tasks that fail to keep up with crucial deadlines such as the dates for having the task website up and dates for training and test data may be cancelled at the discretion of SIGMORPHON organizers. While consideration will be given to extenuating circumstances, our goal is to provide sufficient time for the participants to develop strong and well-thought-out systems. Cancelled tasks will be encouraged to submit proposals for the subsequent year’s SIGMORPHON.
 The SIGMORPHON 2021 Workshop will be co-located with a major NLP conference in 2021.
-Submission Details
+
+## Submission Details
+
 The task proposals should be a self-contained document of no longer than 3 pages. References do not count against the page limit. 
 All submissions must be in PDF format.
 Each proposal should contain the following:
@@ -73,13 +83,14 @@ Proposals will be reviewed by the SIGMORPHON executive committee, all of whom ha
  
 All proposals should be e-mailed to the SIGMORPHON president, Garrett Nicolai: garrett.nicolai@ubc.ca, who will forward them to the executive committee.
  
-SIGMORPHON Executive Committee:
+## SIGMORPHON Executive Committee:
  
 Garrett Nicolai, University of British Columbia
 Miikka Silfverberg, University of British Columbia
 Sandra Kübler, Indiana University
 Eleanor Chodroff, University of York
 Çağrı Çöltekin, University of Tübingen
+
 Contact: garrett.nicolai@ubc.ca
 
 
