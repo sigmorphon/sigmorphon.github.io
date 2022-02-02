@@ -135,3 +135,5 @@ This year, SIGMORPHON is hosting three shared tasks:
 - Shared Task on Morphological Inflection
 - Shared Task on Grapheme-to-phoneme prediction
 - Shared Task on Morpheme Segmentation
+
+More details to come.
