@@ -47,11 +47,15 @@ and become exposed to each others’ ideas and research.
 
 ## Important Dates
 
-TBA
+February 2, 2022: First Call for Workshop Papers
+April 1, 2022: Workshop Paper Due Date
+April 25, 2022: Notification of acceptance
+May 3, 2022: Camera-Ready papers due
+Date between July 10-15, 2022 (TBA): Workshop Date
 
 ## Paper submission
 
-TBA
+[Submit](https://www.softconf.com/naacl2022/SIGMORPHON2022/)
 
 ### Content
 
@@ -89,22 +93,45 @@ one month before the 2022 submission deadline and ends at time of notification (
 
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 
-TBA
+Laura Gwilliams - NYU
+Gasper Begus - Berkeley
 
 ## Program Committee
 
-TBA
+Jane	Chandlee,	Haverford College	<br>
+Çağrı	Çöltekin,	University of Tübingen	<br>
+Daniel Dakota,	Indiana University	<br>
+Ewan Dunbar, University of Toronto <br>
+Micha	Elsner,	The Ohio State University	<br>
+Adam	Jardine,	Rutgers University <br>
+Greg	Kobele,	Universität Leipzig <br>
+Sandra Kübler,	Indiana University	<br>
+Andrew Lamont,	University of Massachusetts Amherst	<br>
+Arya McCarthy, Johns Hopkins University <br>
+Kemal Oflazer,	CMU Qatar	<br>
+Gerald Penn,	University of Toronto	<br>
+Jelena Prokic,	Universiteit Leiden	<br>
+Brian Roark, Google AI <br>
+Miikka Silfverberg,	University of British Columbia <br>
+Kairit Sirts,	University of Tartu	<br>
+Ekaterina Vylomova, University of Melbourne <br>
+Adina	Williams,	Facebook AI Research <br>
+Colin Wilson, Johns Hopkins University <br>
+Anssi	Yli-Jyrä,	University of Helsinki <br>
+
 
 
 ## Organizers
 
 - Garrett Nicolai, University of British Columbia
 - Eleanor Chodroff, University of York
-Email address: TBA
+[Email address](sigmorphon@gmail.com)
 
 
 ## Shared Task
 
 This year, SIGMORPHON is hosting three shared tasks:  
 
-TBA
+- Shared Task on Morphological Inflection
+- Shared Task on Grapheme-to-phoneme prediction
+- Shared Task on Morpheme Segmentation
