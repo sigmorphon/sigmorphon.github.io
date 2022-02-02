@@ -95,8 +95,8 @@ one month before the 2022 submission deadline and ends at time of notification (
 
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 
-Laura Gwilliams - NYU
-Gasper Begus - Berkeley
+Laura Gwilliams - NYU <br>
+Gasper Begus - Berkeley <br>
 
 ## Program Committee
 
