@@ -98,6 +98,14 @@ SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 Laura Gwilliams - NYU <br>
 Gasper Begus - Berkeley <br>
 
+## Shared Tasks
+
+SIGMORPHON is hosting 3 shared tasks this year.  More information to come shortly.
+
+Inflectional Morphology <br>
+Grapheme-to-phoneme prediction <br>
+[Morpheme Segmentation](https://github.com/kbatsuren/2022SegmentationST)
+
 ## Program Committee
 
 Jane	Chandlee,	Haverford College	<br>
@@ -120,6 +128,8 @@ Ekaterina Vylomova, University of Melbourne <br>
 Adina	Williams,	Facebook AI Research <br>
 Colin Wilson, Johns Hopkins University <br>
 Anssi	Yli-Jyrä,	University of Helsinki <br>
+Changbing Yang, University of British Columbia <br>
+Adam Wiemerslage, University of Colorado <br>
 
 
 
