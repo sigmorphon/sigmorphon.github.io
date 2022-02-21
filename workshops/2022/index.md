@@ -104,7 +104,7 @@ SIGMORPHON is hosting 3 shared tasks this year.  More information to come shortl
 
 Inflectional Morphology <br>
 Grapheme-to-phoneme prediction <br>
-[Morpheme Segmentation](https://github.com/kbatsuren/2022SegmentationST)
+[Morpheme Segmentation](https://github.com/sigmorphon/2022SegmentationST)
 
 ## Program Committee
 
