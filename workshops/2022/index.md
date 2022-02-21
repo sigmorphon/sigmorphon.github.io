@@ -135,7 +135,7 @@ Adam Wiemerslage, University of Colorado <br>
 
 ## Organizers
 
-- Garrett Nicolai, University of British Columbia
-- Eleanor Chodroff, University of York
+- Garrett Nicolai, University of British Columbia <br>
+- Eleanor Chodroff, University of York <br>
 [Email address](sigmorphon@gmail.com)
 
