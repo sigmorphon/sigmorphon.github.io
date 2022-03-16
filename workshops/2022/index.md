@@ -102,7 +102,7 @@ Gasper Begus - Berkeley <br>
 
 SIGMORPHON is hosting 3 shared tasks this year.  More information to come shortly.
 
-[Inflectional Morphology](https://github.com/sigmorphon/2022InflectionST <br>
+[Inflectional Morphology](https://github.com/sigmorphon/2022InflectionST) <br>
 [Grapheme-to-phoneme prediction](https://github.com/sigmorphon/sigmorphon.github.io/blob/master/sharedtasks/2022/G2P.md) <br>
 [Morpheme Segmentation](https://github.com/sigmorphon/2022SegmentationST)
 
