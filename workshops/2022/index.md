@@ -115,6 +115,7 @@ Ewan Dunbar, University of Toronto <br>
 Micha	Elsner,	The Ohio State University	<br>
 Adam	Jardine,	Rutgers University <br>
 Greg	Kobele,	Universität Leipzig <br>
+Jordan Kodner, Stony Brook University <br>
 Sandra Kübler,	Indiana University	<br>
 Andrew Lamont,	University of Massachusetts Amherst	<br>
 Arya McCarthy, Johns Hopkins University <br>
@@ -125,11 +126,11 @@ Brian Roark, Google AI <br>
 Miikka Silfverberg,	University of British Columbia <br>
 Kairit Sirts,	University of Tartu	<br>
 Ekaterina Vylomova, University of Melbourne <br>
+Adam Wiemerslage, University of Colorado <br>
 Adina	Williams,	Facebook AI Research <br>
 Colin Wilson, Johns Hopkins University <br>
-Anssi	Yli-Jyrä,	University of Helsinki <br>
 Changbing Yang, University of British Columbia <br>
-Adam Wiemerslage, University of Colorado <br>
+Anssi	Yli-Jyrä,	University of Helsinki <br>
 
 
 
