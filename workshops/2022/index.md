@@ -53,7 +53,7 @@ February 2, 2022: First Call for Workshop Papers <br>
 April 8, 2022: Workshop Paper Due Date <br>
 May 6, 2022: Notification of acceptance <br>
 May 20, 2022: Camera-Ready papers due <br>
-Either July 14, 2022: Workshop Date <br>
+July 14, 2022: Workshop Date <br>
 
 ## Paper submission
 
