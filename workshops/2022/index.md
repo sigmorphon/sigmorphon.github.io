@@ -145,5 +145,5 @@ Anssi	Yli-Jyrä,	University of Helsinki <br>
 
 - Garrett Nicolai, University of British Columbia <br>
 - Eleanor Chodroff, University of York <br>
-[Email address](sigmorphon@gmail.com)
+[Email address](mailto:sigmorphon@gmail.com)
 
