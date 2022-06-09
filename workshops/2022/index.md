@@ -108,12 +108,15 @@ SIGMORPHON is hosting 3 shared tasks this year.  More information to come shortl
 
 ## Program Committee
 
-Canaan Breis, MIT <br>
+Khuyagbaatar Batsuren, National University of Mongolia <br>
+Canaan Breiss, MIT <br>
 Jane	Chandlee,	Haverford College	<br>
 Çağrı	Çöltekin,	University of Tübingen	<br>
 Daniel Dakota,	Indiana University	<br>
 Aniello de Santo, University of Utah <br>
 Ewan Dunbar, University of Toronto <br>
+Aniello De Santo, University of Utah <br>
+Indranil Dutta, University of Manchester <br>
 Micha	Elsner,	The Ohio State University	<br>
 Cassandra Jacobs, University of Buffalo <br>
 Adam	Jardine,	Rutgers University <br>
@@ -121,7 +124,8 @@ Greg	Kobele,	Universität Leipzig <br>
 Jordan Kodner, Stony Brook University <br>
 Sandra Kübler,	Indiana University	<br>
 Andrew Lamont,	University of Massachusetts Amherst	<br>
-Giorgio Magri, University of Paris <br>
+Rob Malouf, San Diego State University <br>
+Giorgio Magri, CNRS <br>
 Rob Malouf, San Diego State University <br>
 John Mansfield, University of Melbourne <br>
 Arya McCarthy, Johns Hopkins University <br>
@@ -131,6 +135,7 @@ Jelena Prokic,	Universiteit Leiden	<br>
 Jonathan Rawski, San Jose State University <br>
 Brian Roark, Google AI <br>
 Miikka Silfverberg,	University of British Columbia <br>
+Morgan Sonderegger, McGill University <br>
 Kairit Sirts,	University of Tartu	<br>
 Caitlin Smith, UC Davis <br>
 Ekaterina Vylomova, University of Melbourne <br>
