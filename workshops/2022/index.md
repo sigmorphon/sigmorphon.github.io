@@ -98,6 +98,9 @@ SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 Laura Gwilliams - NYU <br>
 Gasper Begus - Berkeley <br>
 
+For more information, please visit [here](invited.md).
+
+
 ## Shared Tasks
 
 SIGMORPHON is hosting 3 shared tasks this year.  More information to come shortly.
