@@ -94,7 +94,7 @@ one month before the 2022 submission deadline and ends at time of notification (
 
 We have a very full program scheduled for July 14.
 
-Details can be found [here](program.md)
+[Details can be found here](program.md)
 
 
 ## Invited Talks
@@ -104,7 +104,7 @@ SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 Laura Gwilliams - NYU <br>
 Gasper Begus - Berkeley <br>
 
-For more information, please visit [here](invited.md).
+[For more information, please visit here](invited.md).
 
 
 ## Shared Tasks
