@@ -101,8 +101,8 @@ We have a very full program scheduled for July 14.
 
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 
-Laura Gwilliams - NYU <br>
-Gasper Begus - Berkeley <br>
+Laura Gwilliams - University of California - San Francisco <br>
+Gasper Begus - University of California - Berkeley <br>
 
 [For more information, please visit here](invited.md).
 
