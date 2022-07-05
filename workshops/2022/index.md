@@ -96,6 +96,10 @@ We have a very full program scheduled for July 14.
 
 [Details can be found here](program.md)
 
+## IMPORTANT INFORMATION FOR VIRTUAL ATTENDEES
+
+SIGMORPHON 2022 will be a *hybrid* event.  NAACL does not have an option to attend workshops-only in a virtual manner.  If you have registered for workshops-only, but wish to attend the workshop virtually, please contact Eleanor Chodroff at (FIRSTNAME DOT LASTNAME AT york DOT ac DOT uk) with proof of registration to obtain the link for the workshop.
+
 
 ## Invited Talks
 
