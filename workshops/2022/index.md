@@ -129,7 +129,7 @@ Daniel Dakota,	Indiana University	<br>
 Aniello de Santo, University of Utah <br>
 Ewan Dunbar, University of Toronto <br>
 Aniello De Santo, University of Utah <br>
-Indranil Dutta, University of Manchester <br>
+Indranil Dutta, Jadavpur University <br>
 Micha	Elsner,	The Ohio State University	<br>
 Cassandra Jacobs, University of Buffalo <br>
 Adam	Jardine,	Rutgers University <br>
