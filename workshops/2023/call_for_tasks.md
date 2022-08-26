@@ -51,9 +51,9 @@ We are currently planning to extend a proposal for the SIGMORPHON workshop, aimi
 
 ## Important dates
 
-<li> Task proposals due September 30, 2022 </li>
-<li> Task selection notification October 15, 2022 </li>
-<li> SIGMORPHON workshop Summer 2023 </li>
+<li> Task proposals due: September 30, 2022 </li>
+<li> Task selection notification: October 15, 2022 </li>
+<li> SIGMORPHON workshop: Summer 2023 </li>
 
 <br> 
 <br>
