@@ -96,7 +96,7 @@ Each proposal should contain the following:
 -- The names of SIGMORPHON tasks you have run in the past along with the year the task was run.
 Proposals will be reviewed by the SIGMORPHON executive committee, all of whom have familiarity with recent SIGMORPHON tasks. However, all proposals should be written in a self-explanatory manner and contain sufficient examples.
  
-All proposals should be e-mailed to official SIGMORPHON e-mail, Garrett Nicolai: sigmorphon@gmail.com; they will then be forwarded to the executive committee.
+All proposals should be e-mailed to official SIGMORPHON e-mail: sigmorphon@gmail.com; they will then be forwarded to the executive committee.
  
 ## SIGMORPHON Executive Committee:
  
