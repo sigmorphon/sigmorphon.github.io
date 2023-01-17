@@ -1,11 +1,3 @@
-
----
-layout: page
-title: "SIGMORPHON 2023: 20th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology"
-breadcrumb: 2023
----
-
-
 SIGMORPHON 2023 will be co-located with ACL 2023 in Toronto, Canada. <br>
 
 
