@@ -117,6 +117,6 @@ TBA
 - Eleanor Chodroff, University of York <br>
 - Çağrı Çöltekin, University of Tübingen <br>
 - Fred Mailhot, Dialpad
-- 
+
 [Email address](mailto:sigmorphon@gmail.com)
 
