@@ -26,7 +26,7 @@ following as they relate to the areas of the workshop:
 SIGMORPHON encourages interaction between work in computational linguistics
 and work in theoretical phonetics, phonology and morphology, and to ensure that
 each of these fields profits from the interaction. Our recent meetings have been
-successful in this regard, and we hope to see this continue in 2022.
+successful in this regard, and we hope to see this continue in 2023.
 
 Many mainstream linguists studying phonetics, phonology and morphology
 are employing computational tools and models that are of
@@ -108,7 +108,7 @@ TBA
 - Garrett Nicolai, University of British Columbia <br>
 - Eleanor Chodroff, University of York <br>
 - Çağrı Çöltekin, University of Tübingen <br>
-- Fred Mailhot, Dialpad
+- Fred Mailhot, Dialpad, Inc.
 
 [Email address](mailto:sigmorphon@gmail.com)
 
