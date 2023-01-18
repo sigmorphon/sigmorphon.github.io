@@ -84,7 +84,6 @@ one month before the 2022 submission deadline and ends at time of notification (
 
 
 
-
 ## Invited Talks
 
 TBA
