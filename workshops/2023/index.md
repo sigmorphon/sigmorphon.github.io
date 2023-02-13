@@ -50,7 +50,7 @@ July 13 or 14, 2023: Workshop Date <br>
 
 ## Paper submission
 
-[Submit](TBA)
+[Submit](https://softconf.com/acl2023/sigmorphon/)
 
 ### Content
 
