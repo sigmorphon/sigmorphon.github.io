@@ -32,7 +32,7 @@ SIGMORPHON has the following office bearers:
 
 * [Eleanor Chodroff](https://www.eleanorchodroff.com/)
 * [Çağrı Çöltekin](http://coltekin.net/cagri/)
-* [Sandra Kübler](http://cl.indiana.edu/~skuebler/)
+* [Fred Mailhot](https://carleton.ca/cognitivescience/people/fred-mailhot/)
 
 **Webmaster:** Garrett Nicolai
 
