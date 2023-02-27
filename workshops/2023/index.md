@@ -46,7 +46,8 @@ January 18, 2023: First Call for Workshop Papers <br>
 April 15, 2023: Workshop Paper Due Date <br>
 May 22, 2023: Notification of acceptance <br>
 May 30, 2023: Camera-Ready papers due <br>
-July 13 or 14, 2023: Workshop Date <br>
+June 12, 2023: Pre-recorded video due <br>
+July 14, 2023: Workshop Date <br>
 
 ## Paper submission
 
