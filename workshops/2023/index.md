@@ -95,9 +95,9 @@ TBA
 
 SIGMORPHON is hosting 3 shared tasks this year.  More information to come shortly.
 
-Inflectional Morphology - TBA <br>
-Morpheme Segmentation - TBA <br>
-Automatic Glossing - TBA <br>
+[Inflectional Morphology](https://github.com/sigmorphon/2022InflectionST) <br>
+Morpheme Segmentation <br>
+[Automatic Glossing](https://github.com/sigmorphon/2023glossingST) <br>
 
 ## Program Committee
 
