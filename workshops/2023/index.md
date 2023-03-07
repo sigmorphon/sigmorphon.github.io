@@ -38,6 +38,7 @@ and become exposed to each others’ ideas and research.
 
 
 
+
 ## Important Dates 
 
 *Tentative schedule*
@@ -87,7 +88,12 @@ one month before the 2022 submission deadline and ends at time of notification (
 
 ## Invited Talks
 
-TBA
+SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
+
+Kyle Gorman - Graduate Center, City University of New York 
+Carmen Saldana - University of Zurich
+
+More information will be coming soon.
 
 
 
@@ -101,7 +107,39 @@ Morpheme Segmentation <br>
 
 ## Program Committee
 
-TBA
+Khuyagbaatar Batsuren, National University of Mongolia <br>
+Gasper Begus, University of California, Berkeley <br>
+Canaan Breiss, MIT <br>
+Basilio Calderone, CNRS <br>
+Aniello De Santo, University of Utah <br>
+Indranil Dutta, Jadavpur University <br>
+Jason Eisner, Johns Hopkins University <br>
+Micha Elsner, The Ohio State University <br>
+Omer Goldman, Bar Ilan University <br>
+Nizar Habash, NYU Abu Dhabi <br>
+Nabil Hathout, CNRS <br>
+Mathilde Hutin, Computer Sciences Laboratory for Mechanics and Engineering Sciences <br>
+Cassandra Jacobs, University of Buffalo <br>
+Adam Jardine, Rutgers University <br>
+Jordan Kodner, Stony Brook University <br>
+Sandra Kübler, Indiana University <br>
+Giorgio Magri, CNRS <br>
+Rob Malouf, San Diego State University <br>
+Connor Mayer, University of California, Irvine <br>
+Kemal Oflazer, CMU Qatar <br>
+Jelena Prokic, Universiteit Leiden <br>
+Brian Roark, Google AI <br>
+Miikka Silfverberg, University of British Columbia <br>
+Caitlin Smith, UC Davis <br>
+Morgan Sonderegger, McGill University <br>
+Kairit Sirts, University of Tartu <br>
+Kenneth Steimel, Indiana University <br>
+Ekaterina Vylomova, University of Melbourne <br>
+Adam Wiemerslage, University of Colorado <br>
+Adina Williams, Facebook AI Research <br>
+Colin Wilson, Johns Hopkins University <br>
+Changbing Yang, University of British Columbia <br>
+
 
 ## Organizers
 
