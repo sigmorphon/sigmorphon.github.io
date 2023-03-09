@@ -91,7 +91,7 @@ one month before the 2022 submission deadline and ends at time of notification (
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 
 Kyle Gorman - Graduate Center, City University of New York <br>
-Carmen Saldana - University of Zurich <br>
+Carmen Saldana - University of Zürich <br>
 
 More information will be coming soon.
 
