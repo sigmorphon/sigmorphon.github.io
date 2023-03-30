@@ -99,10 +99,9 @@ More information will be coming soon.
 
 ## Shared Tasks
 
-SIGMORPHON is hosting 3 shared tasks this year.  More information to come shortly.
+SIGMORPHON is hosting 2 shared tasks this year.  Please visit the respective pages for more information.
 
 [Inflectional Morphology](https://github.com/sigmorphon/2022InflectionST) <br>
-Morpheme Segmentation <br>
 [Automatic Glossing](https://github.com/sigmorphon/2023glossingST) <br>
 
 ## Program Committee
