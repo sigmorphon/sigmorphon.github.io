@@ -90,10 +90,22 @@ one month before the 2022 submission deadline and ends at time of notification (
 
 SIGMORPHON is pleased to welcome the following invited speakers to our workshop.
 
-Kyle Gorman - Graduate Center, City University of New York <br>
-Carmen Saldana - University of Zürich <br>
+[Kyle Gorman](https://wellformedness.com/) - Graduate Center, City University of New York <br>
 
-More information will be coming soon.
+"Features in Computational Phonology" <br>
+
+The linguist Ray Jackendoff considers "the discovery of distinctive features…to be a scientific achievement on the order of the discovery and verification of the periodic table in chemistry." Despite this, quite a bit of work in phonology—whether formal or computational—works with extensional sets of indivisible segments rather than the intensional, internally-structured definitions derived from distinctive features. In this talk I will first present philosophical and empirical arguments that phonological patterns are defined intensionally: segments are bundles of features and processes are defined in terms of “natural classes”, or conjunctions of feature specifications. Then, I will argue against the received wisdom—both in formal and computational phonology—that phonological patterns should be specified "minimally", in terms of the fewest possible features consistent with the observed data. I show that feature minimization has undesirable cognitive and computational properties. In contrast, feature maximization—which, under the intensional view, is equivalent to set intersection—is empirically adequate and free of the problems that plague feature minimization. <br>
+
+Kyle Gorman is a professor of linguistics at the Graduate Center, City University of New York, and director of the master's program in computational linguistics. He is also a software engineer at Google LLC. Along with his collaborators, he is the author of Finite-State Text Processing and of award-winning papers at ACL 2019 and WNUT 6. 
+
+
+[Carmen Saldana](https://sites.google.com/site/ccsaldanaevoling/) - University of Zürich <br>
+
+"Cross-linguistic recurrent patterns in morphology mirror human cognition" <br>
+
+A foundational goal of language science is to detect and define the set of constraints that explain cross-linguistic recurrent patterns (i.e., typological universals) in terms of fundamental shared features of human cognition. In this talk, I will present a series of Artificial Language Learning experimental studies which test a hypothesised link between biases in language learning and morphological universals in typology both at the syntagmatic (i.e., morpheme order) and paradigmatic levels (e.g., structure of inflectional paradigms). I will focus in particular on two types of universals in inflectional morphology:  (1) affixes with stronger structural relationships to the word stem tend to appear linearly closer to it, and (2) different categories with the same identity  (be it the same word form, or the same word structure) in morphological paradigms tend to be semantically similar. The results from the studies I will present provide evidence in favour of a shared typological and learning bias towards compositional transparency and locality in morpheme order, and a bias towards partitions of morphological paradigms that reflect semantic relatedness. In light of these results, I will argue that cross-linguistic recurrent morphological patterns mirror to some extend universal features of human cognition. <br>
+
+Carmen Saldana is currently a postdoctoral fellow in the Department of Comparative Language Science at the University of Zurich. Her research focuses on investigating the cognitive biases and processes that shape the current cross-linguistic distributions of morphosyntactic features and their evolution. Her work specifically contributes to the understanding of the relationship between individuals’ cognitive biases at play during language learning and use and universal tendencies in morpheme order and paradigmatic morphological structure. She carries out her research within a comprehensive interdisciplinary framework combining methods from linguistic theory, quantitative typology and experimental linguistics. <br>
 
 
 
@@ -110,6 +122,7 @@ Khuyagbaatar Batsuren, National University of Mongolia <br>
 Gasper Begus, University of California, Berkeley <br>
 Canaan Breiss, MIT <br>
 Basilio Calderone, CNRS <br>
+Daniel Dakota, Indiana University <br>
 Aniello De Santo, University of Utah <br>
 Indranil Dutta, Jadavpur University <br>
 Jason Eisner, Johns Hopkins University <br>
@@ -126,18 +139,23 @@ Giorgio Magri, CNRS <br>
 Rob Malouf, San Diego State University <br>
 Connor Mayer, University of California, Irvine <br>
 Kemal Oflazer, CMU Qatar <br>
+Jeff Parker, Brigham Young University <br>
 Jelena Prokic, Universiteit Leiden <br>
+Jonathan Rawski, San Jose State University <br>
 Brian Roark, Google AI <br>
+Eric Rosen, University of British Columbia <br>
+Maria Ryskina, MIT <br>
 Miikka Silfverberg, University of British Columbia <br>
+Kairit Sirts, University of Tartu <br>
 Caitlin Smith, UC Davis <br>
 Morgan Sonderegger, McGill University <br>
-Kairit Sirts, University of Tartu <br>
 Kenneth Steimel, Indiana University <br>
 Ekaterina Vylomova, University of Melbourne <br>
 Adam Wiemerslage, University of Colorado <br>
 Adina Williams, Facebook AI Research <br>
 Colin Wilson, Johns Hopkins University <br>
 Changbing Yang, University of British Columbia <br>
+Kristine Yu, University of Massachusetts, Amherst <br>
 
 
 ## Organizers
