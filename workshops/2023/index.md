@@ -84,6 +84,12 @@ Submissions that violate any of these policies will be rejected without review.
 Most importantly, the policies refer to the anonymity period, which begins
 one month before the 2022 submission deadline and ends at time of notification (or withdrawal).
 
+## Program
+
+We have a very full program scheduled for July 14.
+
+[Details can be found here](program.md)
+
 
 
 ## Invited Talks
