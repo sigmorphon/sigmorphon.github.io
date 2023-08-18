@@ -66,7 +66,7 @@ We are currently planning to extend a proposal for the SIGMORPHON workshop, aimi
 
 <li> Task proposals due: September 30, 2023 </li>
 <li> Task selection notification: October 15, 2023 </li>
-<li> Shared Task Workshop: August, 2023 </li>
+<li> Shared Task Workshop: August, 2024 </li>
 
 <br> 
 <br>
