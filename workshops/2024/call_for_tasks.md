@@ -35,6 +35,8 @@ This allows us to extend many of the dates for the tasks, as the largest time cr
 * Many of our shared task participants are students, and the burden of cost is nearing prohibitive levels for many of them.  We do not want
   to limit participation in the tasks only to those with funding.  Winning systems can still be invited to present at the workshop itself.
 * We currently schedule 2-3 hours of our workshop to the shared tasks, which makes for a long day, and limits the other talks and events that we can host at our workshop.
+
+* We are encouraging organizers to require participants to submit their systems to the organizers this year.  Along with facilitating evaluation and analysis, this will allow for easier incorporation of baselines in future years, and also allow for some cross-pollination between systems.
   
 ## Task Organization
 
