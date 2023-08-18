@@ -2,7 +2,7 @@
 
 ## Call for Task Proposals
 
-We invite proposals for tasks to be run as part of SIGMORPHON 2023. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 20th19th workshop.
+We invite proposals for tasks to be run as part of SIGMORPHON 2024. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 20th19th workshop.
 SIGMORPHON aims to investigate language at a level smaller than the word.  Phonetics is concerned with the human production of linguistic sounds, while phonology investigates the patterns that emerge from their interaction with each other and other linguistic aspects.  Morphology is concerned with the shaping of words through the application of semi-regular processes that alter the syntactic and semantic categories of the words they operate on.
 For SIGMORPHON 2024, we welcome any task that invites participants to further computational knowledge in one of our areas of interest.  
 
@@ -49,16 +49,16 @@ We welcome people who have never organized a SIGMORPHON task before, as well as 
 
 ## Proposed timeline for tasks
 
-We are currently planning to extend a proposal for the SIGMORPHON workshop, aiming for a workshop in Summer 2023 (likely NAACL).  We will then host shared tasks results in August, 2024.
+We are currently planning to extend a proposal for the SIGMORPHON workshop, aiming for a workshop in Summer 2024 (likely NAACL).  We will then host shared tasks results in August, 2024.
 
 <li> December 1, 2023: Task website is complete, and accepting registrations to the mailing list </li>
 <li> January 15, 2024: Data collection is complete, and data is released to participants </li>
 <li> February 15, 2024: Baseline systems released to participants </li>
 <li> May 15, 2024: Test data is available for participants </li>
 <li> May 31, 2024: Final Submissions are due </li>
-<li> June 15, 2024: Results announced to participants </li>
-<li> June 30, 2024: System papers due for review </li>
-<li> July 15, 2024: Reviews back to participants </li>
+<li> June 3, 2024: Results announced to participants </li>
+<li> June 15, 2024: System papers due for review </li>
+<li> July 30, 2024: Reviews back to participants </li>
 <li> July 31, 2024:  CR deadline; task paper due from organizers. </li>
 
 
@@ -71,8 +71,6 @@ We are currently planning to extend a proposal for the SIGMORPHON workshop, aimi
 <br> 
 <br>
 Tasks that fail to keep up with crucial deadlines such as the dates for having the task website up and dates for training and test data may be canceled at the discretion of SIGMORPHON organizers. Canceled tasks will be encouraged to submit proposals for the subsequent year’s SIGMORPHON.
-The SIGMORPHON 2023 Workshop will be co-located with a major NLP conference in 2023.
-
 
 ## Submission Details
 
