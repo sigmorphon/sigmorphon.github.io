@@ -2,7 +2,7 @@
 
 ## Call for Task Proposals
 
-We invite proposals for tasks to be run as part of SIGMORPHON 2024. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 20th19th workshop.
+We invite proposals for tasks to be run as part of SIGMORPHON 2024. SIGMORPHON is the Special Interest Group on Computational Phonetics, Phonology, and Morphology.  We are one of the longest running SIGs in ACL, having just completed our 20th workshop.
 SIGMORPHON aims to investigate language at a level smaller than the word.  Phonetics is concerned with the human production of linguistic sounds, while phonology investigates the patterns that emerge from their interaction with each other and other linguistic aspects.  Morphology is concerned with the shaping of words through the application of semi-regular processes that alter the syntactic and semantic categories of the words they operate on.
 For SIGMORPHON 2024, we welcome any task that invites participants to further computational knowledge in one of our areas of interest.  
 
