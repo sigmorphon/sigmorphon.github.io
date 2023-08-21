@@ -51,7 +51,7 @@ We welcome people who have never organized a SIGMORPHON task before, as well as 
 
 ## Proposed timeline for tasks
 
-We are currently planning to extend a proposal for the SIGMORPHON workshop, aiming for a workshop in Summer 2024 (likely NAACL).  We will then host shared tasks results in August, 2024.
+We are currently planning to extend a proposal for the SIGMORPHON workshop, aiming for a workshop in Summer 2024 (likely NAACL).  We will then host shared tasks results in August, 2024.  This timeline is subject to change.
 
 <li> December 1, 2023: Task website is complete, and accepting registrations to the mailing list </li>
 <li> January 15, 2024: Data collection is complete, and data is released to participants </li>
@@ -59,9 +59,9 @@ We are currently planning to extend a proposal for the SIGMORPHON workshop, aimi
 <li> May 15, 2024: Test data is available for participants </li>
 <li> May 31, 2024: Final Submissions are due </li>
 <li> June 3, 2024: Results announced to participants </li>
-<li> June 15, 2024: System papers due for review </li>
-<li> July 30, 2024: Reviews back to participants </li>
-<li> July 31, 2024:  CR deadline; task paper due from organizers. </li>
+<li> June 22, 2024: System papers due for review </li>
+<li> July 31, 2024: Reviews back to participants </li>
+<li> August 15, 2024:  CR deadline; task paper due from organizers. </li>
 
 
 ## Important dates
