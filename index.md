@@ -4,9 +4,9 @@ layout: default
 
 Welcome to the home page of the ACL Special Interest Group on Computational Morphology and Phonology (SIGMORPHON). We are a forum for exchanging news of recent research developments and other matters of interest in computational morphology and phonology.
 
-**Workshops:** SIGMORPHON also organizes in computational morphology and phonology. The next meeting will be the 19th SIGMORPHON Workshop, which will take place at NAACL 2023 in Toronto, Canada, in July, 2023.
+**Workshops:** SIGMORPHON organizes a yearly workshop in computational morphology and phonology. The next meeting will be the 21st SIGMORPHON Workshop, TBA.
 
-**Shared tasks:** SIGMORPHON is hosting two shared tasks: inflectional morphology and automatic glossing. They will be presented during the workshop at ACL 2023.  Please check the 2023 webpage for links and details.
+**Shared tasks:** SIGMORPHON is currently accepting proposals for shared tasks.  Please see [the call](workshops/2024/call_for_tasks) for more information.
 
 ---
 
