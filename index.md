@@ -6,7 +6,7 @@ Welcome to the home page of the ACL Special Interest Group on Computational Morp
 
 **Workshops:** SIGMORPHON organizes a yearly workshop in computational morphology and phonology. The next meeting will be the 21st SIGMORPHON Workshop, TBA.
 
-**Shared tasks:** SIGMORPHON is currently accepting proposals for shared tasks.  Please see [the call](workshops/2024/call_for_tasks) for more information.
+**Shared tasks:** SIGMORPHON is currently accepting proposals for shared tasks.  Please see [the call](workshops/2024/call_for_tasks.md) for more information.
 
 ---
 
