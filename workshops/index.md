@@ -2,6 +2,7 @@
 layout: page
 title: "Workshops"
 ---
+- **2024**: Mexico City, co-located with NAACL 2024 (details to come)
 - [**2023**: Toronto](2023), co-located with ACL 2023
 - [**2022**: Seattle](2022), co-located with NAACL 2022
 - [**2021**: Bangkok](2021), co-located with ACL-IJCNLP 2021
