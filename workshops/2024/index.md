@@ -1,4 +1,4 @@
-SIGMORPHON 2022 will be co-located with NAACL 2022 in Mexico City, Mexico. <br>
+SIGMORPHON 2024 will be co-located with NAACL 2022 in Mexico City, Mexico. <br>
 
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
@@ -26,7 +26,7 @@ following as they relate to the areas of the workshop:
 SIGMORPHON encourages interaction between work in computational linguistics
 and work in theoretical phonetics, phonology and morphology, and to ensure that
 each of these fields profits from the interaction. Our recent meetings have been
-successful in this regard, and we hope to see this continue in 2023.
+successful in this regard, and we hope to see this continue in 2024.
 
 Many mainstream linguists studying phonetics, phonology and morphology
 are employing computational tools and models that are of
