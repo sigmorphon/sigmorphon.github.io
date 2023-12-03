@@ -83,7 +83,7 @@ To be announced shortly.
 
 ## Shared Tasks
 
-To be announced shortly.
+See the [Call for Tasks](call_for_tasks.md)
 
 ## Program Committee
 
