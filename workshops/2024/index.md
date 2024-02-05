@@ -1,4 +1,4 @@
-SIGMORPHON 2024 will be co-located with NAACL 2022 in Mexico City, Mexico. <br>
+SIGMORPHON 2024 will be co-located with NAACL 2024 in Mexico City, Mexico. <br>
 
 
 SIGMORPHON aims to bring together researchers interested in applying computational techniques
@@ -84,7 +84,8 @@ TBD
 
 ## Invited Talks
 
-To be announced shortly.
+Naomi Feldman, University of Maryland <br>
+Jian Zhu, University of British Columbia <br>
 
 ## Shared Tasks
 
