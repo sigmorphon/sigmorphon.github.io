@@ -77,7 +77,7 @@ that do not conform to these styles, including font size restrictions.
 
 ### Anonymity period
 
-TBD
+Following NAACL's policy this year, we will not require an anonymity period prior to SIGMORPHON submission.
 
 
 
