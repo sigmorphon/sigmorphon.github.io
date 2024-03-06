@@ -70,7 +70,8 @@ However, all material other than the bibliography must fall within the first 8/4
 <strong> The camera-ready submission will be allowed to have 1 extra page to address reviewer concerns. </strong>
 We encourage the submission of supplemental material such as data and code,
 as well as appendices; however, supplemental material should not be essential
-for the understanding of the submission.
+for the understanding of the submission.  Appendices, as well as Limitations / Impact sections are not required,
+but if they are included, they do not count towards the page limit.
 We strongly recommend the use of the LaTeX style files or Microsoft Word document
 template on the ACL conference website. We reserve the right to reject submissions
 that do not conform to these styles, including font size restrictions.
