@@ -42,7 +42,7 @@ and become exposed to each others’ ideas and research.
 ## Important Dates 
 
 January 4, 2024: First Call for Workshop Papers <br>
-March 10, 2024: Workshop Paper Due Date <br>
+March ~~10~~17, 2024: Workshop Paper Due Date <br>
 April 14, 2024: Notification of acceptance <br>
 April 24, 2024: Camera-Ready papers due <br>
 TBA: Pre-recorded video due <br>
