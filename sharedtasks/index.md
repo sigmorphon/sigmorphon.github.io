@@ -5,7 +5,7 @@ title: Shared Tasks
 
 SIGMORPHON has organized or co-organized the following shared tasks.
 
-- [2024](2024): SIGMORPHON Shared Tasks: Morphological Inflection, Subword Tokenization, and Grapheme-to-Phoneme Prediction
+- [2024](2024): SIGMORPHON Shared Tasks: Data-efficient Morphological Inflection, Subword Tokenization, and Grapheme-to-Phoneme Prediction
 - [2023](2023): SIGMORPHON Shared Tasks: Morphological Inflection Generation, and Interlinear Glossing
 
 - [2022](2022): SIGMORPHON Shared Task: Generalization in Morphological Inflection Generation, Grapheme-to-Phoneme Conversion, Morpheme Segmentation
