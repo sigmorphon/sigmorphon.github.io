@@ -94,7 +94,7 @@ SIGMORPHON is hosting 3 shared tasks this year.  Please visit the respective pag
 
 [Data-efficient Inflectional Morphology](https://github.com/sigmorphon/2024InflectionST) <br>
 [Grapheme-to-phoneme Prediction](https://github.com/sigmorphon/2024G2PST) <br>
-[Subword Tokenization](https://github.com/sigmorphon/2024SegmentationST) <br>
+[Subword Tokenization](https://github.com/sigmorphon/2024TokenST) <br>
 
 ## Program Committee
 
