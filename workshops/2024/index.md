@@ -90,7 +90,11 @@ Jian Zhu, University of British Columbia <br>
 
 ## Shared Tasks
 
-See the [Call for Tasks](call_for_tasks.md)
+SIGMORPHON is hosting 3 shared tasks this year.  Please visit the respective pages for more information.
+
+[Data-efficient Inflectional Morphology](https://github.com/sigmorphon/2024InflectionST) <br>
+[Grapheme-to-phoneme Prediction](https://github.com/sigmorphon/2024G2PST) <br>
+[Subword Tokenization](https://github.com/sigmorphon/2024SegmentationST) <br>
 
 ## Program Committee
 
