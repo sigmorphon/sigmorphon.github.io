@@ -46,7 +46,7 @@ March ~~10~~17, 2024: Workshop Paper Due Date <br>
 April 14, 2024: Notification of acceptance <br>
 April 24, 2024: Camera-Ready papers due <br>
 TBA: Pre-recorded video due <br>
-June 21 or 22, 2024: Workshop Date <br>
+June 20, 2024: Workshop Date <br>
 
 ## Paper submission
 
