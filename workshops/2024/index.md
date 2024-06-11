@@ -80,13 +80,75 @@ that do not conform to these styles, including font size restrictions.
 
 Following NAACL's policy this year, we will not require an anonymity period prior to SIGMORPHON submission.
 
+## Program
 
+[Details for our program be found here](program.md)
 
 
 ## Invited Talks
 
-Naomi Feldman, University of Maryland <br>
-Jian Zhu, University of British Columbia <br>
+[Naomi Feldman, University of Maryland](https://users.umiacs.umd.edu/~nhf/) <br>
+
+"Modeling speech perception at scale" 
+
+Speech processing is a perfect test case for scaling up
+cognitive modeling. Recent advances in speech technology provide new tools that can be leveraged to
+better understand how human listeners perceive speech in naturalistic settings. At the same time, building
+cognitive models of human speech perception can highlight capabilities that are not yet captured by
+standard representation learning models in speech technology.
+I begin by showing how incorporating unsupervised representation learning into cognitive models of
+speech perception can impact theories of early language acquisition. Infants’ patterns of speech perception
+have traditionally been interpreted as evidence that they possess certain types of knowledge, such as
+phonetic categories (like ’r’ and ’l’) and representations of speech rhythm, but our cognitive modeling
+results point toward a different interpretation. If correct, this could radically change our view of how
+phonetic knowledge supports infants’ acquisition of words and grammar, and could have broad implications
+for understanding the challenges associated with learning a new language in adulthood. I then
+outline ongoing work exploring the mechanisms that could support and, eventually, reproduce human
+listeners’ ability to flexibly adapt to different accents and listening conditions. Together, these studies
+illustrate how speech representations can be optimized over short and long time scales to support robust
+speech processing.
+This is joint work with Thomas Schatz, Yevgen Matusevych, Ruolan (Leslie) Famularo, Nika Jurov, Ali
+Aboelata, Grayson Wolf, Xuan-Nga Cao, Herman Kamper, William Idsardi, Emmanuel Dupoux, and
+Sharon Goldwater.
+
+Naomi Feldman is an associate professor in the Department of Linguistics and the Institute for Advanced
+Computer Studies at the University of Maryland, where she is a member and former director of
+the Computational Linguistics and Information Processing (CLIP) Lab. Her research uses methods from
+machine learning and automatic speech recognition to formalize questions about how people learn and
+represent the structure of their language. She primarily uses these methods to study speech representations,
+modeling the cognitive processes that support learning and perception of speech sounds in the face
+of highly complex and variable linguistic input. She also computationally characterizes the strategies
+that facilitate language acquisition more generally, both from the perspective of learners, and from the
+perspective of clinicians.
+
+[Jian Zhu, University of British Columbia](https://lingjzhu.github.io/) <br>
+
+"Towards crosslinguistically generalizable speech technologies" <br>
+
+The diversity of human speech
+presents a formidable challenge to multilingual speech processing systems. Recently, accumulating evidence
+indicated that scaling up multilingual data and model parameters can tremendously improve the
+performance of multilingual speech processing. However, gathering large-scale data from every language
+in the world is an impossible mission. To tackle this challenge, my research group aims to develop multilingual
+speech processing systems that generalize to unseen and low-resource languages. Since most,
+if not all, human speech can be represented by around 150 phonetic symbols and diacritics, I argue that
+using International Phonetic Alphabet (IPA) as modeling units, rather than orthographic transcriptions,
+enables speech models to process and recognize sounds in unseen languages. In the past years, leveraging
+IPA, large-scale multilingual corpora and deep learning, my research team has built a series of
+massively multilingual speech datasets and technologies including multilingual grapheme-to-phoneme
+conversion, multilingual keyword spotting, multilingual forced alignment and multilingual phone recognition
+systems. In this talk, I will introduce our recent works towards crosslinguistically generalizable
+speech technologies and lessons we learned from working with a diversity of languages.
+
+
+Jian Zhu is currently an assistant professor in the Linguistics Department at the University of British
+Columbia. He is primarily interested in developing multilingual speech and language technologies for
+low resource and zero resource languages. Trained as both a linguist and an engineer, he combines
+linguistic theories with data-driven methods in speech processing, natural language processing, network
+science and machine learning. Before that, he was a post-doctoral research fellow at Blablablab at the
+School of Information, University of Michigan. He obtained his Ph.D. in Linguistics and Scientific
+Computing from the Department of Linguistics and the Michigan Institute for Computational Discovery
+& Engineering at the University of Michigan.
 
 ## Shared Tasks
 
