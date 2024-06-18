@@ -15,7 +15,7 @@ All times are Mexico City time (GMC-6)
 + ### 11:00 - 11:20: J-UniMorph:Japanese Morphological Annotation through the Universal Feature Schema
   #### *Kosuke Matsuzaki, Masaya Taniguchi, Kentaro Inui and Keisuke Sakaguchi*
 + ### 11:20 - 11:40: Ye Olde French:Effect of Old and Middle French on SIGMORPHON-UniMorph Shared Task Data
-  #### *William Kezerian and Kristine Yu*
+  #### *William Kezerian, Lam An Wyner, Sandro Ansari, and Kristine M. Yu*
 + ### 11:40 - 12:00: VeLePa:a Verbal Lexicon of Pame
   #### *Borja Herce*
 
