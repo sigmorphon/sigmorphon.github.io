@@ -1,7 +1,7 @@
 # Twenty-first SIGMORPHON Workshop on Computational Phonology, Morphology, and Phonetics
 All times are Mexico City time (GMC-6)
 
-## Workshop to be held online on June 20, 2024
+## Workshop to be held hybrid online and at NAACL on June 20, 2024
 
 ## 9:25 – 9:30 Opening Statements
 
