@@ -84,6 +84,11 @@ Following NAACL's policy this year, we will not require an anonymity period prio
 
 [Details for our program be found here](program.md)
 
+## Proceedings
+
+Our workshop proceedings are available [here](./proceedings.pdf)
+
+
 
 ## Invited Talks
 
