@@ -1,3 +1,5 @@
+# 22nd Annual SIGMORPHON Workshop
+
 SIGMORPHON 2025 will be co-located with NAACL 2025 in Albuquerque, New Mexico, USA. <br>
 
 
@@ -26,7 +28,7 @@ following as they relate to the areas of the workshop:
 SIGMORPHON encourages interaction between work in computational linguistics
 and work in theoretical phonetics, phonology and morphology, and to ensure that
 each of these fields profits from the interaction. Our recent meetings have been
-successful in this regard, and we hope to see this continue in 2024.
+successful in this regard, and we hope to see this continue in 2025.
 
 Many mainstream linguists studying phonetics, phonology and morphology
 are employing computational tools and models that are of
@@ -36,20 +38,19 @@ This workshop provides a forum for these researchers to interact
 and become exposed to each others’ ideas and research.
 
 
-
 ## Important Dates 
 
-November 29, 2024: First call for workshop papers <br>
+November 29, 2025: First call for workshop papers <br>
 TBA: Second call for workshop papers <br>
 February 28, 2025: Submission deadline <br>
 March 28, 2025: Notification of acceptance <br>
-April 29, 2024: Camera-ready papers due <br>
+April 29, 2025: Camera-ready papers due <br>
 TBA: Pre-recorded video due <br>
 May 3, 2025: Workshop Date <br>
 
 ## Paper submission
 
-[Submission Link](https://softconf.com/naacl2024/SIGMORPHON2024/user/)
+[Submission Link](https://softconf.com/naacl2025/SIGMORPHON2025/user/)
 
 ### Content
 
@@ -86,8 +87,6 @@ TBA
 ## Proceedings
 
 TBA
-
-
 
 ## Special Panel on the State and Future of SIGMORPHON
 
