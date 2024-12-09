@@ -1,5 +1,3 @@
-# 22nd Annual SIGMORPHON Workshop
-
 SIGMORPHON 2025 will be co-located with NAACL 2025 in Albuquerque, New Mexico, USA. <br>
 
 
