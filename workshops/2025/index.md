@@ -40,21 +40,16 @@ and become exposed to each others’ ideas and research.
 
 ## Important Dates 
 
-First call for workshop papers: **December 9, 2024**
-
+First call for workshop papers: **December 9, 2024** <br />
 Second call for workshop papers: TBA
 
-Submission deadline: **February 15, 2025**
-
-
-
-Pre-reviewed (ARR) submission deadline: **February 20, 2025**
-
-Notification of acceptance: **March 13, 2025**
-
-Camera-ready paper due: **March 20, 2025**
-
-Pre-recorded video due: **April 8, 2025**
+Submission deadline: **February 15, 2025** <br />
+Pre-reviewed (ARR) submission deadline: **February 20, 2025** <br />
+Notification of acceptance: **March 13, 2025** <br />
+Camera-ready paper due: **March 20, 2025** <br />
+Pre-recorded video due: **April 8, 2025** <br />
+<!-- Proceedings due (hard deadline): April 1, 2025 -->
+<!-- Second call for workshop papers: January 15, 2025 -->
 
 Workshop dates: **May 3-4, 2025**
 
