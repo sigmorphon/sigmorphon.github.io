@@ -40,7 +40,7 @@ and become exposed to each others’ ideas and research.
 
 ## Important Dates 
 
-November 29, 2025: First call for workshop papers <br>
+December 9, 2024: First call for workshop papers <br>
 TBA: Second call for workshop papers <br>
 February 28, 2025: Submission deadline <br>
 March 28, 2025: Notification of acceptance <br>
@@ -104,7 +104,7 @@ TBD
 ## Organizers
 
 - Garrett Nicolai, University of British Columbia <br>
-- Eleanor Chodroff, University of York <br>
+- Eleanor Chodroff, University of Zürich <br>
 - Çağrı Çöltekin, University of Tübingen <br>
 - Fred Mailhot, Dialpad, Inc.
 
