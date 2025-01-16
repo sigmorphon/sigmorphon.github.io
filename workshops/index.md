@@ -2,6 +2,7 @@
 layout: page
 title: "Workshops"
 ---
+- [**2025**: Albuquerque](2025), co-located with NAACL 2025
 - [**2024**: Mexico City](2024), co-located with NAACL 2024
 - [**2023**: Toronto](2023), co-located with ACL 2023
 - [**2022**: Seattle](2022), co-located with NAACL 2022
