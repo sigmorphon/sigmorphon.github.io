@@ -55,7 +55,7 @@ Workshop dates: **May 3-4, 2025**
 
 ## Paper submission
 
-[Submission Link](https://softconf.com/naacl2025/SIGMORPHON2025/user/)
+[Submission Link](https://softconf.com/naacl2025/SIGMORPHON2025/)
 
 ### Content
 
