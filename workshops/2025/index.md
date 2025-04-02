@@ -41,7 +41,7 @@ and become exposed to each others’ ideas and research.
 ## Important Dates 
 
 First call for workshop papers: **December 9, 2024** <br />
-Second call for workshop papers: TBA
+Second call for workshop papers: **January 17, 2025** <br />
 
 Submission deadline: **February 15, 2025** <br />
 Pre-reviewed (ARR) submission deadline: **February 20, 2025** <br />
@@ -51,7 +51,8 @@ Pre-recorded video due: **April 8, 2025** <br />
 <!-- Proceedings due (hard deadline): April 1, 2025 -->
 <!-- Second call for workshop papers: January 15, 2025 -->
 
-Workshop dates: **May 3-4, 2025**
+Workshop dates: **Saturday May 3, 2025**<br />
+Workshop location: **NAACL - Room 20 - Laguna** and online - check back soon for link access
 
 ## Paper submission
 
@@ -87,7 +88,29 @@ Following NAACL's policy this year, we will not require an anonymity period prio
 
 ## Program
 
-TBA
+#### 9:25 – 9:30 Opening Statements
+
+#### 9:30 – 10:30 - Invited Talk: The past and future of grapheme-to-phoneme conversion 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Kyle Gorman*
+
+#### 10:30 - 11:00 - Coffee Break
+
+#### 11:00 - 11:15 - Probing Neural Network Generalization using Default Patterns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Brandon Prickett, Tianyi Niu, and Katya Pertsova*
+#### 11:15 - 11:30 - The Impact of Dialect Variation on Robust Automatic Speech Recognition for Catalan
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Zachary Hopton and Eleanor Chodroff*
+#### 11:30 - 11:45 - West Germanic noun-noun compounds and the morphology-syntax trade-off
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Pablo Mosteiro, Damián Blasi, and Denis Paperno*
+#### 11:45 - 12:00 - Prompt and circumstance: A word-by-word LLM prompting approach to interlinear glossing for low-resource languages
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Micha Elsner and David Liu*
+
+#### 12:00 – 13:30 - Lunch
+
+#### 13:30 - 14:30 - Panel: The State and Future of SIGMORPHON
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Gašper Beguš, Kyle Gorman, Connor Mayer, Kristine Yu*
+
+#### 14:30 - 15:30 - Town Hall
+
 
 ## Proceedings
 
@@ -104,7 +127,14 @@ to indicate interest.**
 
 ## Program Committee
 
-TBD
++ Michael Ginn
++ Kenneth Steimel
++ Sandra Kübler
++ Changbing Yang
++ Sarah Moeller
++ Rob Malouf
++ Gregory Kobele
+
 
 ## Organizers
 
