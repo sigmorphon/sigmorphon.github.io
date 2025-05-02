@@ -52,7 +52,7 @@ Pre-recorded video due: **April 8, 2025** <br />
 <!-- Second call for workshop papers: January 15, 2025 -->
 
 Workshop dates: **Saturday May 3, 2025**<br />
-Workshop location: **NAACL - Room 20 - Laguna** and **online** (join Zoom from https://underline.io/events/492/sessions?eventSessionId=20101 )
+Workshop location: **NAACL - Room 20 - Laguna** and **online** [join Zoom here](https://underline.io/events/492/sessions?eventSessionId=20101)
 
 ## Paper submission
 
